@@ -1,0 +1,1881 @@
+[2024-02-28 06:26:04] Bot started.
+[2024-02-28 06:26:05] Selected sale limit for the day: 34768
+[2024-02-28 06:26:05] Total sales limit for the day: 34768
+[2024-02-28 06:26:05] Error loading item codes: [Errno 2] No such file or directory: 'data.xlsx'
+[2024-02-28 06:26:05] No item codes loaded. Exiting.
+[2024-02-28 06:31:09] Bot started.
+[2024-02-28 06:31:09] Selected sale limit for the day: 31548
+[2024-02-28 06:31:09] Total sales limit for the day: 31548
+[2024-02-28 06:31:10] Item codes loaded successfully.
+[2024-02-28 06:31:10] Maximum bill total allowed: 1369
+[2024-02-28 06:31:10] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 3
+[2024-02-28 06:31:10] Maximum bill total reached. Completing transaction.
+[2024-02-28 06:31:10] Selected Item code: 8961014014242 Item name: WALLS CORNETTO CLA CONE- Price: 120 Quantity: 2
+[2024-02-28 06:31:31] Total sales for the day so far: 240
+[2024-02-28 06:31:31] Waiting for 1359 seconds before next transaction.
+[2024-02-28 06:54:10] Maximum bill total allowed: 1498
+[2024-02-28 06:54:10] Selected Item code: 8961014106220 Item name: LIPTON TEA 95GM- Price: 270 Quantity: 2
+[2024-02-28 06:54:30] Total sales for the day so far: 780
+[2024-02-28 06:54:30] Waiting for 1267 seconds before next transaction.
+[2024-02-28 07:15:37] Maximum bill total allowed: 1452
+[2024-02-28 07:15:37] Selected Item code: 8961008212272 Item name: NESTLE WATER 500ML Price: 50 Quantity: 1
+[2024-02-28 07:15:48] Total sales for the day so far: 830
+[2024-02-28 07:15:48] Waiting for 1453 seconds before next transaction.
+[2024-02-28 07:40:01] Maximum bill total allowed: 1172
+[2024-02-28 07:40:01] Selected Item code: 8961014236774 Item name: FAIR AND LOVELY  MV 70GM Price: 350 Quantity: 1
+[2024-02-28 07:40:11] Selected Item code: 8961014004922 Item name: WALLS MAGNUM ALMOND- Price: 280 Quantity: 2
+[2024-02-28 07:40:31] Selected Item code: 8961014246810 Item name: LIFEBUOY HERBAL STRONG 90ML Price: 140 Quantity: 2
+[2024-02-28 07:40:31] Maximum bill total reached. Completing transaction.
+[2024-02-28 07:40:31] Selected Item code: 8961014032499 Item name: HELLMANNS REAL MAYO 450GM Price: 490 Quantity: 3
+[2024-02-28 07:40:31] Maximum bill total reached. Completing transaction.
+[2024-02-28 07:40:32] Total sales for the day so far: 1740
+[2024-02-28 07:40:32] Waiting for 1301 seconds before next transaction.
+[2024-02-28 08:02:13] Maximum bill total allowed: 1535
+[2024-02-28 08:02:13] Selected Item code: 8961008216966 Item name: NES FV FALSA 230ML- Price: 150 Quantity: 3
+[2024-02-28 08:02:43] Selected Item code: 8961008213033 Item name: NESCAFE 3IN1 COFFEE 25GM Price: 60 Quantity: 3
+[2024-02-28 08:03:14] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1
+[2024-02-28 08:03:14] Maximum bill total reached. Completing transaction.
+[2024-02-28 08:03:14] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 2
+[2024-02-28 08:03:35] Total sales for the day so far: 3010
+[2024-02-28 08:03:35] Waiting for 1260 seconds before next transaction.
+[2024-02-28 08:24:35] Maximum bill total allowed: 657
+[2024-02-28 08:24:35] Selected Item code: 8961014235173 Item name: DOVE SHAMPOO 175ML- Price: 450 Quantity: 1
+[2024-02-28 08:24:45] Selected Item code: 9556001249166 Item name: NESCAFE CLASSIC 200GM Price: 2750 Quantity: 1
+[2024-02-28 08:24:45] Maximum bill total reached. Completing transaction.
+[2024-02-28 08:24:45] Total sales for the day so far: 3460
+[2024-02-28 08:24:45] Waiting for 1390 seconds before next transaction.
+[2024-02-28 08:47:55] Maximum bill total allowed: 767
+[2024-02-28 08:47:55] Selected Item code: 8961014241365 Item name: LIFE BOY CARE AND PROTECT 3IN1 PACK Price: 171 Quantity: 3
+[2024-02-28 08:48:26] Total sales for the day so far: 3973
+[2024-02-28 08:48:26] Waiting for 1282 seconds before next transaction.
+[2024-02-28 09:09:48] Maximum bill total allowed: 1295
+[2024-02-28 09:09:48] Selected Item code: 8961014017564 Item name: WALLS STICK DONUT- Price: 90 Quantity: 3
+[2024-02-28 09:10:19] Total sales for the day so far: 4243
+[2024-02-28 09:10:19] Waiting for 1422 seconds before next transaction.
+[2024-02-28 09:34:01] Maximum bill total allowed: 610
+[2024-02-28 09:34:01] Selected Item code: 8961014253849 Item name: FAIR LOVLEY JAR 65ML- Price: 400 Quantity: 2
+[2024-02-28 09:34:01] Maximum bill total reached. Completing transaction.
+[2024-02-28 09:34:01] Total sales for the day so far: 4243
+[2024-02-28 09:34:01] Waiting for 1375 seconds before next transaction.
+[2024-02-28 09:56:56] Maximum bill total allowed: 983
+[2024-02-28 09:56:56] Selected Item code: 8961008213187 Item name: NES MILO ACTIVE GO 180ML- Price: 90 Quantity: 2
+[2024-02-28 09:57:17] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 2
+[2024-02-28 09:57:37] Total sales for the day so far: 4963
+[2024-02-28 09:57:37] Waiting for 1495 seconds before next transaction.
+[2024-02-28 10:22:32] Maximum bill total allowed: 566
+[2024-02-28 10:22:32] Selected Item code: 8961014241259 Item name: LIFEBUOY HERBAL 146GM- Price: 115 Quantity: 1
+[2024-02-28 10:22:42] Selected Item code: 8961008211633 Item name: NESTLE BUNYAD 260GM Price: 400 Quantity: 1
+[2024-02-28 10:22:53] Selected Item code: 8961008217543 Item name: NESTLE NIDO 1+ 375G Price: 770 Quantity: 1
+[2024-02-28 10:22:53] Maximum bill total reached. Completing transaction.
+[2024-02-28 10:22:53] Total sales for the day so far: 5478
+[2024-02-28 10:22:53] Waiting for 1284 seconds before next transaction.
+[2024-02-28 10:44:17] Maximum bill total allowed: 1617
+[2024-02-28 10:44:17] Selected Item code: 8961008210506 Item name: NESTLE CERELACE WHEATS 350GM Price: 630 Quantity: 3
+[2024-02-28 10:44:17] Maximum bill total reached. Completing transaction.
+[2024-02-28 10:44:17] Selected Item code: 8961014017564 Item name: WALLS STICK DONUT- Price: 90 Quantity: 3
+[2024-02-28 10:44:48] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 2
+[2024-02-28 10:45:08] Total sales for the day so far: 6548
+[2024-02-28 10:45:08] Waiting for 1214 seconds before next transaction.
+[2024-02-28 11:05:22] Maximum bill total allowed: 1302
+[2024-02-28 11:05:22] Selected Item code: 8961014255652 Item name: DOVE COND 180ML- Price: 480 Quantity: 3
+[2024-02-28 11:05:22] Maximum bill total reached. Completing transaction.
+[2024-02-28 11:05:22] Selected Item code: 8961014245363 Item name: LIFEBOY S-S 650ML Price: 499 Quantity: 2
+[2024-02-28 11:05:43] Total sales for the day so far: 7546
+[2024-02-28 11:05:43] Waiting for 1491 seconds before next transaction.
+[2024-02-28 11:30:34] Maximum bill total allowed: 1635
+[2024-02-28 11:30:34] Selected Item code: 8961014007640 Item name: PONDS LOTION 100ML- Price: 280 Quantity: 1
+[2024-02-28 11:30:44] Selected Item code: 8961008213095 Item name: NESTLE EVER+TAPAL 250GM Price: 225 Quantity: 3
+[2024-02-28 11:31:15] Selected Item code: 8961014029932 Item name: KNORR GREEN CHUTNEY 400GM- Price: 260 Quantity: 3
+[2024-02-28 11:31:15] Maximum bill total reached. Completing transaction.
+[2024-02-28 11:31:15] Selected Item code: 8961014018202 Item name: RAFHAN STRAW CUSTARD 275G Price: 190 Quantity: 1
+[2024-02-28 11:31:25] Total sales for the day so far: 8691
+[2024-02-28 11:31:25] Waiting for 1339 seconds before next transaction.
+[2024-02-28 11:53:44] Maximum bill total allowed: 625
+[2024-02-28 11:53:44] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 3
+[2024-02-28 11:54:15] Total sales for the day so far: 8991
+[2024-02-28 11:54:15] Waiting for 1274 seconds before next transaction.
+[2024-02-28 12:15:29] Maximum bill total allowed: 544
+[2024-02-28 12:15:29] Selected Item code: 8961014235104 Item name: DOVE IRE SHAMPOO 360ML Price: 799 Quantity: 1
+[2024-02-28 12:15:29] Maximum bill total reached. Completing transaction.
+[2024-02-28 12:15:29] Selected Item code: 8961014008548 Item name: RAFHAN STRAW CUSTARD 45G Price: 25 Quantity: 3
+[2024-02-28 12:16:00] Selected Item code: 8961014023206 Item name: WALLS COOKIES CREME 1L- Price: 450 Quantity: 3
+[2024-02-28 12:16:00] Maximum bill total reached. Completing transaction.
+[2024-02-28 12:16:00] Total sales for the day so far: 9066
+[2024-02-28 12:16:00] Waiting for 1206 seconds before next transaction.
+[2024-02-28 12:36:06] Maximum bill total allowed: 1622
+[2024-02-28 12:36:06] Selected Item code: 8961008214160 Item name: NESTLE BUNYAD CHOCO 260GM- Price: 400 Quantity: 3
+[2024-02-28 12:36:37] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 1
+[2024-02-28 12:36:37] Maximum bill total reached. Completing transaction.
+[2024-02-28 12:36:37] Selected Item code: 8961008216973 Item name: NES FV RED ANAR 230ML- Price: 150 Quantity: 1
+[2024-02-28 12:36:47] Total sales for the day so far: 10416
+[2024-02-28 12:36:47] Waiting for 1214 seconds before next transaction.
+[2024-02-28 12:57:01] Maximum bill total allowed: 695
+[2024-02-28 12:57:01] Selected Item code: 8961014236866 Item name: FAIR LOVELY HANDSOME 25G- Price: 200 Quantity: 2
+[2024-02-28 12:57:22] Selected Item code: 8961008219882 Item name: NES MILO PET BOTTLE 220ML- Price: 160 Quantity: 3
+[2024-02-28 12:57:22] Maximum bill total reached. Completing transaction.
+[2024-02-28 12:57:22] Selected Item code: 8961014012859 Item name: CORNETTO COOKIES Price: 75 Quantity: 1
+[2024-02-28 12:57:32] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 2
+[2024-02-28 12:57:32] Maximum bill total reached. Completing transaction.
+[2024-02-28 12:57:32] Total sales for the day so far: 10891
+[2024-02-28 12:57:32] Waiting for 1266 seconds before next transaction.
+[2024-02-28 13:18:38] Maximum bill total allowed: 879
+[2024-02-28 13:18:38] Selected Item code: 8961014032284 Item name: WALLS CORNETTO CD CONE Price: 160 Quantity: 1
+[2024-02-28 13:18:48] Selected Item code: 8961014248999 Item name: PONDS BB DAY CREME 25GM- Price: 200 Quantity: 1
+[2024-02-28 13:18:59] Selected Item code: 8961014243499 Item name: TRESEMME PR SHAMPOO 650ML Price: 860 Quantity: 2
+[2024-02-28 13:18:59] Maximum bill total reached. Completing transaction.
+[2024-02-28 13:18:59] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 3
+[2024-02-28 13:19:30] Total sales for the day so far: 11461
+[2024-02-28 13:19:30] Waiting for 1335 seconds before next transaction.
+[2024-02-28 13:41:45] Maximum bill total allowed: 1606
+[2024-02-28 13:41:45] Selected Item code: 8961008216041 Item name: CERELAC NATURES 175GM Price: 520 Quantity: 2
+[2024-02-28 13:42:05] Selected Item code: 8961014008548 Item name: RAFHAN STRAW CUSTARD 45G Price: 25 Quantity: 1
+[2024-02-28 13:42:15] Selected Item code: 8961014017618 Item name: KNORR KETCHUP 800GM- Price: 450 Quantity: 2
+[2024-02-28 13:42:15] Maximum bill total reached. Completing transaction.
+[2024-02-28 13:42:15] Selected Item code: 8961008209852 Item name: NES NESFRUTA MANGO 200ML- Price: 60 Quantity: 3
+[2024-02-28 13:42:46] Total sales for the day so far: 12706
+[2024-02-28 13:42:46] Waiting for 1108 seconds before next transaction.
+[2024-02-28 14:01:14] Maximum bill total allowed: 1289
+[2024-02-28 14:01:14] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 1
+[2024-02-28 14:01:24] Selected Item code: 8961014015522 Item name: WALLS KING KULFA 0.5L- Price: 290 Quantity: 2
+[2024-02-28 14:01:45] Total sales for the day so far: 13686
+[2024-02-28 14:01:45] Waiting for 1260 seconds before next transaction.
+[2024-02-28 14:22:45] Maximum bill total allowed: 843
+[2024-02-28 14:22:45] Selected Item code: 8961014237429 Item name: LUX SOAP 3 IN 1 PACK- Price: 365 Quantity: 1
+[2024-02-28 14:22:55] Selected Item code: 8961008213866 Item name: NES NESFRUTA MANGO 1LTR- Price: 250 Quantity: 2
+[2024-02-28 14:22:55] Maximum bill total reached. Completing transaction.
+[2024-02-28 14:22:55] Total sales for the day so far: 14051
+[2024-02-28 14:22:56] Waiting for 1101 seconds before next transaction.
+[2024-02-28 14:41:17] Maximum bill total allowed: 891
+[2024-02-28 14:41:17] Selected Item code: 8961014032635 Item name: WALLS KING KULFA 1L- Price: 450 Quantity: 3
+[2024-02-28 14:41:17] Maximum bill total reached. Completing transaction.
+[2024-02-28 14:41:17] Selected Item code: 8961014244830 Item name: FAIR LOVELY CB 25G Price: 250 Quantity: 1
+[2024-02-28 14:41:27] Selected Item code: 8961008216041 Item name: CERELAC NATURES 175GM Price: 520 Quantity: 2
+[2024-02-28 14:41:27] Maximum bill total reached. Completing transaction.
+[2024-02-28 14:41:27] Selected Item code: 8961014236798 Item name: FAIR LOVELY MV 50G- Price: 300 Quantity: 1
+[2024-02-28 14:41:37] Total sales for the day so far: 14601
+[2024-02-28 14:41:37] Waiting for 1127 seconds before next transaction.
+[2024-02-28 15:00:24] Maximum bill total allowed: 836
+[2024-02-28 15:00:24] Selected Item code: 8961014020496 Item name: CUSTARD VANILA RAFHAN Price: 100 Quantity: 2
+[2024-02-28 15:00:45] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 3
+[2024-02-28 15:00:45] Maximum bill total reached. Completing transaction.
+[2024-02-28 15:00:45] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 1
+[2024-02-28 15:00:55] Total sales for the day so far: 15271
+[2024-02-28 15:00:55] Waiting for 1260 seconds before next transaction.
+[2024-02-28 15:21:55] Maximum bill total allowed: 1566
+[2024-02-28 15:21:55] Selected Item code: 8961014018202 Item name: RAFHAN STRAW CUSTARD 275G Price: 190 Quantity: 3
+[2024-02-28 15:22:26] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1
+[2024-02-28 15:22:26] Maximum bill total reached. Completing transaction.
+[2024-02-28 15:22:26] Selected Item code: 8961014023206 Item name: WALLS COOKIES CREME 1L- Price: 450 Quantity: 1
+[2024-02-28 15:22:36] Total sales for the day so far: 16291
+[2024-02-28 15:22:36] Waiting for 1323 seconds before next transaction.
+[2024-02-28 15:44:39] Maximum bill total allowed: 1884
+[2024-02-28 15:44:39] Selected Item code: 8961014023800 Item name: WLLAS CORNETTO VANILLA CARMEL Price: 130 Quantity: 3
+[2024-02-28 15:45:10] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 2
+[2024-02-28 15:45:31] Total sales for the day so far: 17321
+[2024-02-28 15:45:31] Waiting for 1129 seconds before next transaction.
+[2024-02-28 16:04:20] Maximum bill total allowed: 1535
+[2024-02-28 16:04:20] Selected Item code: 8961008212470 Item name: NESTLE EVERYDAY org 350GM- Price: 720 Quantity: 1
+[2024-02-28 16:04:30] Total sales for the day so far: 18041
+[2024-02-28 16:04:30] Waiting for 1185 seconds before next transaction.
+[2024-02-28 16:24:15] Maximum bill total allowed: 1772
+[2024-02-28 16:24:15] Selected Item code: 8961008217208 Item name: NES FV FALSA 1LTR- Price: 450 Quantity: 2
+[2024-02-28 16:24:36] Selected Item code: 8961008213187 Item name: NES MILO ACTIVE GO 180ML- Price: 90 Quantity: 3
+[2024-02-28 16:25:06] Selected Item code: 8961014029758 Item name: POUNDS CREAM Price: 300 Quantity: 2
+[2024-02-28 16:25:27] Total sales for the day so far: 19811
+[2024-02-28 16:25:27] Waiting for 1155 seconds before next transaction.
+[2024-02-28 16:44:42] Maximum bill total allowed: 522
+[2024-02-28 16:44:42] Selected Item code: 8961014241938 Item name: LIFEBUOY NATURALLY LONG 90ML Price: 99 Quantity: 3
+[2024-02-28 16:45:13] Selected Item code: 8961014241112 Item name: FAIR-LOVELY ANTI PIMPLE FACE WASH 50GM Price: 120 Quantity: 3
+[2024-02-28 16:45:13] Maximum bill total reached. Completing transaction.
+[2024-02-28 16:45:13] Selected Item code: 8961014236873 Item name: FAIR LOVELY HANDSOME 50G- Price: 280 Quantity: 2
+[2024-02-28 16:45:13] Maximum bill total reached. Completing transaction.
+[2024-02-28 16:45:13] Total sales for the day so far: 20108
+[2024-02-28 16:45:13] Waiting for 1357 seconds before next transaction.
+[2024-02-28 17:07:50] Maximum bill total allowed: 504
+[2024-02-28 17:07:50] Selected Item code: 8961014248951 Item name: PONDS BB DAY CREAM 50GM- Price: 450 Quantity: 1
+[2024-02-28 17:08:00] Selected Item code: 8961014032475 Item name: WALL K KULFA HALF Price: 270 Quantity: 2
+[2024-02-28 17:08:00] Maximum bill total reached. Completing transaction.
+[2024-02-28 17:08:00] Selected Item code: 8961014250732 Item name: PONDS LIGHT CREAM 75ML- Price: 350 Quantity: 3
+[2024-02-28 17:08:00] Maximum bill total reached. Completing transaction.
+[2024-02-28 17:08:00] Selected Item code: 8961014017618 Item name: KNORR KETCHUP 800GM- Price: 450 Quantity: 3
+[2024-02-28 17:08:00] Maximum bill total reached. Completing transaction.
+[2024-02-28 17:08:00] Total sales for the day so far: 20558
+[2024-02-28 17:08:00] Waiting for 970 seconds before next transaction.
+[2024-02-28 17:24:10] Maximum bill total allowed: 827
+[2024-02-28 17:24:10] Selected Item code: 8961008216249 Item name: NES FV RED GRAPES 1L Price: 400 Quantity: 2
+[2024-02-28 17:24:31] Selected Item code: 8961008215617 Item name: NESTLE MILO POWDER 500G- Price: 1050 Quantity: 1
+[2024-02-28 17:24:31] Maximum bill total reached. Completing transaction.
+[2024-02-28 17:24:31] Selected Item code: 8961014261714 Item name: FAIR & LOVELY TUBE 25G Price: 199 Quantity: 2
+[2024-02-28 17:24:31] Maximum bill total reached. Completing transaction.
+[2024-02-28 17:24:31] Selected Item code: 8961014240009 Item name: FAIR LOVELY SOAP MULTI VIT Price: 60 Quantity: 1
+[2024-02-28 17:24:31] Maximum bill total reached. Completing transaction.
+[2024-02-28 17:24:31] Total sales for the day so far: 21358
+[2024-02-28 17:24:31] Waiting for 1017 seconds before next transaction.
+[2024-02-28 17:41:28] Maximum bill total allowed: 1990
+[2024-02-28 17:41:28] Selected Item code: 8961014022889 Item name: CHEESY NOODLES Price: 75 Quantity: 1
+[2024-02-28 17:41:38] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 2
+[2024-02-28 17:41:59] Selected Item code: 8961014236828 Item name: FAIR LOVELY FW 50G- Price: 200 Quantity: 1
+[2024-02-28 17:42:09] Selected Item code: 8961014237429 Item name: LUX SOAP 3 IN 1 PACK- Price: 365 Quantity: 2
+[2024-02-28 17:42:30] Total sales for the day so far: 22463
+[2024-02-28 17:42:30] Waiting for 963 seconds before next transaction.
+[2024-02-28 17:58:33] Maximum bill total allowed: 674
+[2024-02-28 17:58:33] Selected Item code: 8961014004182 Item name: CREAM CHICKEN SOUP Price: 115 Quantity: 3
+[2024-02-28 17:59:03] Total sales for the day so far: 22808
+[2024-02-28 17:59:04] Waiting for 958 seconds before next transaction.
+[2024-02-28 18:15:02] Maximum bill total allowed: 1498
+[2024-02-28 18:15:02] Selected Item code: 8961014241938 Item name: LIFEBUOY NATURALLY LONG 90ML Price: 99 Quantity: 3
+[2024-02-28 18:15:32] Total sales for the day so far: 23105
+[2024-02-28 18:15:32] Waiting for 1164 seconds before next transaction.
+[2024-02-28 18:34:56] Maximum bill total allowed: 1210
+[2024-02-28 18:34:56] Selected Item code: 8961014242348 Item name: TRESEMME SHAMPOO 170ML- Price: 470 Quantity: 2
+[2024-02-28 18:35:17] Selected Item code: 9556001249166 Item name: NESCAFE CLASSIC 200GM Price: 2750 Quantity: 1
+[2024-02-28 18:35:17] Maximum bill total reached. Completing transaction.
+[2024-02-28 18:35:17] Selected Item code: 8961008220499 Item name: NESTLE CERELAC YF 175GM- Price: 450 Quantity: 3
+[2024-02-28 18:35:17] Maximum bill total reached. Completing transaction.
+[2024-02-28 18:35:17] Total sales for the day so far: 24045
+[2024-02-28 18:35:17] Waiting for 1037 seconds before next transaction.
+[2024-02-28 18:52:34] Maximum bill total allowed: 875
+[2024-02-28 18:52:34] Selected Item code: 8961014018486 Item name: WALLS STICK CHOC BAR- Price: 50 Quantity: 2
+[2024-02-28 18:52:55] Total sales for the day so far: 24145
+[2024-02-28 18:52:55] Waiting for 1124 seconds before next transaction.
+[2024-02-28 19:11:39] Maximum bill total allowed: 1273
+[2024-02-28 19:11:39] Selected Item code: 8961014244809 Item name: FAIR - LOVELY WINTER GLOW 70ML Price: 280 Quantity: 1
+[2024-02-28 19:11:49] Total sales for the day so far: 24425
+[2024-02-28 19:11:49] Waiting for 1056 seconds before next transaction.
+[2024-02-28 19:29:25] Maximum bill total allowed: 1723
+[2024-02-28 19:29:25] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 2
+[2024-02-28 19:29:46] Selected Item code: 8961014236873 Item name: FAIR LOVELY HANDSOME 50G- Price: 280 Quantity: 3
+[2024-02-28 19:30:17] Total sales for the day so far: 25405
+[2024-02-28 19:30:17] Waiting for 1033 seconds before next transaction.
+[2024-02-28 19:47:30] Maximum bill total allowed: 1366
+[2024-02-28 19:47:30] Selected Item code: 8961008213415 Item name: NESTLE MILK PAK 250ML. Price: 75 Quantity: 3
+[2024-02-28 19:48:00] Total sales for the day so far: 25630
+[2024-02-28 19:48:00] Waiting for 1185 seconds before next transaction.
+[2024-02-28 20:07:45] Maximum bill total allowed: 1941
+[2024-02-28 20:07:45] Selected Item code: 8961014241365 Item name: LIFE BOY CARE AND PROTECT 3IN1 PACK Price: 171 Quantity: 1
+[2024-02-28 20:07:56] Selected Item code: 8961014014198 Item name: WALLS CORNETTO FB CONE- Price: 120 Quantity: 3
+[2024-02-28 20:08:26] Selected Item code: 8961014236828 Item name: FAIR LOVELY FW 50G- Price: 200 Quantity: 2
+[2024-02-28 20:08:47] Total sales for the day so far: 26561
+[2024-02-28 20:08:47] Waiting for 1003 seconds before next transaction.
+[2024-02-28 20:25:30] Maximum bill total allowed: 1350
+[2024-02-28 20:25:30] Selected Item code: 8961014235173 Item name: DOVE SHAMPOO 175ML- Price: 450 Quantity: 3
+[2024-02-28 20:26:01] Selected Item code: 8961008220758 Item name: MILK PAK ACTIVE 1L Price: 280 Quantity: 1
+[2024-02-28 20:26:01] Maximum bill total reached. Completing transaction.
+[2024-02-28 20:26:01] Total sales for the day so far: 27911
+[2024-02-28 20:26:01] Waiting for 939 seconds before next transaction.
+[2024-02-28 20:41:40] Maximum bill total allowed: 1521
+[2024-02-28 20:41:40] Selected Item code: 8961014007657 Item name: PONDS LOTION 200ML- Price: 450 Quantity: 3
+[2024-02-28 20:42:11] Total sales for the day so far: 29261
+[2024-02-28 20:42:11] Waiting for 1018 seconds before next transaction.
+[2024-02-28 20:59:09] Maximum bill total allowed: 1806
+[2024-02-28 20:59:09] Selected Item code: 8961008213453 Item name: LACTOGEN1 HAPPY SMOOTH800G Price: 1100 Quantity: 1
+[2024-02-28 20:59:19] Selected Item code: 8961008212289 Item name: NESTLE WATER 1.5LTR Price: 100 Quantity: 1
+[2024-02-28 20:59:29] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 1
+[2024-02-28 20:59:39] Selected Item code: 8961014236774 Item name: FAIR AND LOVELY  MV 70GM Price: 350 Quantity: 1
+[2024-02-28 20:59:39] Maximum bill total reached. Completing transaction.
+[2024-02-28 20:59:40] Total sales for the day so far: 30731
+[2024-02-28 20:59:40] Waiting for 1200 seconds before next transaction.
+[2024-02-28 21:19:40] Maximum bill total allowed: 961
+[2024-02-28 21:19:40] Selected Item code: 8961008215938 Item name: NESTLE CERLACE NATURE 175G Price: 470 Quantity: 2
+[2024-02-28 21:20:00] Total sales for the day so far: 31671
+[2024-02-28 21:20:00] Waiting for 1040 seconds before next transaction.
+[2024-02-28 21:37:20] Total sales limit for the day reached. Waiting for tomorrow.
+[2024-02-28 21:37:20] Selected sale limit for the day: 38145
+[2024-02-28 21:37:20] Remaining time until business hours: in hours:8.377526559722222  in minutes: 502.6515935833333 in seconds: 30159.095615 
+[2024-02-28 21:37:20] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 30159.095615
+[2024-02-29 06:00:02] Maximum bill total allowed: 1234
+[2024-02-29 06:00:02] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 2
+[2024-02-29 06:00:23] Total sales for the day so far: 320
+[2024-02-29 06:00:23] Waiting for 1299 seconds before next transaction.
+[2024-02-29 06:22:02] Maximum bill total allowed: 1668
+[2024-02-29 06:22:02] Selected Item code: 8961014106220 Item name: LIPTON TEA 95GM- Price: 270 Quantity: 1
+[2024-02-29 06:22:12] Selected Item code: 8961014032284 Item name: WALLS CORNETTO CD CONE Price: 160 Quantity: 1
+[2024-02-29 06:22:22] Total sales for the day so far: 750
+[2024-02-29 06:22:22] Waiting for 1476 seconds before next transaction.
+[2024-02-29 06:46:58] Maximum bill total allowed: 1136
+[2024-02-29 06:46:58] Selected Item code: 8961014245189 Item name: CLEAR SHAMPOO 185ML- Price: 450 Quantity: 3
+[2024-02-29 06:46:58] Maximum bill total reached. Completing transaction.
+[2024-02-29 06:46:58] Selected Item code: 8961008213866 Item name: NES NESFRUTA MANGO 1LTR- Price: 250 Quantity: 2
+[2024-02-29 06:47:19] Total sales for the day so far: 1250
+[2024-02-29 06:47:19] Waiting for 1230 seconds before next transaction.
+[2024-02-29 07:07:49] Maximum bill total allowed: 618
+[2024-02-29 07:07:49] Selected Item code: 8961008214047 Item name: NESTLE LACTOGROW 3 200G- Price: 600 Quantity: 2
+[2024-02-29 07:07:49] Maximum bill total reached. Completing transaction.
+[2024-02-29 07:07:49] Selected Item code: 8961008206752 Item name: NESCAFE CHILLED LATTE COFEE 200ML Price: 100 Quantity: 1
+[2024-02-29 07:07:59] Total sales for the day so far: 1350
+[2024-02-29 07:07:59] Waiting for 1215 seconds before next transaction.
+[2024-02-29 07:28:14] Maximum bill total allowed: 1553
+[2024-02-29 07:28:14] Selected Item code: 8961014017700 Item name: WALLS KULFA PISTA TUB Price: 310 Quantity: 3
+[2024-02-29 07:28:45] Selected Item code: 8961008214054 Item name: NES LACTOGROW3 400GM- Price: 1180 Quantity: 1
+[2024-02-29 07:28:45] Maximum bill total reached. Completing transaction.
+[2024-02-29 07:28:45] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 2
+[2024-02-29 07:28:45] Maximum bill total reached. Completing transaction.
+[2024-02-29 07:28:45] Total sales for the day so far: 2280
+[2024-02-29 07:28:45] Waiting for 1466 seconds before next transaction.
+[2024-02-29 07:53:11] Maximum bill total allowed: 1026
+[2024-02-29 07:53:11] Selected Item code: 8961014248029 Item name: SUNSILK SHAMPOO 360ML- Price: 720 Quantity: 2
+[2024-02-29 07:53:11] Maximum bill total reached. Completing transaction.
+[2024-02-29 07:53:11] Selected Item code: 8961008216263 Item name: NES FV PINEAPPLE 1LTR- Price: 450 Quantity: 1
+[2024-02-29 07:53:22] Selected Item code: 8961008211633 Item name: NESTLE BUNYAD 260GM Price: 400 Quantity: 1
+[2024-02-29 07:53:32] Selected Item code: 8961008213415 Item name: NESTLE MILK PAK 250ML. Price: 75 Quantity: 1
+[2024-02-29 07:53:42] Total sales for the day so far: 3205
+[2024-02-29 07:53:42] Waiting for 1279 seconds before next transaction.
+[2024-02-29 08:15:01] Maximum bill total allowed: 1446
+[2024-02-29 08:15:01] Selected Item code: 8961014235142 Item name: DOVE NOC SHAMPOO 360ML Price: 799 Quantity: 3
+[2024-02-29 08:15:01] Maximum bill total reached. Completing transaction.
+[2024-02-29 08:15:01] Selected Item code: 8961014002522 Item name: KNORR CRISPY FRIED 75GM- Price: 99 Quantity: 1
+[2024-02-29 08:15:12] Total sales for the day so far: 3304
+[2024-02-29 08:15:12] Waiting for 1284 seconds before next transaction.
+[2024-02-29 08:36:36] Maximum bill total allowed: 1052
+[2024-02-29 08:36:36] Selected Item code: 8961014051582 Item name: WALLS KING KULFA TUB Price: 800 Quantity: 2
+[2024-02-29 08:36:36] Maximum bill total reached. Completing transaction.
+[2024-02-29 08:36:36] Total sales for the day so far: 3304
+[2024-02-29 08:36:36] Waiting for 1220 seconds before next transaction.
+[2024-02-29 08:56:56] Maximum bill total allowed: 1407
+[2024-02-29 08:56:56] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 1
+[2024-02-29 08:57:06] Selected Item code: 8961014018226 Item name: RAFHAN BANANA CUST 275G Price: 190 Quantity: 1
+[2024-02-29 08:57:16] Selected Item code: 8961014235067 Item name: LIFEBUOY SHAMPOO 375ML- Price: 600 Quantity: 1
+[2024-02-29 08:57:27] Total sales for the day so far: 4194
+[2024-02-29 08:57:27] Waiting for 1222 seconds before next transaction.
+[2024-02-29 09:17:49] Maximum bill total allowed: 1365
+[2024-02-29 09:17:49] Selected Item code: 8961008213095 Item name: NESTLE EVER+TAPAL 250GM Price: 225 Quantity: 2
+[2024-02-29 09:18:09] Selected Item code: 8961008216256 Item name: NES FRUITA VITALS 200ML ALL- Price: 70 Quantity: 2
+[2024-02-29 09:18:30] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 2
+[2024-02-29 09:18:50] Total sales for the day so far: 4884
+[2024-02-29 09:18:50] Waiting for 1320 seconds before next transaction.
+[2024-02-29 09:40:50] Maximum bill total allowed: 1435
+[2024-02-29 09:40:50] Selected Item code: 8961014106220 Item name: LIPTON TEA 95GM- Price: 270 Quantity: 2
+[2024-02-29 09:41:11] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1
+[2024-02-29 09:41:11] Maximum bill total reached. Completing transaction.
+[2024-02-29 09:41:11] Selected Item code: 8961008216249 Item name: NES FV RED GRAPES 1L Price: 400 Quantity: 2
+[2024-02-29 09:41:32] Total sales for the day so far: 6224
+[2024-02-29 09:41:32] Waiting for 1389 seconds before next transaction.
+[2024-02-29 11:36:44] Starting pos software.
+[2024-02-29 11:36:44] Starting login details.
+[2024-02-29 11:37:15] Starting cashier login details.
+[2024-02-29 11:37:55] Bot started.
+[2024-02-29 11:37:55] Selected sale limit for the day: 38635
+[2024-02-29 11:37:55] Total sales limit for the day: 38635
+[2024-02-29 11:37:56] Item codes loaded successfully.
+[2024-02-29 11:37:56] Maximum bill total allowed: 847
+[2024-02-29 11:37:56] Selected Item code: 8961008214061 Item name: LACTOGROW 3 800G Price: 1100 Quantity: 1
+[2024-02-29 11:37:56] Maximum bill total reached. Completing transaction.
+[2024-02-29 11:37:57] Total sales for the day so far: 0
+[2024-02-29 11:37:57] Waiting for 1477 seconds before next transaction.
+[2024-02-29 12:02:34] Maximum bill total allowed: 1040
+[2024-02-29 12:02:34] Selected Item code: 8961008211244 Item name: NES FV KINNOW 1LTR- Price: 350 Quantity: 3
+[2024-02-29 12:02:34] Maximum bill total reached. Completing transaction.
+[2024-02-29 12:02:34] Selected Item code: 8961014236613 Item name: S S NATURAL RECHARGE 380ML Price: 520 Quantity: 1
+[2024-02-29 12:02:44] Selected Item code: 8961014261714 Item name: FAIR & LOVELY TUBE 25G Price: 199 Quantity: 1
+[2024-02-29 12:02:54] Total sales for the day so far: 719
+[2024-02-29 12:02:54] Waiting for 1270 seconds before next transaction.
+[2024-02-29 12:24:04] Maximum bill total allowed: 1348
+[2024-02-29 12:24:04] Selected Item code: 8961014236842 Item name: FAIR LOVELY LOTION 100ML- Price: 220 Quantity: 3
+[2024-02-29 12:24:35] Total sales for the day so far: 1379
+[2024-02-29 12:24:35] Waiting for 1194 seconds before next transaction.
+[2024-02-29 12:44:29] Maximum bill total allowed: 1303
+[2024-02-29 12:44:29] Selected Item code: 8961008217468 Item name: NESTLE NIDO FORTI GROW 390G Price: 820 Quantity: 1
+[2024-02-29 12:44:40] Total sales for the day so far: 2199
+[2024-02-29 12:44:40] Waiting for 1113 seconds before next transaction.
+[2024-02-29 13:03:13] Maximum bill total allowed: 722
+[2024-02-29 13:03:13] Selected Item code: 8961014002768 Item name: WALLS MAGNUM CLASSIC 90ML Price: 280 Quantity: 2
+[2024-02-29 13:03:33] Total sales for the day so far: 2759
+[2024-02-29 13:03:33] Waiting for 1315 seconds before next transaction.
+[2024-02-29 13:25:28] Maximum bill total allowed: 1129
+[2024-02-29 13:25:28] Selected Item code: 8961008211190 Item name: NES FV CHAUNSA 1LTR- Price: 340 Quantity: 1
+[2024-02-29 13:25:39] Selected Item code: 8961008216041 Item name: CERELAC NATURES 175GM Price: 520 Quantity: 3
+[2024-02-29 13:25:39] Maximum bill total reached. Completing transaction.
+[2024-02-29 13:25:39] Selected Item code: 8961014236859 Item name: FAIR LOVELY LOTION 200ML- Price: 300 Quantity: 3
+[2024-02-29 13:25:39] Maximum bill total reached. Completing transaction.
+[2024-02-29 13:25:39] Total sales for the day so far: 3099
+[2024-02-29 13:25:39] Waiting for 1191 seconds before next transaction.
+[2024-02-29 13:45:30] Maximum bill total allowed: 1882
+[2024-02-29 13:45:30] Selected Item code: 8961014235104 Item name: DOVE IRE SHAMPOO 360ML Price: 799 Quantity: 2
+[2024-02-29 13:45:51] Total sales for the day so far: 4697
+[2024-02-29 13:45:51] Waiting for 1233 seconds before next transaction.
+[2024-02-29 14:06:24] Maximum bill total allowed: 973
+[2024-02-29 14:06:24] Selected Item code: 8961008211916 Item name: NESTLE NIDO 3+ 400GM Price: 850 Quantity: 2
+[2024-02-29 14:06:24] Maximum bill total reached. Completing transaction.
+[2024-02-29 14:06:24] Total sales for the day so far: 4697
+[2024-02-29 14:06:24] Waiting for 1090 seconds before next transaction.
+[2024-02-29 14:24:34] Maximum bill total allowed: 633
+[2024-02-29 14:24:34] Selected Item code: 8961014235869 Item name: DOVE HF 700ML Price: 810 Quantity: 3
+[2024-02-29 14:24:34] Maximum bill total reached. Completing transaction.
+[2024-02-29 14:24:34] Selected Item code: 8961014004922 Item name: WALLS MAGNUM ALMOND- Price: 280 Quantity: 1
+[2024-02-29 14:24:44] Selected Item code: 8961014234954 Item name: FAIR-LOVELY HERBAL 70GM Price: 250 Quantity: 3
+[2024-02-29 14:24:44] Maximum bill total reached. Completing transaction.
+[2024-02-29 14:24:44] Total sales for the day so far: 4977
+[2024-02-29 14:24:44] Waiting for 1260 seconds before next transaction.
+[2024-02-29 14:45:44] Maximum bill total allowed: 1019
+[2024-02-29 14:45:44] Selected Item code: 8961008211633 Item name: NESTLE BUNYAD 260GM Price: 400 Quantity: 3
+[2024-02-29 14:45:44] Maximum bill total reached. Completing transaction.
+[2024-02-29 14:45:45] Selected Item code: 8961014032314 Item name: RAFHAN CHOC CUSTARD 90G- Price: 130 Quantity: 1
+[2024-02-29 14:45:55] Selected Item code: 8961014023008 Item name: KNORR BLAZIN NOODLES 2X Price: 190 Quantity: 3
+[2024-02-29 14:46:26] Total sales for the day so far: 5677
+[2024-02-29 14:46:26] Waiting for 1134 seconds before next transaction.
+[2024-02-29 15:05:20] Maximum bill total allowed: 810
+[2024-02-29 15:05:20] Selected Item code: 8961014240009 Item name: FAIR LOVELY SOAP MULTI VIT Price: 60 Quantity: 3
+[2024-02-29 15:05:50] Selected Item code: 8961014246827 Item name: LIFEBOY HERBAL STRONG 375ML Price: 500 Quantity: 2
+[2024-02-29 15:05:50] Maximum bill total reached. Completing transaction.
+[2024-02-29 15:05:50] Selected Item code: 8961014032154 Item name: RAFHAN CUSTARD V 275G Price: 190 Quantity: 2
+[2024-02-29 15:06:11] Selected Item code: 8961014021639 Item name: KNORR INSTANT CHICKEN YAKHNI Price: 40 Quantity: 3
+[2024-02-29 15:06:42] Total sales for the day so far: 6357
+[2024-02-29 15:06:42] Waiting for 1376 seconds before next transaction.
+[2024-02-29 15:29:38] Maximum bill total allowed: 933
+[2024-02-29 15:29:38] Selected Item code: 8961008217994 Item name: NESTLE EVERYDAY POWDER 560G Price: 1130 Quantity: 1
+[2024-02-29 15:29:38] Maximum bill total reached. Completing transaction.
+[2024-02-29 15:29:38] Total sales for the day so far: 6357
+[2024-02-29 15:29:38] Waiting for 1140 seconds before next transaction.
+[2024-02-29 15:48:38] Maximum bill total allowed: 1521
+[2024-02-29 15:48:38] Selected Item code: 8961014234947 Item name: FAIR-LOVELY HERBAL 25GM Price: 95 Quantity: 2
+[2024-02-29 15:48:58] Selected Item code: 8961014235173 Item name: DOVE SHAMPOO 175ML- Price: 450 Quantity: 3
+[2024-02-29 15:48:58] Maximum bill total reached. Completing transaction.
+[2024-02-29 15:48:58] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 2
+[2024-02-29 15:49:19] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 1
+[2024-02-29 15:49:29] Total sales for the day so far: 6747
+[2024-02-29 15:49:29] Waiting for 1140 seconds before next transaction.
+[2024-02-29 16:08:29] Maximum bill total allowed: 1695
+[2024-02-29 16:08:29] Selected Item code: 9556001249166 Item name: NESCAFE CLASSIC 200GM Price: 2750 Quantity: 1
+[2024-02-29 16:08:29] Maximum bill total reached. Completing transaction.
+[2024-02-29 16:08:29] Selected Item code: 8961008216966 Item name: NES FV FALSA 230ML- Price: 150 Quantity: 1
+[2024-02-29 16:08:40] Total sales for the day so far: 6897
+[2024-02-29 16:08:40] Waiting for 1107 seconds before next transaction.
+[2024-02-29 16:27:07] Maximum bill total allowed: 791
+[2024-02-29 16:27:07] Selected Item code: 8961014236859 Item name: FAIR LOVELY LOTION 200ML- Price: 300 Quantity: 1
+[2024-02-29 16:27:17] Total sales for the day so far: 7197
+[2024-02-29 16:27:17] Waiting for 1214 seconds before next transaction.
+[2024-02-29 16:47:31] Maximum bill total allowed: 931
+[2024-02-29 16:47:31] Selected Item code: 8961014004182 Item name: CREAM CHICKEN SOUP Price: 115 Quantity: 2
+[2024-02-29 16:47:52] Selected Item code: 8961014020625 Item name: KNORR BARBECUE SAUCE 400GM- Price: 260 Quantity: 3
+[2024-02-29 16:47:52] Maximum bill total reached. Completing transaction.
+[2024-02-29 16:47:52] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 2
+[2024-02-29 16:48:12] Selected Item code: 8961014106220 Item name: LIPTON TEA 95GM- Price: 270 Quantity: 2
+[2024-02-29 16:48:12] Maximum bill total reached. Completing transaction.
+[2024-02-29 16:48:12] Total sales for the day so far: 7747
+[2024-02-29 16:48:12] Waiting for 1154 seconds before next transaction.
+[2024-02-29 17:07:26] Maximum bill total allowed: 1746
+[2024-02-29 17:07:26] Selected Item code: 8961014261714 Item name: FAIR & LOVELY TUBE 25G Price: 199 Quantity: 2
+[2024-02-29 17:07:47] Selected Item code: 8961014244809 Item name: FAIR - LOVELY WINTER GLOW 70ML Price: 280 Quantity: 2
+[2024-02-29 17:08:07] Selected Item code: 8961014240009 Item name: FAIR LOVELY SOAP MULTI VIT Price: 60 Quantity: 1
+[2024-02-29 17:08:17] Selected Item code: 8961008212470 Item name: NESTLE EVERYDAY org 350GM- Price: 720 Quantity: 1
+[2024-02-29 17:08:28] Total sales for the day so far: 9485
+[2024-02-29 17:08:28] Waiting for 1022 seconds before next transaction.
+[2024-02-29 17:25:30] Maximum bill total allowed: 1528
+[2024-02-29 17:25:30] Selected Item code: 8961014023008 Item name: KNORR BLAZIN NOODLES 2X Price: 190 Quantity: 1
+[2024-02-29 17:25:40] Selected Item code: 8961008216256 Item name: NES FRUITA VITALS 200ML ALL- Price: 70 Quantity: 1
+[2024-02-29 17:25:50] Selected Item code: 8961008217611 Item name: NESTLE EVERYDAY ORIG 850G- Price: 1700 Quantity: 1
+[2024-02-29 17:25:50] Maximum bill total reached. Completing transaction.
+[2024-02-29 17:25:50] Selected Item code: 8961014236873 Item name: FAIR LOVELY HANDSOME 50G- Price: 280 Quantity: 1
+[2024-02-29 17:26:01] Total sales for the day so far: 10025
+[2024-02-29 17:26:01] Waiting for 970 seconds before next transaction.
+[2024-02-29 17:42:11] Maximum bill total allowed: 1825
+[2024-02-29 17:42:11] Selected Item code: 8961014236866 Item name: FAIR LOVELY HANDSOME 25G- Price: 200 Quantity: 1
+[2024-02-29 17:42:21] Selected Item code: 8961008214061 Item name: LACTOGROW 3 800G Price: 1100 Quantity: 1
+[2024-02-29 17:42:31] Selected Item code: 8961008217208 Item name: NES FV FALSA 1LTR- Price: 450 Quantity: 1
+[2024-02-29 17:42:42] Total sales for the day so far: 11775
+[2024-02-29 17:42:42] Waiting for 916 seconds before next transaction.
+[2024-02-29 17:57:58] Maximum bill total allowed: 1735
+[2024-02-29 17:57:58] Selected Item code: 8961014235142 Item name: DOVE NOC SHAMPOO 360ML Price: 799 Quantity: 1
+[2024-02-29 17:58:08] Selected Item code: 8961008212289 Item name: NESTLE WATER 1.5LTR Price: 100 Quantity: 1
+[2024-02-29 17:58:18] Selected Item code: 8961014002768 Item name: WALLS MAGNUM CLASSIC 90ML Price: 280 Quantity: 3
+[2024-02-29 17:58:18] Maximum bill total reached. Completing transaction.
+[2024-02-29 17:58:18] Total sales for the day so far: 12674
+[2024-02-29 17:58:18] Waiting for 928 seconds before next transaction.
+[2024-02-29 18:13:46] Maximum bill total allowed: 1810
+[2024-02-29 18:13:46] Selected Item code: 8961014012538 Item name: FAIR LOVELY C-C 70ML Price: 200 Quantity: 3
+[2024-02-29 18:14:17] Total sales for the day so far: 13274
+[2024-02-29 18:14:17] Waiting for 901 seconds before next transaction.
+[2024-02-29 18:29:18] Maximum bill total allowed: 522
+[2024-02-29 18:29:18] Selected Item code: 8961014023008 Item name: KNORR BLAZIN NOODLES 2X Price: 190 Quantity: 3
+[2024-02-29 18:29:18] Maximum bill total reached. Completing transaction.
+[2024-02-29 18:29:18] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 3
+[2024-02-29 18:29:49] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 1
+[2024-02-29 18:29:49] Maximum bill total reached. Completing transaction.
+[2024-02-29 18:29:49] Total sales for the day so far: 13754
+[2024-02-29 18:29:49] Waiting for 1018 seconds before next transaction.
+[2024-02-29 18:46:47] Maximum bill total allowed: 1367
+[2024-02-29 18:46:47] Selected Item code: 8961014032284 Item name: WALLS CORNETTO CD CONE Price: 160 Quantity: 3
+[2024-02-29 18:47:18] Selected Item code: 8961014241112 Item name: FAIR-LOVELY ANTI PIMPLE FACE WASH 50GM Price: 120 Quantity: 2
+[2024-02-29 18:47:38] Selected Item code: 8961014003642 Item name: WALLS PISTA 1L Price: 400 Quantity: 2
+[2024-02-29 18:47:38] Maximum bill total reached. Completing transaction.
+[2024-02-29 18:47:39] Total sales for the day so far: 14474
+[2024-02-29 18:47:39] Waiting for 906 seconds before next transaction.
+[2024-02-29 19:02:45] Maximum bill total allowed: 1976
+[2024-02-29 19:02:45] Selected Item code: 8961014004182 Item name: CREAM CHICKEN SOUP Price: 115 Quantity: 3
+[2024-02-29 19:03:15] Total sales for the day so far: 14819
+[2024-02-29 19:03:16] Waiting for 1060 seconds before next transaction.
+[2024-02-29 19:20:56] Maximum bill total allowed: 1716
+[2024-02-29 19:20:56] Selected Item code: 8961014023817 Item name: WALLS CORENETTO POP CONE Price: 70 Quantity: 3
+[2024-02-29 19:21:26] Selected Item code: 8961008217468 Item name: NESTLE NIDO FORTI GROW 390G Price: 820 Quantity: 1
+[2024-02-29 19:21:37] Total sales for the day so far: 15849
+[2024-02-29 19:21:37] Waiting for 1197 seconds before next transaction.
+[2024-02-29 19:41:34] Maximum bill total allowed: 1072
+[2024-02-29 19:41:34] Selected Item code: 8961008214054 Item name: NES LACTOGROW3 400GM- Price: 1180 Quantity: 1
+[2024-02-29 19:41:34] Maximum bill total reached. Completing transaction.
+[2024-02-29 19:41:34] Selected Item code: 8961014023008 Item name: KNORR BLAZIN NOODLES 2X Price: 190 Quantity: 3
+[2024-02-29 19:42:05] Total sales for the day so far: 16419
+[2024-02-29 19:42:05] Waiting for 922 seconds before next transaction.
+[2024-02-29 19:57:27] Maximum bill total allowed: 930
+[2024-02-29 19:57:27] Selected Item code: 8961008219080 Item name: NESCAFE HAZELNUT 220ML- Price: 170 Quantity: 1
+[2024-02-29 19:57:37] Selected Item code: 8961014008548 Item name: RAFHAN STRAW CUSTARD 45G Price: 25 Quantity: 2
+[2024-02-29 19:57:57] Total sales for the day so far: 16639
+[2024-02-29 19:57:57] Waiting for 1071 seconds before next transaction.
+[2024-02-29 20:15:48] Maximum bill total allowed: 933
+[2024-02-29 20:15:48] Selected Item code: 8961014004922 Item name: WALLS MAGNUM ALMOND- Price: 280 Quantity: 2
+[2024-02-29 20:16:09] Selected Item code: 8961014241365 Item name: LIFE BOY CARE AND PROTECT 3IN1 PACK Price: 171 Quantity: 3
+[2024-02-29 20:16:09] Maximum bill total reached. Completing transaction.
+[2024-02-29 20:16:09] Selected Item code: 8961014018585 Item name: RAFHAN STRAW CUSTARD Price: 100 Quantity: 1
+[2024-02-29 20:16:19] Total sales for the day so far: 17299
+[2024-02-29 20:16:19] Waiting for 1190 seconds before next transaction.
+[2024-02-29 20:36:09] Maximum bill total allowed: 675
+[2024-02-29 20:36:09] Selected Item code: 8961014003642 Item name: WALLS PISTA 1L Price: 400 Quantity: 1
+[2024-02-29 20:36:20] Selected Item code: 8961014241365 Item name: LIFE BOY CARE AND PROTECT 3IN1 PACK Price: 171 Quantity: 2
+[2024-02-29 20:36:20] Maximum bill total reached. Completing transaction.
+[2024-02-29 20:36:20] Selected Item code: 8961008220321 Item name: NESTLE CERELAC 3 FRUIT 350G Price: 750 Quantity: 2
+[2024-02-29 20:36:20] Maximum bill total reached. Completing transaction.
+[2024-02-29 20:36:20] Selected Item code: 8961008222363 Item name: NESCAFE CLASSIC 25G Price: 320 Quantity: 2
+[2024-02-29 20:36:20] Maximum bill total reached. Completing transaction.
+[2024-02-29 20:36:20] Total sales for the day so far: 17699
+[2024-02-29 20:36:20] Waiting for 1011 seconds before next transaction.
+[2024-02-29 20:53:11] Maximum bill total allowed: 1431
+[2024-02-29 20:53:11] Selected Item code: 8961014235173 Item name: DOVE SHAMPOO 175ML- Price: 450 Quantity: 1
+[2024-02-29 20:53:21] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 1
+[2024-02-29 20:53:31] Selected Item code: 8961008211206 Item name: NES FV GUAVA 1LTR- Price: 350 Quantity: 1
+[2024-02-29 20:53:42] Total sales for the day so far: 18599
+[2024-02-29 20:53:42] Waiting for 1049 seconds before next transaction.
+[2024-02-29 21:11:11] Maximum bill total allowed: 1280
+[2024-02-29 21:11:11] Selected Item code: 8961008220321 Item name: NESTLE CERELAC 3 FRUIT 350G Price: 750 Quantity: 2
+[2024-02-29 21:11:11] Maximum bill total reached. Completing transaction.
+[2024-02-29 21:11:11] Total sales for the day so far: 18599
+[2024-02-29 21:11:11] Waiting for 1115 seconds before next transaction.
+[2024-02-29 21:29:46] Maximum bill total allowed: 1964
+[2024-02-29 21:29:46] Selected Item code: 8961014012859 Item name: CORNETTO COOKIES Price: 75 Quantity: 1
+[2024-02-29 21:29:56] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 2
+[2024-02-29 21:30:17] Selected Item code: 8961014242348 Item name: TRESEMME SHAMPOO 170ML- Price: 470 Quantity: 3
+[2024-02-29 21:30:48] Total sales for the day so far: 20224
+[2024-02-29 21:30:48] Waiting for 923 seconds before next transaction.
+[2024-02-29 21:46:11] Maximum bill total allowed: 1866
+[2024-02-29 21:46:11] Selected Item code: 8961014018486 Item name: WALLS STICK CHOC BAR- Price: 50 Quantity: 3
+[2024-02-29 21:46:41] Selected Item code: 8961014017618 Item name: KNORR KETCHUP 800GM- Price: 450 Quantity: 2
+[2024-02-29 21:47:02] Selected Item code: 9556001249166 Item name: NESCAFE CLASSIC 200GM Price: 2750 Quantity: 1
+[2024-02-29 21:47:02] Maximum bill total reached. Completing transaction.
+[2024-02-29 21:47:02] Total sales for the day so far: 21274
+[2024-02-29 21:47:02] Waiting for 927 seconds before next transaction.
+[2024-02-29 22:02:29] Maximum bill total allowed: 835
+[2024-02-29 22:02:29] Selected Item code: 8961014237429 Item name: LUX SOAP 3 IN 1 PACK- Price: 365 Quantity: 3
+[2024-02-29 22:02:29] Maximum bill total reached. Completing transaction.
+[2024-02-29 22:02:29] Selected Item code: 8961008210827 Item name: NESTLE FORTIGROW 390GM Price: 500 Quantity: 3
+[2024-02-29 22:02:29] Maximum bill total reached. Completing transaction.
+[2024-02-29 22:02:29] Selected Item code: 8961008216041 Item name: CERELAC NATURES 175GM Price: 520 Quantity: 3
+[2024-02-29 22:02:29] Maximum bill total reached. Completing transaction.
+[2024-02-29 22:02:29] Total sales for the day so far: 21274
+[2024-02-29 22:02:29] Waiting for 1133 seconds before next transaction.
+[2024-02-29 22:21:22] Maximum bill total allowed: 1373
+[2024-02-29 22:21:22] Selected Item code: 8961014004175 Item name: KNORR CHICKEN CORN SOUP Price: 150 Quantity: 2
+[2024-02-29 22:21:43] Total sales for the day so far: 21574
+[2024-02-29 22:21:43] Waiting for 1114 seconds before next transaction.
+[2024-02-29 22:40:17] Maximum bill total allowed: 728
+[2024-02-29 22:40:17] Selected Item code: 9556001249128 Item name: NESCAFE CLASSIC 50GM Price: 800 Quantity: 2
+[2024-02-29 22:40:17] Maximum bill total reached. Completing transaction.
+[2024-02-29 22:40:17] Total sales for the day so far: 21574
+[2024-02-29 22:40:17] Waiting for 1062 seconds before next transaction.
+[2024-02-29 22:57:59] Maximum bill total allowed: 1026
+[2024-02-29 22:57:59] Selected Item code: 8961014032703 Item name: WALLS CARAMEL VANILLA 1LTR- Price: 450 Quantity: 3
+[2024-02-29 22:57:59] Maximum bill total reached. Completing transaction.
+[2024-02-29 22:57:59] Selected Item code: 8961008220208 Item name: NESTLE LACTOGEN 1 200G- Price: 600 Quantity: 1
+[2024-02-29 22:58:10] Total sales for the day so far: 22174
+[2024-02-29 22:58:10] Waiting for 927 seconds before next transaction.
+[2024-02-29 23:13:37] Maximum bill total allowed: 838
+[2024-02-29 23:13:37] Selected Item code: 8961014248951 Item name: PONDS BB DAY CREAM 50GM- Price: 450 Quantity: 2
+[2024-02-29 23:13:37] Maximum bill total reached. Completing transaction.
+[2024-02-29 23:13:37] Selected Item code: 8961014029758 Item name: POUNDS CREAM Price: 300 Quantity: 2
+[2024-02-29 23:13:57] Total sales for the day so far: 22774
+[2024-02-29 23:13:57] Waiting for 997 seconds before next transaction.
+[2024-02-29 23:30:34] Maximum bill total allowed: 1238
+[2024-02-29 23:30:34] Selected Item code: 8961014235111 Item name: DOVE SHAMPOO 360ML- Price: 800 Quantity: 2
+[2024-02-29 23:30:34] Maximum bill total reached. Completing transaction.
+[2024-02-29 23:30:35] Selected Item code: 8961008212296 Item name: NESTLE WATER 5LTR Price: 260 Quantity: 1
+[2024-02-29 23:30:45] Selected Item code: 8961014235210 Item name: DOVE D-SHINE 360ML- Price: 400 Quantity: 2
+[2024-02-29 23:31:05] Selected Item code: 8961014023008 Item name: KNORR BLAZIN NOODLES 2X Price: 190 Quantity: 1
+[2024-02-29 23:31:05] Maximum bill total reached. Completing transaction.
+[2024-02-29 23:31:05] Total sales for the day so far: 23834
+[2024-02-29 23:31:05] Waiting for 926 seconds before next transaction.
+[2024-02-29 23:46:31] Maximum bill total allowed: 1917
+[2024-02-29 23:46:31] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 2
+[2024-02-29 23:46:52] Selected Item code: 8961008217321 Item name: NES FRUITA VITAL SPARKLING Price: 130 Quantity: 2
+[2024-02-29 23:47:12] Selected Item code: 8961008211909 Item name: NESTLE NIDO 1+ 375GM- Price: 850 Quantity: 1
+[2024-02-29 23:47:12] Maximum bill total reached. Completing transaction.
+[2024-02-29 23:47:13] Total sales for the day so far: 25034
+[2024-02-29 23:47:13] Waiting for 1098 seconds before next transaction.
+[2024-03-01 00:05:31] Maximum bill total allowed: 1897
+[2024-03-01 00:05:31] Selected Item code: 8961014032499 Item name: HELLMANNS REAL MAYO 450GM Price: 490 Quantity: 3
+[2024-03-01 00:06:01] Selected Item code: 8961014240832 Item name: FAIR - LOVELY MEN 25GM Price: 100 Quantity: 1
+[2024-03-01 00:06:11] Selected Item code: 8961014236828 Item name: FAIR LOVELY FW 50G- Price: 200 Quantity: 1
+[2024-03-01 00:06:22] Selected Item code: 8961014246391 Item name: SUNSILIK NATRUALL Price: 230 Quantity: 1
+[2024-03-01 00:06:22] Maximum bill total reached. Completing transaction.
+[2024-03-01 00:06:22] Total sales for the day so far: 26804
+[2024-03-01 00:06:22] Remaining time until business hours: in hours:5.8937896586111105  in minutes: 353.6273795166666 in seconds: 21217.642771 
+[2024-03-01 00:06:22] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 21217.642771
+[2024-03-01 05:42:13] Starting pos software.
+[2024-03-01 05:42:13] Starting login details.
+[2024-03-01 05:42:43] Starting cashier login details.
+[2024-03-01 05:43:24] Bot started.
+[2024-03-01 05:43:24] Selected sale limit for the day: 54204
+[2024-03-01 05:43:24] Total sales limit for the day: 54204
+[2024-03-01 05:43:25] Item codes loaded successfully.
+[2024-03-01 05:43:25] Maximum bill total allowed: 1541
+[2024-03-01 05:43:25] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 1 item_total_price=320
+[2024-03-01 05:43:35] bill total so far =320
+[2024-03-01 05:43:35] Selected Item code: 8961014032642 Item name: WALLS CHAUNSA MANGO 1L- Price: 420 Quantity: 2 item_total_price=840
+[2024-03-01 05:43:56] bill total so far =1160
+[2024-03-01 05:43:56] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 2 item_total_price=320
+[2024-03-01 05:44:16] bill total so far =1480
+[2024-03-01 05:44:16] Total sales for the day so far: 1480
+[2024-03-01 05:44:16] Remaining time until business hours: in hours:0.2619580538888889  in minutes: 15.717483233333333 in seconds: 943.048994 
+[2024-03-01 05:44:16] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 943.048994
+[2024-03-01 06:00:00] Maximum bill total allowed: 1535
+[2024-03-01 06:00:00] Selected Item code: 8961014018196 Item name: RAFHAN VANILLA CUSTARD 275G Price: 190 Quantity: 1 item_total_price=190
+[2024-03-01 06:00:10] bill total so far =190
+[2024-03-01 06:00:10] Total sales for the day so far: 1670
+[2024-03-01 06:00:10] Waiting for 1432 seconds before next transaction.
+[2024-03-01 06:24:02] Maximum bill total allowed: 710
+[2024-03-01 06:24:02] Selected Item code: 8961008218779 Item name: CERELAC WHEAT 175G Price: 260 Quantity: 2 item_total_price=520
+[2024-03-01 06:24:22] bill total so far =520
+[2024-03-01 06:24:22] Selected Item code: 8961008212289 Item name: NESTLE WATER 1.5LTR Price: 100 Quantity: 1 item_total_price=100
+[2024-03-01 06:24:33] bill total so far =620
+[2024-03-01 06:24:33] Selected Item code: 8961014240016 Item name: FAIR LOVELY SOAP Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 06:24:33] Maximum bill total reached. Completing transaction.
+[2024-03-01 06:24:33] Total sales for the day so far: 2290
+[2024-03-01 06:24:33] Waiting for 1329 seconds before next transaction.
+[2024-03-01 06:46:42] Maximum bill total allowed: 584
+[2024-03-01 06:46:42] Selected Item code: 8961014241815 Item name: LIFEBOY HERBAL 90ML Price: 90 Quantity: 1 item_total_price=90
+[2024-03-01 06:46:52] bill total so far =90
+[2024-03-01 06:46:52] Selected Item code: 8961014018219 Item name: RAFHAN CUSTARD MANGO 275G Price: 190 Quantity: 3 item_total_price=570
+[2024-03-01 06:46:52] Maximum bill total reached. Completing transaction.
+[2024-03-01 06:46:52] Total sales for the day so far: 2380
+[2024-03-01 06:46:52] Waiting for 1371 seconds before next transaction.
+[2024-03-01 07:09:43] Maximum bill total allowed: 1754
+[2024-03-01 07:09:43] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 2 item_total_price=320
+[2024-03-01 07:10:04] bill total so far =320
+[2024-03-01 07:10:04] Selected Item code: 8961014246810 Item name: LIFEBUOY HERBAL STRONG 90ML Price: 140 Quantity: 2 item_total_price=280
+[2024-03-01 07:10:24] bill total so far =600
+[2024-03-01 07:10:25] Total sales for the day so far: 2980
+[2024-03-01 07:10:25] Waiting for 1488 seconds before next transaction.
+[2024-03-01 07:35:13] Maximum bill total allowed: 835
+[2024-03-01 07:35:13] Selected Item code: 8961014236774 Item name: FAIR AND LOVELY  MV 70GM Price: 350 Quantity: 1 item_total_price=350
+[2024-03-01 07:35:23] bill total so far =350
+[2024-03-01 07:35:23] Selected Item code: 8961014003949 Item name: SUNSILK CONDITIONER 180ML- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-01 07:35:23] Maximum bill total reached. Completing transaction.
+[2024-03-01 07:35:23] Selected Item code: 8961014241938 Item name: LIFEBUOY NATURALLY LONG 90ML Price: 99 Quantity: 3 item_total_price=297
+[2024-03-01 07:35:53] bill total so far =647
+[2024-03-01 07:35:53] Selected Item code: 8961014242966 Item name: F-L BB CRM 40 Price: 300 Quantity: 2 item_total_price=600
+[2024-03-01 07:35:53] Maximum bill total reached. Completing transaction.
+[2024-03-01 07:35:54] Total sales for the day so far: 3627
+[2024-03-01 07:35:54] Waiting for 1232 seconds before next transaction.
+[2024-03-01 07:56:26] Maximum bill total allowed: 1558
+[2024-03-01 07:56:26] Selected Item code: 8961014014815 Item name: KNORR SAUCE CG 300GM Price: 115 Quantity: 3 item_total_price=345
+[2024-03-01 07:56:56] bill total so far =345
+[2024-03-01 07:56:56] Total sales for the day so far: 3972
+[2024-03-01 07:56:57] Waiting for 1395 seconds before next transaction.
+[2024-03-01 08:20:12] Maximum bill total allowed: 1534
+[2024-03-01 08:20:12] Selected Item code: 8961014246391 Item name: SUNSILIK NATRUALL Price: 230 Quantity: 3 item_total_price=690
+[2024-03-01 08:20:42] bill total so far =690
+[2024-03-01 08:20:42] Selected Item code: 8961014246391 Item name: SUNSILIK NATRUALL Price: 230 Quantity: 3 item_total_price=690
+[2024-03-01 08:21:13] bill total so far =1380
+[2024-03-01 08:21:13] Selected Item code: 8961014029932 Item name: KNORR GREEN CHUTNEY 400GM- Price: 260 Quantity: 3 item_total_price=780
+[2024-03-01 08:21:13] Maximum bill total reached. Completing transaction.
+[2024-03-01 08:21:13] Selected Item code: 8961014236866 Item name: FAIR LOVELY HANDSOME 25G- Price: 200 Quantity: 1 item_total_price=200
+[2024-03-01 08:21:13] Maximum bill total reached. Completing transaction.
+[2024-03-01 08:21:13] Total sales for the day so far: 5352
+[2024-03-01 08:21:13] Waiting for 1232 seconds before next transaction.
+[2024-03-01 08:41:45] Maximum bill total allowed: 1062
+[2024-03-01 08:41:45] Selected Item code: 8961008216256 Item name: NES FRUITA VITALS 200ML ALL- Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 08:42:06] bill total so far =140
+[2024-03-01 08:42:06] Selected Item code: 8961014234947 Item name: FAIR-LOVELY HERBAL 25GM Price: 95 Quantity: 1 item_total_price=95
+[2024-03-01 08:42:16] bill total so far =235
+[2024-03-01 08:42:16] Total sales for the day so far: 5587
+[2024-03-01 08:42:16] Waiting for 1229 seconds before next transaction.
+[2024-03-01 09:02:45] Maximum bill total allowed: 1527
+[2024-03-01 09:02:45] Selected Item code: 8961014023800 Item name: WLLAS CORNETTO VANILLA CARMEL Price: 130 Quantity: 1 item_total_price=130
+[2024-03-01 09:02:55] bill total so far =130
+[2024-03-01 09:02:55] Selected Item code: 8961014032475 Item name: WALL K KULFA HALF Price: 270 Quantity: 1 item_total_price=270
+[2024-03-01 09:03:06] bill total so far =400
+[2024-03-01 09:03:06] Selected Item code: 8961008210827 Item name: NESTLE FORTIGROW 390GM Price: 500 Quantity: 1 item_total_price=500
+[2024-03-01 09:03:16] bill total so far =900
+[2024-03-01 09:03:16] Selected Item code: 8961014017892 Item name: KNOOR CHILLI GARLIC SAUCE 800ML Price: 255 Quantity: 2 item_total_price=510
+[2024-03-01 09:03:36] bill total so far =1410
+[2024-03-01 09:03:36] Total sales for the day so far: 6997
+[2024-03-01 09:03:36] Waiting for 1388 seconds before next transaction.
+[2024-03-01 09:26:44] Maximum bill total allowed: 1206
+[2024-03-01 09:26:44] Selected Item code: 8961014236613 Item name: S S NATURAL RECHARGE 380ML Price: 520 Quantity: 2 item_total_price=1040
+[2024-03-01 09:27:05] bill total so far =1040
+[2024-03-01 09:27:05] Selected Item code: 8961008206752 Item name: NESCAFE CHILLED LATTE COFEE 200ML Price: 100 Quantity: 2 item_total_price=200
+[2024-03-01 09:27:05] Maximum bill total reached. Completing transaction.
+[2024-03-01 09:27:05] Selected Item code: 8961008213927 Item name: NES FV ORANGE 1LTR- Price: 400 Quantity: 1 item_total_price=400
+[2024-03-01 09:27:05] Maximum bill total reached. Completing transaction.
+[2024-03-01 09:27:05] Total sales for the day so far: 8037
+[2024-03-01 09:27:05] Waiting for 1414 seconds before next transaction.
+[2024-03-01 09:50:39] Maximum bill total allowed: 878
+[2024-03-01 09:50:39] Selected Item code: 8961008216256 Item name: NES FRUITA VITALS 200ML ALL- Price: 70 Quantity: 1 item_total_price=70
+[2024-03-01 09:50:49] bill total so far =70
+[2024-03-01 09:50:49] Selected Item code: 8961014261714 Item name: FAIR & LOVELY TUBE 25G Price: 199 Quantity: 3 item_total_price=597
+[2024-03-01 09:51:20] bill total so far =667
+[2024-03-01 09:51:20] Selected Item code: 8961008213415 Item name: NESTLE MILK PAK 250ML. Price: 75 Quantity: 1 item_total_price=75
+[2024-03-01 09:51:30] bill total so far =742
+[2024-03-01 09:51:30] Selected Item code: 8961014021578 Item name: KNORR SAUCE CG 800G- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-01 09:51:30] Maximum bill total reached. Completing transaction.
+[2024-03-01 09:51:31] Total sales for the day so far: 8779
+[2024-03-01 09:51:31] Waiting for 1406 seconds before next transaction.
+[2024-03-01 10:14:57] Maximum bill total allowed: 644
+[2024-03-01 10:14:57] Selected Item code: 8961014255652 Item name: DOVE COND 180ML- Price: 480 Quantity: 1 item_total_price=480
+[2024-03-01 10:15:07] bill total so far =480
+[2024-03-01 10:15:07] Total sales for the day so far: 9259
+[2024-03-01 10:15:07] Waiting for 1390 seconds before next transaction.
+[2024-03-01 10:38:17] Maximum bill total allowed: 1052
+[2024-03-01 10:38:17] Selected Item code: 8961008212272 Item name: NESTLE WATER 500ML Price: 50 Quantity: 3 item_total_price=150
+[2024-03-01 10:38:48] bill total so far =150
+[2024-03-01 10:38:48] Selected Item code: 8961014241976 Item name: CLEAR SHAMPOO 80ML- Price: 130 Quantity: 2 item_total_price=260
+[2024-03-01 10:39:08] bill total so far =410
+[2024-03-01 10:39:08] Total sales for the day so far: 9669
+[2024-03-01 10:39:08] Waiting for 1498 seconds before next transaction.
+[2024-03-01 11:04:06] Maximum bill total allowed: 1252
+[2024-03-01 11:04:06] Selected Item code: 8961014032642 Item name: WALLS CHAUNSA MANGO 1L- Price: 420 Quantity: 1 item_total_price=420
+[2024-03-01 11:04:17] bill total so far =420
+[2024-03-01 11:04:17] Selected Item code: 8961014236880 Item name: FAIR LOVELY MEN FW 50G- Price: 200 Quantity: 2 item_total_price=400
+[2024-03-01 11:04:37] bill total so far =820
+[2024-03-01 11:04:37] Selected Item code: 8961014020625 Item name: KNORR BARBECUE SAUCE 400GM- Price: 260 Quantity: 3 item_total_price=780
+[2024-03-01 11:04:37] Maximum bill total reached. Completing transaction.
+[2024-03-01 11:04:37] Selected Item code: 8961014248029 Item name: SUNSILK SHAMPOO 360ML- Price: 720 Quantity: 1 item_total_price=720
+[2024-03-01 11:04:37] Maximum bill total reached. Completing transaction.
+[2024-03-01 11:04:37] Total sales for the day so far: 10489
+[2024-03-01 11:04:37] Waiting for 1238 seconds before next transaction.
+[2024-03-01 11:25:15] Maximum bill total allowed: 1403
+[2024-03-01 11:25:15] Selected Item code: 8961014022889 Item name: CHEESY NOODLES Price: 75 Quantity: 2 item_total_price=150
+[2024-03-01 11:25:36] bill total so far =150
+[2024-03-01 11:25:36] Selected Item code: 8961008215600 Item name: NESTLE MILO POWDER 300G- Price: 900 Quantity: 3 item_total_price=2700
+[2024-03-01 11:25:36] Maximum bill total reached. Completing transaction.
+[2024-03-01 11:25:36] Selected Item code: 8961008212289 Item name: NESTLE WATER 1.5LTR Price: 100 Quantity: 1 item_total_price=100
+[2024-03-01 11:25:46] bill total so far =250
+[2024-03-01 11:25:46] Selected Item code: 8961008214061 Item name: LACTOGROW 3 800G Price: 1100 Quantity: 1 item_total_price=1100
+[2024-03-01 11:25:56] bill total so far =1350
+[2024-03-01 11:25:56] Total sales for the day so far: 11839
+[2024-03-01 11:25:56] Waiting for 1492 seconds before next transaction.
+[2024-03-01 11:50:49] Maximum bill total allowed: 712
+[2024-03-01 11:50:49] Selected Item code: 8961008211220 Item name: NES FV APPLE 1LTR- Price: 350 Quantity: 1 item_total_price=350
+[2024-03-01 11:50:59] bill total so far =350
+[2024-03-01 11:50:59] Total sales for the day so far: 12189
+[2024-03-01 11:50:59] Waiting for 1404 seconds before next transaction.
+[2024-03-01 12:14:23] Maximum bill total allowed: 1758
+[2024-03-01 12:14:23] Selected Item code: 8961014236774 Item name: FAIR AND LOVELY  MV 70GM Price: 350 Quantity: 2 item_total_price=700
+[2024-03-01 12:14:43] bill total so far =700
+[2024-03-01 12:14:43] Selected Item code: 8961014106220 Item name: LIPTON TEA 95GM- Price: 270 Quantity: 1 item_total_price=270
+[2024-03-01 12:14:54] bill total so far =970
+[2024-03-01 12:14:54] Selected Item code: 8961014242348 Item name: TRESEMME SHAMPOO 170ML- Price: 470 Quantity: 3 item_total_price=1410
+[2024-03-01 12:14:54] Maximum bill total reached. Completing transaction.
+[2024-03-01 12:14:54] Total sales for the day so far: 13159
+[2024-03-01 12:14:54] Waiting for 1367 seconds before next transaction.
+[2024-03-01 12:37:41] Maximum bill total allowed: 1762
+[2024-03-01 12:37:41] Selected Item code: 8961014020533 Item name: RAFHAN CUSTARD STRAWBERRY 275G Price: 110 Quantity: 1 item_total_price=110
+[2024-03-01 12:37:51] bill total so far =110
+[2024-03-01 12:37:51] Total sales for the day so far: 13269
+[2024-03-01 12:37:51] Waiting for 1170 seconds before next transaction.
+[2024-03-01 12:57:21] Maximum bill total allowed: 1880
+[2024-03-01 12:57:21] Selected Item code: 8961014014228 Item name: WALLS CORNETTO DC CONE Price: 120 Quantity: 2 item_total_price=240
+[2024-03-01 12:57:42] bill total so far =240
+[2024-03-01 12:57:42] Selected Item code: 8961014003642 Item name: WALLS PISTA 1L Price: 400 Quantity: 2 item_total_price=800
+[2024-03-01 12:58:02] bill total so far =1040
+[2024-03-01 12:58:02] Selected Item code: 8961008211206 Item name: NES FV GUAVA 1LTR- Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-01 12:58:02] Maximum bill total reached. Completing transaction.
+[2024-03-01 12:58:02] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 3 item_total_price=210
+[2024-03-01 12:58:33] bill total so far =1250
+[2024-03-01 12:58:33] Total sales for the day so far: 14519
+[2024-03-01 12:58:33] Waiting for 1337 seconds before next transaction.
+[2024-03-01 13:20:50] Maximum bill total allowed: 982
+[2024-03-01 13:20:50] Selected Item code: 8961008217437 Item name: NESTLE EVERYDAY 230GM- Price: 480 Quantity: 3 item_total_price=1440
+[2024-03-01 13:20:50] Maximum bill total reached. Completing transaction.
+[2024-03-01 13:20:50] Selected Item code: 8961014242348 Item name: TRESEMME SHAMPOO 170ML- Price: 470 Quantity: 1 item_total_price=470
+[2024-03-01 13:21:00] bill total so far =470
+[2024-03-01 13:21:00] Selected Item code: 8961008222769 Item name: NESTLE NIDO GROWTH 200GM Price: 460 Quantity: 2 item_total_price=920
+[2024-03-01 13:21:00] Maximum bill total reached. Completing transaction.
+[2024-03-01 13:21:01] Total sales for the day so far: 14989
+[2024-03-01 13:21:01] Waiting for 1042 seconds before next transaction.
+[2024-03-01 13:38:23] Maximum bill total allowed: 1583
+[2024-03-01 13:38:23] Selected Item code: 8961008218328 Item name: NESTLE MILK PAK CREAM 200ML- Price: 220 Quantity: 3 item_total_price=660
+[2024-03-01 13:38:53] bill total so far =660
+[2024-03-01 13:38:54] Total sales for the day so far: 15649
+[2024-03-01 13:38:54] Waiting for 1364 seconds before next transaction.
+[2024-03-01 14:01:38] Maximum bill total allowed: 1802
+[2024-03-01 14:01:38] Selected Item code: 8961014004175 Item name: KNORR CHICKEN CORN SOUP Price: 150 Quantity: 1 item_total_price=150
+[2024-03-01 14:01:48] bill total so far =150
+[2024-03-01 14:01:48] Selected Item code: 8961008215600 Item name: NESTLE MILO POWDER 300G- Price: 900 Quantity: 1 item_total_price=900
+[2024-03-01 14:01:58] bill total so far =1050
+[2024-03-01 14:01:58] Total sales for the day so far: 16699
+[2024-03-01 14:01:58] Waiting for 951 seconds before next transaction.
+[2024-03-01 14:17:49] Maximum bill total allowed: 641
+[2024-03-01 14:17:49] Selected Item code: 8961014014228 Item name: WALLS CORNETTO DC CONE Price: 120 Quantity: 1 item_total_price=120
+[2024-03-01 14:18:00] bill total so far =120
+[2024-03-01 14:18:00] Selected Item code: 8961014236842 Item name: FAIR LOVELY LOTION 100ML- Price: 220 Quantity: 1 item_total_price=220
+[2024-03-01 14:18:10] bill total so far =340
+[2024-03-01 14:18:10] Selected Item code: 8961014243499 Item name: TRESEMME PR SHAMPOO 650ML Price: 860 Quantity: 3 item_total_price=2580
+[2024-03-01 14:18:10] Maximum bill total reached. Completing transaction.
+[2024-03-01 14:18:10] Total sales for the day so far: 17039
+[2024-03-01 14:18:10] Waiting for 1375 seconds before next transaction.
+[2024-03-01 14:41:05] Maximum bill total allowed: 1930
+[2024-03-01 14:41:05] Selected Item code: 8961014023817 Item name: WALLS CORENETTO POP CONE Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 14:41:25] bill total so far =140
+[2024-03-01 14:41:25] Selected Item code: 8961008220215 Item name: NESTLE LACTOGEN 1 400G- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-01 14:41:36] bill total so far =1320
+[2024-03-01 14:41:36] Total sales for the day so far: 18359
+[2024-03-01 14:41:36] Waiting for 933 seconds before next transaction.
+[2024-03-01 14:57:09] Maximum bill total allowed: 809
+[2024-03-01 14:57:09] Selected Item code: 8961014018202 Item name: RAFHAN STRAW CUSTARD 275G Price: 190 Quantity: 3 item_total_price=570
+[2024-03-01 14:57:40] bill total so far =570
+[2024-03-01 14:57:40] Total sales for the day so far: 18929
+[2024-03-01 14:57:40] Waiting for 1042 seconds before next transaction.
+[2024-03-01 15:15:02] Maximum bill total allowed: 1155
+[2024-03-01 15:15:02] Selected Item code: 8961014236774 Item name: FAIR AND LOVELY  MV 70GM Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-01 15:15:32] bill total so far =1050
+[2024-03-01 15:15:32] Selected Item code: 8961014106220 Item name: LIPTON TEA 95GM- Price: 270 Quantity: 1 item_total_price=270
+[2024-03-01 15:15:33] Maximum bill total reached. Completing transaction.
+[2024-03-01 15:15:33] Selected Item code: 8961008213392 Item name: NESTLE MILK PAK 1LTR Price: 280 Quantity: 3 item_total_price=840
+[2024-03-01 15:15:33] Maximum bill total reached. Completing transaction.
+[2024-03-01 15:15:33] Total sales for the day so far: 19979
+[2024-03-01 15:15:33] Waiting for 1358 seconds before next transaction.
+[2024-03-01 15:38:11] Maximum bill total allowed: 741
+[2024-03-01 15:38:11] Selected Item code: 8961008221151 Item name: NES NIDO 1+ 375GM Price: 840 Quantity: 2 item_total_price=1680
+[2024-03-01 15:38:11] Maximum bill total reached. Completing transaction.
+[2024-03-01 15:38:11] Selected Item code: 8961014255096 Item name: LUX SOAP 98GM Price: 99 Quantity: 1 item_total_price=99
+[2024-03-01 15:38:21] bill total so far =99
+[2024-03-01 15:38:21] Total sales for the day so far: 20078
+[2024-03-01 15:38:21] Waiting for 1324 seconds before next transaction.
+[2024-03-01 16:00:25] Maximum bill total allowed: 1117
+[2024-03-01 16:00:25] Selected Item code: 8961014235210 Item name: DOVE D-SHINE 360ML- Price: 400 Quantity: 1 item_total_price=400
+[2024-03-01 16:00:36] bill total so far =400
+[2024-03-01 16:00:36] Selected Item code: 8961014236781 Item name: FAIR LOVELY MV 25G- Price: 199 Quantity: 2 item_total_price=398
+[2024-03-01 16:00:56] bill total so far =798
+[2024-03-01 16:00:56] Total sales for the day so far: 20876
+[2024-03-01 16:00:56] Waiting for 1330 seconds before next transaction.
+[2024-03-01 16:23:06] Maximum bill total allowed: 703
+[2024-03-01 16:23:06] Selected Item code: 8961014003260 Item name: LIFEBUOY SHAMPOO 175ML- Price: 340 Quantity: 2 item_total_price=680
+[2024-03-01 16:23:27] bill total so far =680
+[2024-03-01 16:23:27] Selected Item code: 8961014236880 Item name: FAIR LOVELY MEN FW 50G- Price: 200 Quantity: 1 item_total_price=200
+[2024-03-01 16:23:27] Maximum bill total reached. Completing transaction.
+[2024-03-01 16:23:27] Selected Item code: 8961014248029 Item name: SUNSILK SHAMPOO 360ML- Price: 720 Quantity: 3 item_total_price=2160
+[2024-03-01 16:23:27] Maximum bill total reached. Completing transaction.
+[2024-03-01 16:23:27] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 1 item_total_price=70
+[2024-03-01 16:23:27] Maximum bill total reached. Completing transaction.
+[2024-03-01 16:23:27] Total sales for the day so far: 21556
+[2024-03-01 16:23:27] Waiting for 1377 seconds before next transaction.
+[2024-03-01 16:46:24] Maximum bill total allowed: 1955
+[2024-03-01 16:46:24] Selected Item code: 8961014253849 Item name: FAIR LOVLEY JAR 65ML- Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-01 16:46:55] bill total so far =1200
+[2024-03-01 16:46:55] Selected Item code: 8961008214061 Item name: LACTOGROW 3 800G Price: 1100 Quantity: 1 item_total_price=1100
+[2024-03-01 16:46:55] Maximum bill total reached. Completing transaction.
+[2024-03-01 16:46:55] Selected Item code: 8961014240832 Item name: FAIR - LOVELY MEN 25GM Price: 100 Quantity: 2 item_total_price=200
+[2024-03-01 16:47:15] bill total so far =1400
+[2024-03-01 16:47:15] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1 item_total_price=1380
+[2024-03-01 16:47:15] Maximum bill total reached. Completing transaction.
+[2024-03-01 16:47:15] Total sales for the day so far: 22956
+[2024-03-01 16:47:15] Waiting for 1332 seconds before next transaction.
+[2024-03-01 17:09:27] Maximum bill total allowed: 1169
+[2024-03-01 17:09:27] Selected Item code: 8961008211633 Item name: NESTLE BUNYAD 260GM Price: 400 Quantity: 1 item_total_price=400
+[2024-03-01 17:09:38] bill total so far =400
+[2024-03-01 17:09:38] Total sales for the day so far: 23356
+[2024-03-01 17:09:38] Waiting for 870 seconds before next transaction.
+[2024-03-01 17:24:08] Maximum bill total allowed: 1318
+[2024-03-01 17:24:08] Selected Item code: 8961008216140 Item name: NES FV RED ANNAR 1LTR- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-01 17:24:18] bill total so far =450
+[2024-03-01 17:24:18] Selected Item code: 8961008211084 Item name: NESCAFE COFFEE 200G Price: 2500 Quantity: 1 item_total_price=2500
+[2024-03-01 17:24:18] Maximum bill total reached. Completing transaction.
+[2024-03-01 17:24:18] Total sales for the day so far: 23806
+[2024-03-01 17:24:18] Waiting for 1072 seconds before next transaction.
+[2024-03-01 17:42:10] Maximum bill total allowed: 1857
+[2024-03-01 17:42:10] Selected Item code: 8961014240016 Item name: FAIR LOVELY SOAP Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 17:42:31] bill total so far =140
+[2024-03-01 17:42:31] Selected Item code: 8961008219080 Item name: NESCAFE HAZELNUT 220ML- Price: 170 Quantity: 2 item_total_price=340
+[2024-03-01 17:42:51] bill total so far =480
+[2024-03-01 17:42:51] Selected Item code: 8961008221021 Item name: NESTLE LACTOGEN 2 400G- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-01 17:43:01] bill total so far =1660
+[2024-03-01 17:43:01] Selected Item code: 8961014261714 Item name: FAIR & LOVELY TUBE 25G Price: 199 Quantity: 2 item_total_price=398
+[2024-03-01 17:43:02] Maximum bill total reached. Completing transaction.
+[2024-03-01 17:43:02] Total sales for the day so far: 25466
+[2024-03-01 17:43:02] Waiting for 1075 seconds before next transaction.
+[2024-03-01 18:00:57] Maximum bill total allowed: 1808
+[2024-03-01 18:00:57] Selected Item code: 8961008213453 Item name: LACTOGEN1 HAPPY SMOOTH800G Price: 1100 Quantity: 1 item_total_price=1100
+[2024-03-01 18:01:07] bill total so far =1100
+[2024-03-01 18:01:07] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 3 item_total_price=300
+[2024-03-01 18:01:38] bill total so far =1400
+[2024-03-01 18:01:38] Total sales for the day so far: 26866
+[2024-03-01 18:01:38] Waiting for 958 seconds before next transaction.
+[2024-03-01 18:17:36] Maximum bill total allowed: 1810
+[2024-03-01 18:17:36] Selected Item code: 8961014018486 Item name: WALLS STICK CHOC BAR- Price: 50 Quantity: 2 item_total_price=100
+[2024-03-01 18:17:56] bill total so far =100
+[2024-03-01 18:17:57] Total sales for the day so far: 26966
+[2024-03-01 18:17:57] Waiting for 720 seconds before next transaction.
+[2024-03-01 18:29:57] Maximum bill total allowed: 576
+[2024-03-01 18:29:57] Selected Item code: 8961014003697 Item name: WALLS STRWBERRY 1L Price: 350 Quantity: 2 item_total_price=700
+[2024-03-01 18:29:57] Maximum bill total reached. Completing transaction.
+[2024-03-01 18:29:57] Selected Item code: 8961008214061 Item name: LACTOGROW 3 800G Price: 1100 Quantity: 1 item_total_price=1100
+[2024-03-01 18:29:57] Maximum bill total reached. Completing transaction.
+[2024-03-01 18:29:57] Total sales for the day so far: 26966
+[2024-03-01 18:29:57] Waiting for 1118 seconds before next transaction.
+[2024-03-01 18:48:35] Maximum bill total allowed: 960
+[2024-03-01 18:48:35] Selected Item code: 8961014002768 Item name: WALLS MAGNUM CLASSIC 90ML Price: 280 Quantity: 3 item_total_price=840
+[2024-03-01 18:49:05] bill total so far =840
+[2024-03-01 18:49:05] Selected Item code: 8961014014815 Item name: KNORR SAUCE CG 300GM Price: 115 Quantity: 1 item_total_price=115
+[2024-03-01 18:49:16] bill total so far =955
+[2024-03-01 18:49:16] Total sales for the day so far: 27921
+[2024-03-01 18:49:16] Waiting for 982 seconds before next transaction.
+[2024-03-01 19:05:38] Maximum bill total allowed: 702
+[2024-03-01 19:05:38] Selected Item code: 8961014032192 Item name: WALLS CORENETTO COOKIES- Price: 120 Quantity: 2 item_total_price=240
+[2024-03-01 19:05:58] bill total so far =240
+[2024-03-01 19:05:59] Total sales for the day so far: 28161
+[2024-03-01 19:05:59] Waiting for 681 seconds before next transaction.
+[2024-03-01 19:17:20] Maximum bill total allowed: 972
+[2024-03-01 19:17:20] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 3 item_total_price=810
+[2024-03-01 19:17:50] bill total so far =810
+[2024-03-01 19:17:50] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 2 item_total_price=100
+[2024-03-01 19:18:11] bill total so far =910
+[2024-03-01 19:18:11] Total sales for the day so far: 29071
+[2024-03-01 19:18:11] Waiting for 962 seconds before next transaction.
+[2024-03-01 19:34:13] Maximum bill total allowed: 1107
+[2024-03-01 19:34:13] Selected Item code: 8961008217208 Item name: NES FV FALSA 1LTR- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-01 19:34:23] bill total so far =450
+[2024-03-01 19:34:23] Selected Item code: 8961008219080 Item name: NESCAFE HAZELNUT 220ML- Price: 170 Quantity: 2 item_total_price=340
+[2024-03-01 19:34:44] bill total so far =790
+[2024-03-01 19:34:44] Total sales for the day so far: 29861
+[2024-03-01 19:34:44] Waiting for 696 seconds before next transaction.
+[2024-03-01 19:46:20] Maximum bill total allowed: 1810
+[2024-03-01 19:46:20] Selected Item code: 8961014018233 Item name: RAFHAN CORNFIOUR 275G- Price: 160 Quantity: 3 item_total_price=480
+[2024-03-01 19:46:51] bill total so far =480
+[2024-03-01 19:46:51] Selected Item code: 8961014243413 Item name: PONDS LOTION 50ML- Price: 120 Quantity: 1 item_total_price=120
+[2024-03-01 19:47:01] bill total so far =600
+[2024-03-01 19:47:01] Selected Item code: 8961014020625 Item name: KNORR BARBECUE SAUCE 400GM- Price: 260 Quantity: 3 item_total_price=780
+[2024-03-01 19:47:31] bill total so far =1380
+[2024-03-01 19:47:32] Total sales for the day so far: 31241
+[2024-03-01 19:47:32] Waiting for 774 seconds before next transaction.
+[2024-03-01 20:00:26] Maximum bill total allowed: 1720
+[2024-03-01 20:00:26] Selected Item code: 8961008216966 Item name: NES FV FALSA 230ML- Price: 150 Quantity: 3 item_total_price=450
+[2024-03-01 20:00:56] bill total so far =450
+[2024-03-01 20:00:56] Selected Item code: 8961014234701 Item name: LIFEBUOY SOAP ALL - Price: 115 Quantity: 2 item_total_price=230
+[2024-03-01 20:01:17] bill total so far =680
+[2024-03-01 20:01:17] Selected Item code: 9556001249142 Item name: NESCAFE CLASSIC 100GM Price: 1400 Quantity: 1 item_total_price=1400
+[2024-03-01 20:01:17] Maximum bill total reached. Completing transaction.
+[2024-03-01 20:01:17] Selected Item code: 8961014241815 Item name: LIFEBOY HERBAL 90ML Price: 90 Quantity: 2 item_total_price=180
+[2024-03-01 20:01:37] bill total so far =860
+[2024-03-01 20:01:37] Total sales for the day so far: 32101
+[2024-03-01 20:01:37] Waiting for 1174 seconds before next transaction.
+[2024-03-01 20:21:11] Maximum bill total allowed: 943
+[2024-03-01 20:21:11] Selected Item code: 8961014003697 Item name: WALLS STRWBERRY 1L Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-01 20:21:11] Maximum bill total reached. Completing transaction.
+[2024-03-01 20:21:12] Total sales for the day so far: 32101
+[2024-03-01 20:21:12] Waiting for 1070 seconds before next transaction.
+[2024-03-01 20:39:02] Maximum bill total allowed: 507
+[2024-03-01 20:39:02] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 2 item_total_price=640
+[2024-03-01 20:39:02] Maximum bill total reached. Completing transaction.
+[2024-03-01 20:39:02] Selected Item code: 8961014236835 Item name: FAIR LOVELY FW 80G- Price: 300 Quantity: 1 item_total_price=300
+[2024-03-01 20:39:12] bill total so far =300
+[2024-03-01 20:39:12] Selected Item code: 8961014017700 Item name: WALLS KULFA PISTA TUB Price: 310 Quantity: 2 item_total_price=620
+[2024-03-01 20:39:12] Maximum bill total reached. Completing transaction.
+[2024-03-01 20:39:12] Total sales for the day so far: 32401
+[2024-03-01 20:39:12] Waiting for 905 seconds before next transaction.
+[2024-03-01 20:54:17] Maximum bill total allowed: 1199
+[2024-03-01 20:54:17] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 20:54:38] bill total so far =140
+[2024-03-01 20:54:38] Selected Item code: 8961014012859 Item name: CORNETTO COOKIES Price: 75 Quantity: 1 item_total_price=75
+[2024-03-01 20:54:48] bill total so far =215
+[2024-03-01 20:54:48] Selected Item code: 8961008213095 Item name: NESTLE EVER+TAPAL 250GM Price: 225 Quantity: 2 item_total_price=450
+[2024-03-01 20:55:08] bill total so far =665
+[2024-03-01 20:55:09] Total sales for the day so far: 33066
+[2024-03-01 20:55:09] Waiting for 1189 seconds before next transaction.
+[2024-03-01 21:14:58] Maximum bill total allowed: 1015
+[2024-03-01 21:14:58] Selected Item code: 8961014243413 Item name: PONDS LOTION 50ML- Price: 120 Quantity: 1 item_total_price=120
+[2024-03-01 21:15:08] bill total so far =120
+[2024-03-01 21:15:08] Selected Item code: 8961008222769 Item name: NESTLE NIDO GROWTH 200GM Price: 460 Quantity: 3 item_total_price=1380
+[2024-03-01 21:15:08] Maximum bill total reached. Completing transaction.
+[2024-03-01 21:15:08] Selected Item code: 8961014236798 Item name: FAIR LOVELY MV 50G- Price: 300 Quantity: 1 item_total_price=300
+[2024-03-01 21:15:18] bill total so far =420
+[2024-03-01 21:15:18] Total sales for the day so far: 33486
+[2024-03-01 21:15:18] Waiting for 792 seconds before next transaction.
+[2024-03-01 21:28:30] Maximum bill total allowed: 1683
+[2024-03-01 21:28:30] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-01 21:29:01] bill total so far =1200
+[2024-03-01 21:29:01] Selected Item code: 8961008213187 Item name: NES MILO ACTIVE GO 180ML- Price: 90 Quantity: 1 item_total_price=90
+[2024-03-01 21:29:11] bill total so far =1290
+[2024-03-01 21:29:11] Total sales for the day so far: 34776
+[2024-03-01 21:29:11] Waiting for 1153 seconds before next transaction.
+[2024-03-01 21:48:24] Maximum bill total allowed: 1499
+[2024-03-01 21:48:25] Selected Item code: 8961008213033 Item name: NESCAFE 3IN1 COFFEE 25GM Price: 60 Quantity: 3 item_total_price=180
+[2024-03-01 21:48:55] bill total so far =180
+[2024-03-01 21:48:55] Selected Item code: 8961008212289 Item name: NESTLE WATER 1.5LTR Price: 100 Quantity: 3 item_total_price=300
+[2024-03-01 21:49:26] bill total so far =480
+[2024-03-01 21:49:26] Total sales for the day so far: 35256
+[2024-03-01 21:49:26] Waiting for 614 seconds before next transaction.
+[2024-03-01 21:59:40] Maximum bill total allowed: 1531
+[2024-03-01 21:59:40] Selected Item code: 8961014236842 Item name: FAIR LOVELY LOTION 100ML- Price: 220 Quantity: 1 item_total_price=220
+[2024-03-01 21:59:50] bill total so far =220
+[2024-03-01 21:59:50] Selected Item code: 8961014023817 Item name: WALLS CORENETTO POP CONE Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 22:00:11] bill total so far =360
+[2024-03-01 22:00:11] Total sales for the day so far: 35616
+[2024-03-01 22:00:11] Waiting for 637 seconds before next transaction.
+[2024-03-01 22:10:48] Maximum bill total allowed: 1014
+[2024-03-01 22:10:48] Selected Item code: 8961014241259 Item name: LIFEBUOY HERBAL 146GM- Price: 115 Quantity: 2 item_total_price=230
+[2024-03-01 22:11:08] bill total so far =230
+[2024-03-01 22:11:08] Selected Item code: 8961014246810 Item name: LIFEBUOY HERBAL STRONG 90ML Price: 140 Quantity: 3 item_total_price=420
+[2024-03-01 22:11:39] bill total so far =650
+[2024-03-01 22:11:39] Total sales for the day so far: 36266
+[2024-03-01 22:11:39] Waiting for 1055 seconds before next transaction.
+[2024-03-01 22:29:14] Maximum bill total allowed: 1461
+[2024-03-01 22:29:14] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 2 item_total_price=140
+[2024-03-01 22:29:35] bill total so far =140
+[2024-03-01 22:29:35] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 2 item_total_price=800
+[2024-03-01 22:29:55] bill total so far =940
+[2024-03-01 22:29:55] Selected Item code: 9556001249142 Item name: NESCAFE CLASSIC 100GM Price: 1400 Quantity: 1 item_total_price=1400
+[2024-03-01 22:29:55] Maximum bill total reached. Completing transaction.
+[2024-03-01 22:29:55] Selected Item code: 8961008220208 Item name: NESTLE LACTOGEN 1 200G- Price: 600 Quantity: 3 item_total_price=1800
+[2024-03-01 22:29:55] Maximum bill total reached. Completing transaction.
+[2024-03-01 22:29:55] Total sales for the day so far: 37206
+[2024-03-01 22:29:55] Waiting for 908 seconds before next transaction.
+[2024-03-01 22:45:03] Maximum bill total allowed: 577
+[2024-03-01 22:45:03] Selected Item code: 8961008211244 Item name: NES FV KINNOW 1LTR- Price: 350 Quantity: 1 item_total_price=350
+[2024-03-01 22:45:14] bill total so far =350
+[2024-03-01 22:45:14] Selected Item code: 8961008213187 Item name: NES MILO ACTIVE GO 180ML- Price: 90 Quantity: 2 item_total_price=180
+[2024-03-01 22:45:34] bill total so far =530
+[2024-03-01 22:45:34] Total sales for the day so far: 37736
+[2024-03-01 22:45:34] Waiting for 1131 seconds before next transaction.
+[2024-03-01 23:04:25] Maximum bill total allowed: 1404
+[2024-03-01 23:04:25] Selected Item code: 8961014248951 Item name: PONDS BB DAY CREAM 50GM- Price: 450 Quantity: 3 item_total_price=1350
+[2024-03-01 23:04:56] bill total so far =1350
+[2024-03-01 23:04:56] Selected Item code: 8961008211909 Item name: NESTLE NIDO 1+ 375GM- Price: 850 Quantity: 1 item_total_price=850
+[2024-03-01 23:04:56] Maximum bill total reached. Completing transaction.
+[2024-03-01 23:04:56] Total sales for the day so far: 39086
+[2024-03-01 23:04:56] Waiting for 915 seconds before next transaction.
+[2024-03-01 23:20:11] Maximum bill total allowed: 1541
+[2024-03-01 23:20:11] Selected Item code: 8961014236873 Item name: FAIR LOVELY HANDSOME 50G- Price: 280 Quantity: 2 item_total_price=560
+[2024-03-01 23:20:32] bill total so far =560
+[2024-03-01 23:20:32] Selected Item code: 8961014255133 Item name: LUX SOAP 128GM- Price: 130 Quantity: 3 item_total_price=390
+[2024-03-01 23:21:02] bill total so far =950
+[2024-03-01 23:21:03] Total sales for the day so far: 40036
+[2024-03-01 23:21:03] Waiting for 1091 seconds before next transaction.
+[2024-03-01 23:39:14] Maximum bill total allowed: 1970
+[2024-03-01 23:39:14] Selected Item code: 8961008219974 Item name: NESTLE LACTOGROW3 200GM Price: 600 Quantity: 2 item_total_price=1200
+[2024-03-01 23:39:34] bill total so far =1200
+[2024-03-01 23:39:34] Selected Item code: 8961014021561 Item name: KNORR SAUCE CG 400G- Price: 260 Quantity: 2 item_total_price=520
+[2024-03-01 23:39:55] bill total so far =1720
+[2024-03-01 23:39:55] Selected Item code: 8961014032499 Item name: HELLMANNS REAL MAYO 450GM Price: 490 Quantity: 1 item_total_price=490
+[2024-03-01 23:39:55] Maximum bill total reached. Completing transaction.
+[2024-03-01 23:39:55] Total sales for the day so far: 41756
+[2024-03-01 23:39:55] Waiting for 619 seconds before next transaction.
+[2024-03-01 23:50:14] Maximum bill total allowed: 657
+[2024-03-01 23:50:14] Selected Item code: 8961014241112 Item name: FAIR-LOVELY ANTI PIMPLE FACE WASH 50GM Price: 120 Quantity: 3 item_total_price=360
+[2024-03-01 23:50:44] bill total so far =360
+[2024-03-01 23:50:44] Selected Item code: 8961014004939 Item name: WALLS MAGNUM HAZELNUT 90ML Price: 110 Quantity: 2 item_total_price=220
+[2024-03-01 23:51:05] bill total so far =580
+[2024-03-01 23:51:05] Total sales for the day so far: 42336
+[2024-03-01 23:51:05] Remaining time until business hours: in hours:6.148438583333333  in minutes: 368.906315 in seconds: 22134.3789 
+[2024-03-01 23:51:05] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 22134.3789
+[2024-03-02 06:00:00] Maximum bill total allowed: 719
+[2024-03-02 06:00:00] Selected Item code: 8961014003697 Item name: WALLS STRWBERRY 1L Price: 350 Quantity: 2 item_total_price=700
+[2024-03-02 06:00:20] bill total so far =700
+[2024-03-02 06:00:20] Total sales for the day so far: 43036
+[2024-03-02 06:00:20] Waiting for 1341 seconds before next transaction.
+[2024-03-02 06:22:41] Maximum bill total allowed: 1940
+[2024-03-02 06:22:41] Selected Item code: 8961008212470 Item name: NESTLE EVERYDAY org 350GM- Price: 720 Quantity: 3 item_total_price=2160
+[2024-03-02 06:22:41] Maximum bill total reached. Completing transaction.
+[2024-03-02 06:22:41] Total sales for the day so far: 43036
+[2024-03-02 06:22:41] Waiting for 1388 seconds before next transaction.
+[2024-03-02 06:45:49] Maximum bill total allowed: 525
+[2024-03-02 06:45:50] Selected Item code: 8961014248951 Item name: PONDS BB DAY CREAM 50GM- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-02 06:46:00] bill total so far =450
+[2024-03-02 06:46:00] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 3 item_total_price=1410
+[2024-03-02 06:46:00] Maximum bill total reached. Completing transaction.
+[2024-03-02 06:46:00] Selected Item code: 8961008211633 Item name: NESTLE BUNYAD 260GM Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-02 06:46:00] Maximum bill total reached. Completing transaction.
+[2024-03-02 06:46:00] Selected Item code: 8961014007640 Item name: PONDS LOTION 100ML- Price: 280 Quantity: 3 item_total_price=840
+[2024-03-02 06:46:00] Maximum bill total reached. Completing transaction.
+[2024-03-02 06:46:00] Total sales for the day so far: 43486
+[2024-03-02 06:46:00] Waiting for 1234 seconds before next transaction.
+[2024-03-02 07:06:34] Maximum bill total allowed: 1101
+[2024-03-02 07:06:34] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 2 item_total_price=540
+[2024-03-02 07:06:55] bill total so far =540
+[2024-03-02 07:06:55] Selected Item code: 8961014017717 Item name: WALLS MANGO VANILA TUB Price: 310 Quantity: 1 item_total_price=310
+[2024-03-02 07:07:05] bill total so far =850
+[2024-03-02 07:07:05] Selected Item code: 8961014245363 Item name: LIFEBOY S-S 650ML Price: 499 Quantity: 2 item_total_price=998
+[2024-03-02 07:07:05] Maximum bill total reached. Completing transaction.
+[2024-03-02 07:07:05] Total sales for the day so far: 44336
+[2024-03-02 07:07:05] Waiting for 1207 seconds before next transaction.
+[2024-03-02 07:27:12] Maximum bill total allowed: 1712
+[2024-03-02 07:27:12] Selected Item code: 8961008219882 Item name: NES MILO PET BOTTLE 220ML- Price: 160 Quantity: 1 item_total_price=160
+[2024-03-02 07:27:22] bill total so far =160
+[2024-03-02 07:27:22] Selected Item code: 9556001249142 Item name: NESCAFE CLASSIC 100GM Price: 1400 Quantity: 1 item_total_price=1400
+[2024-03-02 07:27:32] bill total so far =1560
+[2024-03-02 07:27:32] Selected Item code: 8961008219974 Item name: NESTLE LACTOGROW3 200GM Price: 600 Quantity: 1 item_total_price=600
+[2024-03-02 07:27:32] Maximum bill total reached. Completing transaction.
+[2024-03-02 07:27:33] Total sales for the day so far: 45896
+[2024-03-02 07:27:33] Waiting for 1357 seconds before next transaction.
+[2024-03-02 07:50:10] Maximum bill total allowed: 1897
+[2024-03-02 07:50:10] Selected Item code: 8961014236859 Item name: FAIR LOVELY LOTION 200ML- Price: 300 Quantity: 1 item_total_price=300
+[2024-03-02 07:50:20] bill total so far =300
+[2024-03-02 07:50:20] Total sales for the day so far: 46196
+[2024-03-02 07:50:20] Waiting for 1279 seconds before next transaction.
+[2024-03-02 08:11:39] Maximum bill total allowed: 1414
+[2024-03-02 08:11:39] Selected Item code: 8961014241112 Item name: FAIR-LOVELY ANTI PIMPLE FACE WASH 50GM Price: 120 Quantity: 1 item_total_price=120
+[2024-03-02 08:11:49] bill total so far =120
+[2024-03-02 08:11:49] Selected Item code: 8961008212173 Item name: NESTLE WHIPPING CREAM 200ML Price: 240 Quantity: 3 item_total_price=720
+[2024-03-02 08:12:20] bill total so far =840
+[2024-03-02 08:12:20] Selected Item code: 8961014017502 Item name: KNORR CHICKEN NODDLE 66GM- Price: 75 Quantity: 2 item_total_price=150
+[2024-03-02 08:12:41] bill total so far =990
+[2024-03-02 08:12:41] Selected Item code: 8961014251814 Item name: SUNSLILK NR SHAMPOO 400ML Price: 720 Quantity: 2 item_total_price=1440
+[2024-03-02 08:12:41] Maximum bill total reached. Completing transaction.
+[2024-03-02 08:12:41] Total sales for the day so far: 47186
+[2024-03-02 08:12:41] Waiting for 1416 seconds before next transaction.
+[2024-03-02 08:36:17] Maximum bill total allowed: 1639
+[2024-03-02 08:36:17] Selected Item code: 8961008210827 Item name: NESTLE FORTIGROW 390GM Price: 500 Quantity: 2 item_total_price=1000
+[2024-03-02 08:36:37] bill total so far =1000
+[2024-03-02 08:36:37] Total sales for the day so far: 48186
+[2024-03-02 08:36:37] Waiting for 1341 seconds before next transaction.
+[2024-03-02 08:58:58] Maximum bill total allowed: 971
+[2024-03-02 08:58:59] Selected Item code: 8961008210827 Item name: NESTLE FORTIGROW 390GM Price: 500 Quantity: 2 item_total_price=1000
+[2024-03-02 08:58:59] Maximum bill total reached. Completing transaction.
+[2024-03-02 08:58:59] Selected Item code: 8961014236798 Item name: FAIR LOVELY MV 50G- Price: 300 Quantity: 2 item_total_price=600
+[2024-03-02 08:59:19] bill total so far =600
+[2024-03-02 08:59:19] Total sales for the day so far: 48786
+[2024-03-02 08:59:19] Waiting for 1398 seconds before next transaction.
+[2024-03-02 09:22:39] Maximum bill total allowed: 1976
+[2024-03-02 09:22:39] Selected Item code: 8961008221014 Item name: NESTLE LACTOGEN 2 200G- Price: 600 Quantity: 3 item_total_price=1800
+[2024-03-02 09:23:10] bill total so far =1800
+[2024-03-02 09:23:10] Selected Item code: 8961008213491 Item name: NESTLE LACTOGEN RECOVER 200G Price: 800 Quantity: 2 item_total_price=1600
+[2024-03-02 09:23:10] Maximum bill total reached. Completing transaction.
+[2024-03-02 09:23:10] Selected Item code: 8961014255652 Item name: DOVE COND 180ML- Price: 480 Quantity: 3 item_total_price=1440
+[2024-03-02 09:23:10] Maximum bill total reached. Completing transaction.
+[2024-03-02 09:23:10] Selected Item code: 8961014023800 Item name: WLLAS CORNETTO VANILLA CARMEL Price: 130 Quantity: 1 item_total_price=130
+[2024-03-02 09:23:20] bill total so far =1930
+[2024-03-02 09:23:21] Total sales for the day so far: 50716
+[2024-03-02 09:23:21] Waiting for 1461 seconds before next transaction.
+[2024-03-02 09:47:42] Maximum bill total allowed: 1231
+[2024-03-02 09:47:42] Selected Item code: 8961008219882 Item name: NES MILO PET BOTTLE 220ML- Price: 160 Quantity: 3 item_total_price=480
+[2024-03-02 09:48:12] bill total so far =480
+[2024-03-02 09:48:12] Selected Item code: 8961014234701 Item name: LIFEBUOY SOAP ALL - Price: 115 Quantity: 2 item_total_price=230
+[2024-03-02 09:48:33] bill total so far =710
+[2024-03-02 09:48:33] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 3 item_total_price=300
+[2024-03-02 09:49:03] bill total so far =1010
+[2024-03-02 09:49:03] Selected Item code: 8961014003642 Item name: WALLS PISTA 1L Price: 400 Quantity: 1 item_total_price=400
+[2024-03-02 09:49:03] Maximum bill total reached. Completing transaction.
+[2024-03-02 09:49:04] Total sales for the day so far: 51726
+[2024-03-02 09:49:04] Waiting for 1284 seconds before next transaction.
+[2024-03-02 10:10:28] Maximum bill total allowed: 936
+[2024-03-02 10:10:28] Selected Item code: 8961014018219 Item name: RAFHAN CUSTARD MANGO 275G Price: 190 Quantity: 3 item_total_price=570
+[2024-03-02 10:10:58] bill total so far =570
+[2024-03-02 10:10:58] Selected Item code: 8961014007657 Item name: PONDS LOTION 200ML- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-02 10:10:58] Maximum bill total reached. Completing transaction.
+[2024-03-02 10:10:58] Selected Item code: 8961014245301 Item name: LIFE BOY NATURAL 375 Price: 320 Quantity: 3 item_total_price=960
+[2024-03-02 10:10:58] Maximum bill total reached. Completing transaction.
+[2024-03-02 10:10:58] Total sales for the day so far: 52296
+[2024-03-02 10:10:58] Waiting for 1402 seconds before next transaction.
+[2024-03-02 10:34:21] Maximum bill total allowed: 1943
+[2024-03-02 10:34:21] Selected Item code: 8961014235449 Item name: LIFEBUOY S.T 90ML Price: 90 Quantity: 2 item_total_price=180
+[2024-03-02 10:34:41] bill total so far =180
+[2024-03-02 10:34:41] Total sales for the day so far: 52476
+[2024-03-02 10:34:41] Waiting for 1214 seconds before next transaction.
+[2024-03-02 10:54:55] Maximum bill total allowed: 1320
+[2024-03-02 10:54:55] Selected Item code: 9556001249166 Item name: NESCAFE CLASSIC 200GM Price: 2750 Quantity: 1 item_total_price=2750
+[2024-03-02 10:54:55] Maximum bill total reached. Completing transaction.
+[2024-03-02 10:54:55] Total sales for the day so far: 52476
+[2024-03-02 10:54:55] Waiting for 1384 seconds before next transaction.
+[2024-03-02 11:17:59] Maximum bill total allowed: 1923
+[2024-03-02 11:17:59] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 1 item_total_price=400
+[2024-03-02 11:18:10] bill total so far =400
+[2024-03-02 11:18:10] Total sales for the day so far: 52876
+[2024-03-02 11:18:10] Waiting for 1366 seconds before next transaction.
+[2024-03-02 11:40:56] Maximum bill total allowed: 552
+[2024-03-02 11:40:56] Selected Item code: 8961008216973 Item name: NES FV RED ANAR 230ML- Price: 150 Quantity: 1 item_total_price=150
+[2024-03-02 11:41:06] bill total so far =150
+[2024-03-02 11:41:06] Selected Item code: 8961014241365 Item name: LIFE BOY CARE AND PROTECT 3IN1 PACK Price: 171 Quantity: 1 item_total_price=171
+[2024-03-02 11:41:16] bill total so far =321
+[2024-03-02 11:41:16] Selected Item code: 8961014242966 Item name: F-L BB CRM 40 Price: 300 Quantity: 1 item_total_price=300
+[2024-03-02 11:41:16] Maximum bill total reached. Completing transaction.
+[2024-03-02 11:41:17] Total sales for the day so far: 53197
+[2024-03-02 11:41:17] Waiting for 1205 seconds before next transaction.
+[2024-03-02 12:01:22] Maximum bill total allowed: 1861
+[2024-03-02 12:01:22] Selected Item code: 8961014242010 Item name: CLEAR SHAMPOO 380ML- Price: 780 Quantity: 1 item_total_price=780
+[2024-03-02 12:01:32] bill total so far =780
+[2024-03-02 12:01:32] Selected Item code: 8961014023800 Item name: WLLAS CORNETTO VANILLA CARMEL Price: 130 Quantity: 2 item_total_price=260
+[2024-03-02 12:01:52] bill total so far =1040
+[2024-03-02 12:01:52] Selected Item code: 8961014004182 Item name: CREAM CHICKEN SOUP Price: 115 Quantity: 2 item_total_price=230
+[2024-03-02 12:02:13] bill total so far =1270
+[2024-03-02 12:02:13] Total sales for the day so far: 54467
+[2024-03-02 12:02:13] Waiting for 1246 seconds before next transaction.
+[2024-03-02 12:22:59] Total sales limit for the day reached. Waiting for tomorrow.
+[2024-03-02 12:22:59] Selected sale limit for the day: 57819
+[2024-03-02 12:22:59] Remaining time until business hours: in hours:17.616789429444445  in minutes: 1057.0073657666667 in seconds: 63420.441946 
+[2024-03-02 12:22:59] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 63420.441946
+[2024-03-02 19:34:48] Starting pos software.
+[2024-03-02 19:34:48] Starting login details.
+[2024-03-02 19:35:19] Starting cashier login details.
+[2024-03-02 19:35:59] Bot started.
+[2024-03-02 19:35:59] Selected sale limit for the day: 58651
+[2024-03-02 19:35:59] Total sales limit for the day: 58651
+[2024-03-02 19:36:00] Item codes loaded successfully.
+[2024-03-02 19:36:00] Maximum bill total allowed: 700
+[2024-03-02 19:36:00] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 2 item_total_price=800
+[2024-03-02 19:36:01] Maximum bill total reached. Completing transaction.
+[2024-03-02 19:36:01] Total sales for the day so far: 0 target sale: 58651  target remaining: 58651
+[2024-03-02 19:36:01] Waiting for 1074 seconds before next transaction.
+[2024-03-02 19:53:55] Maximum bill total allowed: 972
+[2024-03-02 19:53:55] Selected Item code: 8961008211909 Item name: NESTLE NIDO 1+ 375GM- Price: 850 Quantity: 1 item_total_price=850
+[2024-03-02 19:54:05] bill total so far =850
+[2024-03-02 19:54:05] Selected Item code: 8961014236873 Item name: FAIR LOVELY HANDSOME 50G- Price: 280 Quantity: 2 item_total_price=560
+[2024-03-02 19:54:05] Maximum bill total reached. Completing transaction.
+[2024-03-02 19:54:05] Total sales for the day so far: 850 target sale: 58651  target remaining: 57801
+[2024-03-02 19:54:05] Waiting for 1070 seconds before next transaction.
+[2024-03-02 20:11:55] Maximum bill total allowed: 1634
+[2024-03-02 20:11:55] Selected Item code: 8961014245189 Item name: CLEAR SHAMPOO 185ML- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-02 20:12:06] bill total so far =450
+[2024-03-02 20:12:06] Selected Item code: 8961014253849 Item name: FAIR LOVLEY JAR 65ML- Price: 400 Quantity: 1 item_total_price=400
+[2024-03-02 20:12:16] bill total so far =850
+[2024-03-02 20:12:16] Selected Item code: 8961014017564 Item name: WALLS STICK DONUT- Price: 90 Quantity: 3 item_total_price=270
+[2024-03-02 20:12:46] bill total so far =1120
+[2024-03-02 20:12:47] Total sales for the day so far: 1970 target sale: 58651  target remaining: 56681
+[2024-03-02 20:12:47] Waiting for 981 seconds before next transaction.
+[2024-03-02 20:29:08] Maximum bill total allowed: 697
+[2024-03-02 20:29:08] Selected Item code: 8961014236859 Item name: FAIR LOVELY LOTION 200ML- Price: 300 Quantity: 3 item_total_price=900
+[2024-03-02 20:29:08] Maximum bill total reached. Completing transaction.
+[2024-03-02 20:29:08] Total sales for the day so far: 1970 target sale: 58651  target remaining: 56681
+[2024-03-02 20:29:08] Waiting for 857 seconds before next transaction.
+[2024-03-02 20:43:25] Maximum bill total allowed: 570
+[2024-03-02 20:43:25] Selected Item code: 8961008211633 Item name: NESTLE BUNYAD 260GM Price: 400 Quantity: 1 item_total_price=400
+[2024-03-02 20:43:35] bill total so far =400
+[2024-03-02 20:43:35] Total sales for the day so far: 2370 target sale: 58651  target remaining: 56281
+[2024-03-02 20:43:35] Waiting for 806 seconds before next transaction.
+[2024-03-02 20:57:01] Maximum bill total allowed: 1970
+[2024-03-02 20:57:01] Selected Item code: 8961014003949 Item name: SUNSILK CONDITIONER 180ML- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-02 20:57:22] bill total so far =900
+[2024-03-02 20:57:22] Selected Item code: 8961014032284 Item name: WALLS CORNETTO CD CONE Price: 160 Quantity: 1 item_total_price=160
+[2024-03-02 20:57:32] bill total so far =1060
+[2024-03-02 20:57:32] Selected Item code: 8961008211190 Item name: NES FV CHAUNSA 1LTR- Price: 340 Quantity: 1 item_total_price=340
+[2024-03-02 20:57:42] bill total so far =1400
+[2024-03-02 20:57:43] Total sales for the day so far: 3770 target sale: 58651  target remaining: 54881
+[2024-03-02 20:57:43] Waiting for 971 seconds before next transaction.
+[2024-03-02 21:13:54] Maximum bill total allowed: 1134
+[2024-03-02 21:13:54] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 2 item_total_price=540
+[2024-03-02 21:14:14] bill total so far =540
+[2024-03-02 21:14:14] Selected Item code: 8961014004175 Item name: KNORR CHICKEN CORN SOUP Price: 150 Quantity: 3 item_total_price=450
+[2024-03-02 21:14:45] bill total so far =990
+[2024-03-02 21:14:45] Selected Item code: 8961014017700 Item name: WALLS KULFA PISTA TUB Price: 310 Quantity: 2 item_total_price=620
+[2024-03-02 21:14:45] Maximum bill total reached. Completing transaction.
+[2024-03-02 21:14:45] Selected Item code: 8961014018585 Item name: RAFHAN STRAW CUSTARD Price: 100 Quantity: 1 item_total_price=100
+[2024-03-02 21:14:55] bill total so far =1090
+[2024-03-02 21:14:55] Total sales for the day so far: 4860 target sale: 58651  target remaining: 53791
+[2024-03-02 21:14:55] Waiting for 1017 seconds before next transaction.
+[2024-03-02 21:31:52] Maximum bill total allowed: 1732
+[2024-03-02 21:31:52] Selected Item code: 8961014017717 Item name: WALLS MANGO VANILA TUB Price: 310 Quantity: 3 item_total_price=930
+[2024-03-02 21:32:23] bill total so far =930
+[2024-03-02 21:32:23] Total sales for the day so far: 5790 target sale: 58651  target remaining: 52861
+[2024-03-02 21:32:23] Waiting for 1153 seconds before next transaction.
+[2024-03-02 21:51:36] Maximum bill total allowed: 1050
+[2024-03-02 21:51:36] Selected Item code: 8961014007657 Item name: PONDS LOTION 200ML- Price: 450 Quantity: 3 item_total_price=1350
+[2024-03-02 21:51:36] Maximum bill total reached. Completing transaction.
+[2024-03-02 21:51:36] Selected Item code: 8961008210834 Item name: NESTLE FORTIGROW 650GM Price: 750 Quantity: 2 item_total_price=1500
+[2024-03-02 21:51:36] Maximum bill total reached. Completing transaction.
+[2024-03-02 21:51:36] Total sales for the day so far: 5790 target sale: 58651  target remaining: 52861
+[2024-03-02 21:51:36] Waiting for 646 seconds before next transaction.
+[2024-03-02 22:02:22] Maximum bill total allowed: 1441
+[2024-03-02 22:02:22] Selected Item code: 8961014015522 Item name: WALLS KING KULFA 0.5L- Price: 290 Quantity: 2 item_total_price=580
+[2024-03-02 22:02:43] bill total so far =580
+[2024-03-02 22:02:43] Selected Item code: 8961008214054 Item name: NES LACTOGROW3 400GM- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-02 22:02:43] Maximum bill total reached. Completing transaction.
+[2024-03-02 22:02:43] Selected Item code: 8961014032499 Item name: HELLMANNS REAL MAYO 450GM Price: 490 Quantity: 3 item_total_price=1470
+[2024-03-02 22:02:43] Maximum bill total reached. Completing transaction.
+[2024-03-02 22:02:43] Selected Item code: 8961014003949 Item name: SUNSILK CONDITIONER 180ML- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-02 22:02:53] bill total so far =1030
+[2024-03-02 22:02:53] Total sales for the day so far: 6820 target sale: 58651  target remaining: 51831
+[2024-03-02 22:02:53] Waiting for 1053 seconds before next transaction.
+[2024-03-02 22:20:26] Maximum bill total allowed: 1247
+[2024-03-02 22:20:26] Selected Item code: 8961008206752 Item name: NESCAFE CHILLED LATTE COFEE 200ML Price: 100 Quantity: 3 item_total_price=300
+[2024-03-02 22:20:57] bill total so far =300
+[2024-03-02 22:20:57] Total sales for the day so far: 7120 target sale: 58651  target remaining: 51531
+[2024-03-02 22:20:57] Waiting for 805 seconds before next transaction.
+[2024-03-02 22:34:22] Maximum bill total allowed: 1820
+[2024-03-02 22:34:22] Selected Item code: 8961008220321 Item name: NESTLE CERELAC 3 FRUIT 350G Price: 750 Quantity: 3 item_total_price=2250
+[2024-03-02 22:34:22] Maximum bill total reached. Completing transaction.
+[2024-03-02 22:34:23] Total sales for the day so far: 7120 target sale: 58651  target remaining: 51531
+[2024-03-02 22:34:23] Waiting for 1029 seconds before next transaction.
+[2024-03-02 22:51:32] Maximum bill total allowed: 1734
+[2024-03-02 22:51:32] Selected Item code: 8961014235463 Item name: LIFEBUOY HERBAL 90ML Price: 100 Quantity: 2 item_total_price=200
+[2024-03-02 22:51:52] bill total so far =200
+[2024-03-02 22:51:52] Selected Item code: 8961014022889 Item name: CHEESY NOODLES Price: 75 Quantity: 3 item_total_price=225
+[2024-03-02 22:52:23] bill total so far =425
+[2024-03-02 22:52:23] Selected Item code: 8961014235210 Item name: DOVE D-SHINE 360ML- Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-02 22:52:53] bill total so far =1625
+[2024-03-02 22:52:54] Total sales for the day so far: 8745 target sale: 58651  target remaining: 49906
+[2024-03-02 22:52:54] Waiting for 931 seconds before next transaction.
+[2024-03-02 23:08:25] Maximum bill total allowed: 1075
+[2024-03-02 23:08:25] Selected Item code: 8961008212296 Item name: NESTLE WATER 5LTR Price: 260 Quantity: 2 item_total_price=520
+[2024-03-02 23:08:45] bill total so far =520
+[2024-03-02 23:08:45] Selected Item code: 8961014023817 Item name: WALLS CORENETTO POP CONE Price: 70 Quantity: 1 item_total_price=70
+[2024-03-02 23:08:55] bill total so far =590
+[2024-03-02 23:08:55] Total sales for the day so far: 9335 target sale: 58651  target remaining: 49316
+[2024-03-02 23:08:55] Waiting for 977 seconds before next transaction.
+[2024-03-02 23:25:12] Maximum bill total allowed: 910
+[2024-03-02 23:25:12] Selected Item code: 8961008216140 Item name: NES FV RED ANNAR 1LTR- Price: 450 Quantity: 3 item_total_price=1350
+[2024-03-02 23:25:12] Maximum bill total reached. Completing transaction.
+[2024-03-02 23:25:12] Selected Item code: 8961014008548 Item name: RAFHAN STRAW CUSTARD 45G Price: 25 Quantity: 2 item_total_price=50
+[2024-03-02 23:25:33] bill total so far =50
+[2024-03-02 23:25:33] Selected Item code: 8961008214160 Item name: NESTLE BUNYAD CHOCO 260GM- Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-02 23:25:33] Maximum bill total reached. Completing transaction.
+[2024-03-02 23:25:33] Total sales for the day so far: 9385 target sale: 58651  target remaining: 49266
+[2024-03-02 23:25:33] Waiting for 1142 seconds before next transaction.
+[2024-03-02 23:44:35] Maximum bill total allowed: 777
+[2024-03-02 23:44:35] Selected Item code: 8961014240016 Item name: FAIR LOVELY SOAP Price: 70 Quantity: 1 item_total_price=70
+[2024-03-02 23:44:45] bill total so far =70
+[2024-03-02 23:44:45] Selected Item code: 8961014029758 Item name: POUNDS CREAM Price: 300 Quantity: 3 item_total_price=900
+[2024-03-02 23:44:45] Maximum bill total reached. Completing transaction.
+[2024-03-02 23:44:45] Selected Item code: 8961008211206 Item name: NES FV GUAVA 1LTR- Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-02 23:44:45] Maximum bill total reached. Completing transaction.
+[2024-03-02 23:44:45] Selected Item code: 8961014008548 Item name: RAFHAN STRAW CUSTARD 45G Price: 25 Quantity: 2 item_total_price=50
+[2024-03-02 23:45:06] bill total so far =120
+[2024-03-02 23:45:06] Total sales for the day so far: 9505 target sale: 58651  target remaining: 49146
+[2024-03-02 23:45:06] Waiting for 1103 seconds before next transaction.
+[2024-03-03 00:03:29] Maximum bill total allowed: 1756
+[2024-03-03 00:03:29] Selected Item code: 8961014243413 Item name: PONDS LOTION 50ML- Price: 120 Quantity: 2 item_total_price=240
+[2024-03-03 00:03:50] bill total so far =240
+[2024-03-03 00:03:50] Selected Item code: 8961014023206 Item name: WALLS COOKIES CREME 1L- Price: 450 Quantity: 3 item_total_price=1350
+[2024-03-03 00:04:20] bill total so far =1590
+[2024-03-03 00:04:20] Selected Item code: 8961008211206 Item name: NES FV GUAVA 1LTR- Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-03 00:04:20] Maximum bill total reached. Completing transaction.
+[2024-03-03 00:04:20] Total sales for the day so far: 11095 target sale: 58651  target remaining: 47556
+[2024-03-03 00:04:20] Selected sale limit for the day: 56739
+[2024-03-03 00:04:20] Remaining time until business hours: in hours:5.927513978888888  in minutes: 355.65083873333333 in seconds: 21339.050324 
+[2024-03-03 03:34:10] Bot started.
+[2024-03-03 03:34:10] Selected sale limit for the day: 55027
+[2024-03-03 03:34:10] Total sales limit for the day: 55027
+[2024-03-03 03:34:11] Item codes loaded successfully.
+[2024-03-03 03:54:50] Bot started.
+[2024-03-03 03:54:53] Selected sale limit for the day: 51378
+[2024-03-03 03:55:21] Total sales limit for the day: 51378
+[2024-03-03 03:55:25] Item codes loaded successfully.
+[2024-03-03 03:56:25] Total sales for the day so far: 0 target sale: 51378  target remaining: 51378
+[2024-03-03 03:56:25] Selected sale limit for the day: 53821
+[2024-03-03 03:56:25] Remaining time until business hours: in hours:2.059556002222222  in minutes: 123.57336013333334 in seconds: 7414.401608 
+[2024-03-03 03:56:25] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 02:03:34
+[2024-03-03 03:57:20] Bot started.
+[2024-03-03 03:57:22] Selected sale limit for the day: 57654
+[2024-03-03 03:57:23] Total sales limit for the day: 57654
+[2024-03-03 03:57:25] Item codes loaded successfully.
+[2024-03-03 03:59:53] Bot started.
+[2024-03-03 03:59:55] Selected sale limit for the day: 59294
+[2024-03-03 03:59:56] Total sales limit for the day: 59294
+[2024-03-03 03:59:58] Item codes loaded successfully.
+[2024-03-03 04:04:33] Bot started.
+[2024-03-03 04:04:36] Selected sale limit for the day: 57817
+[2024-03-03 04:04:36] Total sales limit for the day: 57817
+[2024-03-03 04:04:37] Item codes loaded successfully.
+[2024-03-03 04:06:45] Selected Item code: 8961008220352 Item name: NESTLE CERELACE 175GM- Price: 390 Quantity: 2 item_total_price=780
+[2024-03-03 04:08:41] bill total so far =780
+[2024-03-03 04:08:52] Selected Item code: 8961014017571 Item name: WALLS FEAST CHOCOLATE- Price: 100 Quantity: 2 item_total_price=200
+[2024-03-03 04:09:53] bill total so far =980
+[2024-03-03 04:10:05] Total sales for the day so far: 980 target sale: 57817  target remaining: 56837
+[2024-03-03 04:10:31] Selected sale limit for the day: 56361
+[2024-03-03 04:10:33] Remaining time until business hours: in hours:1.8239190169444444  in minutes: 109.43514101666666 in seconds: 6566.108461 
+[2024-03-03 04:10:58] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 01:49:26
+[2024-03-03 04:11:56] Starting generate reports
+[2024-03-03 04:15:37] Bot started.
+[2024-03-03 04:15:37] Selected sale limit for the day: 54499
+[2024-03-03 04:15:37] Total sales limit for the day: 54499
+[2024-03-03 04:15:38] Item codes loaded successfully.
+[2024-03-03 04:15:38] Selected Item code: 8961008220499 Item name: NESTLE CERELAC YF 175GM- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-03 04:15:58] bill total so far =900
+[2024-03-03 04:15:58] Selected Item code: 8961014235067 Item name: LIFEBUOY SHAMPOO 375ML- Price: 600 Quantity: 2 item_total_price=1200
+[2024-03-03 04:15:58] Maximum bill total reached. Completing transaction.
+[2024-03-03 04:15:58] Selected Item code: 8961008213491 Item name: NESTLE LACTOGEN RECOVER 200G Price: 800 Quantity: 2 item_total_price=1600
+[2024-03-03 04:15:58] Maximum bill total reached. Completing transaction.
+[2024-03-03 04:15:59] Selected Item code: 8961014003642 Item name: WALLS PISTA 1L Price: 400 Quantity: 1 item_total_price=400
+[2024-03-03 04:16:09] bill total so far =1300
+[2024-03-03 04:16:09] Total sales for the day so far: 1300 target sale: 54499  target remaining: 53199
+[2024-03-03 04:16:09] Selected sale limit for the day: 52106
+[2024-03-03 04:16:09] Remaining time until business hours: in hours:1.7307117194444444  in minutes: 103.84270316666667 in seconds: 6230.56219 
+[2024-03-03 04:16:09] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 01:43:50
+[2024-03-03 04:16:25] Starting generate reports
+[2024-03-03 04:16:52] Stoping sale bot
+[2024-03-03 04:19:00] Bot started.
+[2024-03-03 04:19:00] Selected sale limit for the day: 52572
+[2024-03-03 04:19:00] Total sales limit for the day: 52572
+[2024-03-03 04:19:00] Item codes loaded successfully.
+[2024-03-03 04:19:00] Selected Item code: 8961014065565 Item name: WALLS VANILLA 1L Price: 340 Quantity: 3 item_total_price=1020
+[2024-03-03 04:19:31] bill total so far =1020
+[2024-03-03 04:19:31] Total sales for the day so far: 1020 target sale: 52572  target remaining: 51552
+[2024-03-03 04:19:31] Selected sale limit for the day: 53240
+[2024-03-03 04:19:31] Remaining time until business hours: in hours:1.6744934180555555  in minutes: 100.46960508333333 in seconds: 6028.176305 
+[2024-03-03 04:19:31] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 01:40:28
+[2024-03-03 05:45:58] Bot started.
+[2024-03-03 05:45:58] Selected sale limit for the day: 54993
+[2024-03-03 05:45:58] Total sales limit for the day: 54993
+[2024-03-03 05:45:59] Item codes loaded successfully.
+[2024-03-03 05:45:59] Selected Item code: 8961008206752 Item name: NESCAFE CHILLED LATTE COFEE 200ML Price: 100 Quantity: 2 item_total_price=200
+[2024-03-03 05:45:59] Maximum bill total reached. Completing transaction.
+[2024-03-03 05:45:59] Selected Item code: 8961008220208 Item name: NESTLE LACTOGEN 1 200G- Price: 600 Quantity: 2 item_total_price=1200
+[2024-03-03 05:46:19] bill total so far =1200
+[2024-03-03 05:46:19] Selected Item code: 9556001249142 Item name: NESCAFE CLASSIC 100GM Price: 1400 Quantity: 1 item_total_price=1400
+[2024-03-03 05:46:19] Maximum bill total reached. Completing transaction.
+[2024-03-03 05:46:19] Total sales for the day so far: 1200 target sale: 54993  target remaining: 53793
+[2024-03-03 05:46:19] Selected sale limit for the day: 59871
+[2024-03-03 05:46:19] Remaining time until business hours: in hours:0.2278320625  in minutes: 13.66992375 in seconds: 820.195425 
+[2024-03-03 05:46:19] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 00:13:40
+[2024-03-03 06:00:00] Total sales limit for the day: 59871
+[2024-03-03 06:00:00] Selected Item code: 8961008213927 Item name: NES FV ORANGE 1LTR- Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-03 06:00:30] bill total so far =1200
+[2024-03-03 06:00:30] Total sales for the day so far: 1200 target sale: 59871  target remaining: 58671
+[2024-03-03 06:00:30] Waiting for 1343 seconds before next transaction.
+[2024-03-03 06:22:53] Selected Item code: 8961008212616 Item name: NESTLE NIDO F-GROW 900GM Price: 1750 Quantity: 1 item_total_price=1750
+[2024-03-03 06:23:04] bill total so far =1750
+[2024-03-03 06:23:04] Selected Item code: 8961014017700 Item name: WALLS KULFA PISTA TUB Price: 310 Quantity: 2 item_total_price=620
+[2024-03-03 06:23:04] Maximum bill total reached. Completing transaction.
+[2024-03-03 06:23:04] Total sales for the day so far: 2950 target sale: 59871  target remaining: 56921
+[2024-03-03 06:23:04] Waiting for 1392 seconds before next transaction.
+[2024-03-03 06:46:16] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 2 item_total_price=100
+[2024-03-03 06:46:16] Maximum bill total reached. Completing transaction.
+[2024-03-03 06:46:16] Selected Item code: 9556001249166 Item name: NESCAFE CLASSIC 200GM Price: 2750 Quantity: 1 item_total_price=2750
+[2024-03-03 06:46:16] Maximum bill total reached. Completing transaction.
+[2024-03-03 06:46:16] Total sales for the day so far: 2950 target sale: 59871  target remaining: 56921
+[2024-03-03 06:46:16] Waiting for 1328 seconds before next transaction.
+[2024-03-03 07:08:24] Selected Item code: 8961008213392 Item name: NESTLE MILK PAK 1LTR Price: 280 Quantity: 1 item_total_price=280
+[2024-03-03 07:08:24] Maximum bill total reached. Completing transaction.
+[2024-03-03 07:08:24] Selected Item code: 8961008220208 Item name: NESTLE LACTOGEN 1 200G- Price: 600 Quantity: 1 item_total_price=600
+[2024-03-03 07:08:34] bill total so far =600
+[2024-03-03 07:08:34] Selected Item code: 8961014003703 Item name: WALLS ALMOND CRUNCH TUB 1L Price: 335 Quantity: 2 item_total_price=670
+[2024-03-03 07:08:55] bill total so far =1270
+[2024-03-03 07:08:55] Selected Item code: 8961008216249 Item name: NES FV RED GRAPES 1L Price: 400 Quantity: 1 item_total_price=400
+[2024-03-03 07:09:05] bill total so far =1670
+[2024-03-03 07:09:05] Total sales for the day so far: 4620 target sale: 59871  target remaining: 55251
+[2024-03-03 07:09:05] Waiting for 1280 seconds before next transaction.
+[2024-03-03 07:30:25] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 1 item_total_price=50
+[2024-03-03 07:30:25] Maximum bill total reached. Completing transaction.
+[2024-03-03 07:30:26] Total sales for the day so far: 4620 target sale: 59871  target remaining: 55251
+[2024-03-03 07:30:26] Waiting for 1390 seconds before next transaction.
+[2024-03-03 07:53:36] Selected Item code: 9556001249142 Item name: NESCAFE CLASSIC 100GM Price: 1400 Quantity: 1 item_total_price=1400
+[2024-03-03 07:53:46] bill total so far =1400
+[2024-03-03 07:53:46] Selected Item code: 8961008212173 Item name: NESTLE WHIPPING CREAM 200ML Price: 240 Quantity: 2 item_total_price=480
+[2024-03-03 07:54:06] bill total so far =1880
+[2024-03-03 07:54:06] Selected Item code: 8961008217543 Item name: NESTLE NIDO 1+ 375G Price: 770 Quantity: 2 item_total_price=1540
+[2024-03-03 07:54:06] Maximum bill total reached. Completing transaction.
+[2024-03-03 07:54:07] Total sales for the day so far: 6500 target sale: 59871  target remaining: 53371
+[2024-03-03 07:54:07] Waiting for 1391 seconds before next transaction.
+[2024-03-03 08:17:18] Selected Item code: 8961014002768 Item name: WALLS MAGNUM CLASSIC 90ML Price: 280 Quantity: 1 item_total_price=280
+[2024-03-03 08:17:18] Maximum bill total reached. Completing transaction.
+[2024-03-03 08:17:18] Selected Item code: 8961008017129 Item name: NESTLE CREAM TOPING 180ML Price: 70 Quantity: 1 item_total_price=70
+[2024-03-03 08:17:18] Maximum bill total reached. Completing transaction.
+[2024-03-03 08:17:18] Selected Item code: 8961008210285 Item name: NESTLE LACTOGROW 3 800GM Price: 1970 Quantity: 1 item_total_price=1970
+[2024-03-03 08:17:28] bill total so far =1970
+[2024-03-03 08:17:28] Total sales for the day so far: 8470 target sale: 59871  target remaining: 51401
+[2024-03-03 08:17:28] Waiting for 1309 seconds before next transaction.
+[2024-03-03 08:39:17] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1 item_total_price=1380
+[2024-03-03 08:39:27] bill total so far =1380
+[2024-03-03 08:39:27] Selected Item code: 8961008221014 Item name: NESTLE LACTOGEN 2 200G- Price: 600 Quantity: 3 item_total_price=1800
+[2024-03-03 08:39:27] Maximum bill total reached. Completing transaction.
+[2024-03-03 08:39:27] Selected Item code: 8961008211183 Item name: NES FV PEACH 1LTR- Price: 350 Quantity: 2 item_total_price=700
+[2024-03-03 08:39:27] Maximum bill total reached. Completing transaction.
+[2024-03-03 08:39:27] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 1 item_total_price=270
+[2024-03-03 08:39:38] bill total so far =1650
+[2024-03-03 08:39:38] Total sales for the day so far: 10120 target sale: 59871  target remaining: 49751
+[2024-03-03 08:39:38] Waiting for 1486 seconds before next transaction.
+[2024-03-03 09:04:24] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 3 item_total_price=480
+[2024-03-03 09:04:24] Maximum bill total reached. Completing transaction.
+[2024-03-03 09:04:24] Selected Item code: 8961014003697 Item name: WALLS STRWBERRY 1L Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-03 09:04:54] bill total so far =1050
+[2024-03-03 09:04:54] Selected Item code: 8961008213491 Item name: NESTLE LACTOGEN RECOVER 200G Price: 800 Quantity: 1 item_total_price=800
+[2024-03-03 09:05:05] bill total so far =1850
+[2024-03-03 09:05:05] Selected Item code: 8961014032178 Item name: WALLS FEAST CARAMEL- Price: 100 Quantity: 2 item_total_price=200
+[2024-03-03 09:05:05] Maximum bill total reached. Completing transaction.
+[2024-03-03 09:05:05] Total sales for the day so far: 11970 target sale: 59871  target remaining: 47901
+[2024-03-03 09:05:05] Waiting for 1374 seconds before next transaction.
+[2024-03-03 09:27:59] Selected Item code: 8961008211190 Item name: NES FV CHAUNSA 1LTR- Price: 340 Quantity: 2 item_total_price=680
+[2024-03-03 09:28:19] bill total so far =680
+[2024-03-03 09:28:19] Selected Item code: 8961014014228 Item name: WALLS CORNETTO DC CONE Price: 120 Quantity: 1 item_total_price=120
+[2024-03-03 09:28:30] bill total so far =800
+[2024-03-03 09:28:30] Selected Item code: 8961014004939 Item name: WALLS MAGNUM HAZELNUT 90ML Price: 110 Quantity: 3 item_total_price=330
+[2024-03-03 09:29:00] bill total so far =1130
+[2024-03-03 09:29:00] Total sales for the day so far: 13100 target sale: 59871  target remaining: 46771
+[2024-03-03 09:29:00] Waiting for 1492 seconds before next transaction.
+[2024-03-03 09:53:53] Selected Item code: 8961008210223 Item name: NESTLE LACTOGEN 2 800GM Price: 1970 Quantity: 1 item_total_price=1970
+[2024-03-03 09:54:03] bill total so far =1970
+[2024-03-03 09:54:03] Selected Item code: 8961014014198 Item name: WALLS CORNETTO FB CONE- Price: 120 Quantity: 3 item_total_price=360
+[2024-03-03 09:54:03] Maximum bill total reached. Completing transaction.
+[2024-03-03 09:54:03] Selected Item code: 8961014032703 Item name: WALLS CARAMEL VANILLA 1LTR- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-03 09:54:03] Maximum bill total reached. Completing transaction.
+[2024-03-03 09:54:03] Total sales for the day so far: 15070 target sale: 59871  target remaining: 44801
+[2024-03-03 09:54:03] Waiting for 1434 seconds before next transaction.
+[2024-03-03 10:17:57] Selected Item code: 8961014023817 Item name: WALLS CORENETTO POP CONE Price: 70 Quantity: 2 item_total_price=140
+[2024-03-03 10:17:57] Maximum bill total reached. Completing transaction.
+[2024-03-03 10:17:57] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 1 item_total_price=70
+[2024-03-03 10:17:57] Maximum bill total reached. Completing transaction.
+[2024-03-03 10:17:57] Total sales for the day so far: 15070 target sale: 59871  target remaining: 44801
+[2024-03-03 10:17:57] Waiting for 1433 seconds before next transaction.
+[2024-03-03 10:41:50] Selected Item code: 8961008215600 Item name: NESTLE MILO POWDER 300G- Price: 900 Quantity: 3 item_total_price=2700
+[2024-03-03 10:41:50] Maximum bill total reached. Completing transaction.
+[2024-03-03 10:41:50] Selected Item code: 8961014012859 Item name: CORNETTO COOKIES Price: 75 Quantity: 3 item_total_price=225
+[2024-03-03 10:41:50] Maximum bill total reached. Completing transaction.
+[2024-03-03 10:41:51] Total sales for the day so far: 15070 target sale: 59871  target remaining: 44801
+[2024-03-03 10:41:51] Waiting for 1269 seconds before next transaction.
+[2024-03-03 11:03:00] Selected Item code: 8961014032284 Item name: WALLS CORNETTO CD CONE Price: 160 Quantity: 2 item_total_price=320
+[2024-03-03 11:03:00] Maximum bill total reached. Completing transaction.
+[2024-03-03 11:03:00] Selected Item code: 8961008216249 Item name: NES FV RED GRAPES 1L Price: 400 Quantity: 2 item_total_price=800
+[2024-03-03 11:03:20] bill total so far =800
+[2024-03-03 11:03:20] Total sales for the day so far: 15870 target sale: 59871  target remaining: 44001
+[2024-03-03 11:03:20] Waiting for 1407 seconds before next transaction.
+[2024-03-03 11:26:49] Selected Item code: 8961008214634 Item name: NESTLE MILK PAK S CREAM 180ML Price: 210 Quantity: 1 item_total_price=210
+[2024-03-03 11:26:49] Maximum bill total reached. Completing transaction.
+[2024-03-03 11:26:49] Total sales for the day so far: 15870 target sale: 59871  target remaining: 44001
+[2024-03-03 11:26:49] Waiting for 1486 seconds before next transaction.
+[2024-03-03 11:51:35] Selected Item code: 8961008213187 Item name: NES MILO ACTIVE GO 180ML- Price: 90 Quantity: 2 item_total_price=180
+[2024-03-03 11:51:35] Maximum bill total reached. Completing transaction.
+[2024-03-03 11:51:35] Selected Item code: 8961008222561 Item name: NIDO 1+ 150G Price: 450 Quantity: 1 item_total_price=450
+[2024-03-03 11:51:36] Maximum bill total reached. Completing transaction.
+[2024-03-03 11:51:36] Total sales for the day so far: 15870 target sale: 59871  target remaining: 44001
+[2024-03-03 11:51:36] Waiting for 1424 seconds before next transaction.
+[2024-03-03 12:15:20] Selected Item code: 8961014051605 Item name: WALLS CARAMEL CRUNCH CHOC TUB Price: 600 Quantity: 1 item_total_price=600
+[2024-03-03 12:15:30] bill total so far =600
+[2024-03-03 12:15:30] Selected Item code: 8961008210506 Item name: NESTLE CERELACE WHEATS 350GM Price: 630 Quantity: 3 item_total_price=1890
+[2024-03-03 12:15:30] Maximum bill total reached. Completing transaction.
+[2024-03-03 12:15:30] Selected Item code: 8961008209432 Item name: NESTLE NESVITA MOVE 200ML Price: 80 Quantity: 3 item_total_price=240
+[2024-03-03 12:16:01] bill total so far =840
+[2024-03-03 12:16:01] Total sales for the day so far: 16710 target sale: 59871  target remaining: 43161
+[2024-03-03 12:16:01] Waiting for 1095 seconds before next transaction.
+[2024-03-03 12:34:16] Selected Item code: 8961008220758 Item name: MILK PAK ACTIVE 1L Price: 280 Quantity: 2 item_total_price=560
+[2024-03-03 12:34:36] bill total so far =560
+[2024-03-03 12:34:36] Selected Item code: 8961014236613 Item name: S S NATURAL RECHARGE 380ML Price: 520 Quantity: 2 item_total_price=1040
+[2024-03-03 12:34:57] bill total so far =1600
+[2024-03-03 12:34:57] Selected Item code: 8961014051186 Item name: WALLS CHOCOLATE 1L Price: 290 Quantity: 2 item_total_price=580
+[2024-03-03 12:34:57] Maximum bill total reached. Completing transaction.
+[2024-03-03 12:34:57] Selected Item code: 8961014002768 Item name: WALLS MAGNUM CLASSIC 90ML Price: 280 Quantity: 2 item_total_price=560
+[2024-03-03 12:34:57] Maximum bill total reached. Completing transaction.
+[2024-03-03 12:34:57] Total sales for the day so far: 18310 target sale: 59871  target remaining: 41561
+[2024-03-03 12:34:57] Waiting for 1066 seconds before next transaction.
+[2024-03-03 12:52:43] Selected Item code: 8961014032642 Item name: WALLS CHAUNSA MANGO 1L- Price: 420 Quantity: 1 item_total_price=420
+[2024-03-03 12:52:43] Maximum bill total reached. Completing transaction.
+[2024-03-03 12:52:43] Total sales for the day so far: 18310 target sale: 59871  target remaining: 41561
+[2024-03-03 12:52:43] Waiting for 1130 seconds before next transaction.
+[2024-03-03 13:11:33] Selected Item code: 8961008213927 Item name: NES FV ORANGE 1LTR- Price: 400 Quantity: 1 item_total_price=400
+[2024-03-03 13:11:33] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:11:33] Selected Item code: 8961008220352 Item name: NESTLE CERELACE 175GM- Price: 390 Quantity: 1 item_total_price=390
+[2024-03-03 13:11:33] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:11:33] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 2 item_total_price=320
+[2024-03-03 13:11:33] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:11:33] Selected Item code: 8961014234701 Item name: LIFEBUOY SOAP ALL - Price: 115 Quantity: 3 item_total_price=345
+[2024-03-03 13:11:33] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:11:34] Total sales for the day so far: 18310 target sale: 59871  target remaining: 41561
+[2024-03-03 13:11:34] Waiting for 1273 seconds before next transaction.
+[2024-03-03 13:32:47] Selected Item code: 8961008212173 Item name: NESTLE WHIPPING CREAM 200ML Price: 240 Quantity: 2 item_total_price=480
+[2024-03-03 13:32:47] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:32:47] Selected Item code: 8961008213088 Item name: NESTLE EVER+TAPAL 600GM Price: 500 Quantity: 2 item_total_price=1000
+[2024-03-03 13:33:07] bill total so far =1000
+[2024-03-03 13:33:07] Total sales for the day so far: 19310 target sale: 59871  target remaining: 40561
+[2024-03-03 13:33:07] Waiting for 1136 seconds before next transaction.
+[2024-03-03 13:52:03] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 1 item_total_price=470
+[2024-03-03 13:52:03] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:52:03] Selected Item code: 8961014051186 Item name: WALLS CHOCOLATE 1L Price: 290 Quantity: 2 item_total_price=580
+[2024-03-03 13:52:24] bill total so far =580
+[2024-03-03 13:52:24] Selected Item code: 8961008210506 Item name: NESTLE CERELACE WHEATS 350GM Price: 630 Quantity: 3 item_total_price=1890
+[2024-03-03 13:52:24] Maximum bill total reached. Completing transaction.
+[2024-03-03 13:52:24] Total sales for the day so far: 19890 target sale: 59871  target remaining: 39981
+[2024-03-03 13:52:24] Waiting for 1359 seconds before next transaction.
+[2024-03-03 14:15:03] Selected Item code: 8961008214061 Item name: LACTOGROW 3 800G Price: 1100 Quantity: 1 item_total_price=1100
+[2024-03-03 14:15:13] bill total so far =1100
+[2024-03-03 14:15:14] Total sales for the day so far: 20990 target sale: 59871  target remaining: 38881
+[2024-03-03 14:15:14] Waiting for 1092 seconds before next transaction.
+[2024-03-03 14:33:26] Selected Item code: 8961014050035 Item name: WALLS STICK JET SPOT Price: 25 Quantity: 1 item_total_price=25
+[2024-03-03 14:33:26] Maximum bill total reached. Completing transaction.
+[2024-03-03 14:33:26] Selected Item code: 8961008221014 Item name: NESTLE LACTOGEN 2 200G- Price: 600 Quantity: 3 item_total_price=1800
+[2024-03-03 14:33:56] bill total so far =1800
+[2024-03-03 14:33:56] Selected Item code: 8961008212418 Item name: NESTLE RAITA 250GM ALL Price: 160 Quantity: 2 item_total_price=320
+[2024-03-03 14:33:56] Maximum bill total reached. Completing transaction.
+[2024-03-03 14:33:56] Selected Item code: 8961008212470 Item name: NESTLE EVERYDAY org 350GM- Price: 720 Quantity: 1 item_total_price=720
+[2024-03-03 14:33:56] Maximum bill total reached. Completing transaction.
+[2024-03-03 14:33:56] Total sales for the day so far: 22790 target sale: 59871  target remaining: 37081
+[2024-03-03 14:33:57] Waiting for 1052 seconds before next transaction.
+[2024-03-03 14:51:29] Selected Item code: 8961014051186 Item name: WALLS CHOCOLATE 1L Price: 290 Quantity: 1 item_total_price=290
+[2024-03-03 14:51:29] Maximum bill total reached. Completing transaction.
+[2024-03-03 14:51:29] Selected Item code: 8961008211183 Item name: NES FV PEACH 1LTR- Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-03 14:51:59] bill total so far =1050
+[2024-03-03 14:51:59] Selected Item code: 8961008213491 Item name: NESTLE LACTOGEN RECOVER 200G Price: 800 Quantity: 3 item_total_price=2400
+[2024-03-03 14:51:59] Maximum bill total reached. Completing transaction.
+[2024-03-03 14:52:00] Total sales for the day so far: 23840 target sale: 59871  target remaining: 36031
+[2024-03-03 14:52:00] Waiting for 1359 seconds before next transaction.
+[2024-03-03 15:14:39] Selected Item code: 8961014051582 Item name: WALLS KING KULFA TUB Price: 800 Quantity: 3 item_total_price=2400
+[2024-03-03 15:14:39] Maximum bill total reached. Completing transaction.
+[2024-03-03 15:14:39] Selected Item code: 8961008217208 Item name: NES FV FALSA 1LTR- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-03 15:14:59] bill total so far =900
+[2024-03-03 15:14:59] Selected Item code: 8961008211275 Item name: NESTLE NESVITA MOVE 1L Price: 260 Quantity: 2 item_total_price=520
+[2024-03-03 15:15:20] bill total so far =1420
+[2024-03-03 15:15:20] Selected Item code: 8961008210834 Item name: NESTLE FORTIGROW 650GM Price: 750 Quantity: 2 item_total_price=1500
+[2024-03-03 15:15:20] Maximum bill total reached. Completing transaction.
+[2024-03-03 15:15:20] Total sales for the day so far: 25260 target sale: 59871  target remaining: 34611
+[2024-03-03 15:15:20] Waiting for 1060 seconds before next transaction.
+[2024-03-03 15:33:00] Selected Item code: 8961008221021 Item name: NESTLE LACTOGEN 2 400G- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-03 15:33:10] bill total so far =1180
+[2024-03-03 15:33:10] Total sales for the day so far: 26440 target sale: 59871  target remaining: 33431
+[2024-03-03 15:33:10] Waiting for 1177 seconds before next transaction.
+[2024-03-03 15:52:47] Selected Item code: 8961008213415 Item name: NESTLE MILK PAK 250ML. Price: 75 Quantity: 3 item_total_price=225
+[2024-03-03 15:52:47] Maximum bill total reached. Completing transaction.
+[2024-03-03 15:52:47] Selected Item code: 8961008217260 Item name: NESTLE KASHMIRI CHAI 18g Price: 75 Quantity: 3 item_total_price=225
+[2024-03-03 15:52:47] Maximum bill total reached. Completing transaction.
+[2024-03-03 15:52:47] Selected Item code: 8961014023817 Item name: WALLS CORENETTO POP CONE Price: 70 Quantity: 1 item_total_price=70
+[2024-03-03 15:52:47] Maximum bill total reached. Completing transaction.
+[2024-03-03 15:52:47] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 3 item_total_price=150
+[2024-03-03 15:52:47] Maximum bill total reached. Completing transaction.
+[2024-03-03 15:52:48] Total sales for the day so far: 26440 target sale: 59871  target remaining: 33431
+[2024-03-03 15:52:48] Waiting for 1284 seconds before next transaction.
+[2024-03-03 16:14:12] Selected Item code: 8961008214191 Item name: NESTLE BUTTER 100G Price: 270 Quantity: 1 item_total_price=270
+[2024-03-03 16:14:12] Maximum bill total reached. Completing transaction.
+[2024-03-03 16:14:12] Selected Item code: 8961008211190 Item name: NES FV CHAUNSA 1LTR- Price: 340 Quantity: 1 item_total_price=340
+[2024-03-03 16:14:12] Maximum bill total reached. Completing transaction.
+[2024-03-03 16:14:12] Selected Item code: 8961008217260 Item name: NESTLE KASHMIRI CHAI 18g Price: 75 Quantity: 2 item_total_price=150
+[2024-03-03 16:14:12] Maximum bill total reached. Completing transaction.
+[2024-03-03 16:14:12] Total sales for the day so far: 26440 target sale: 59871  target remaining: 33431
+[2024-03-03 16:14:12] Waiting for 1192 seconds before next transaction.
+[2024-03-03 16:34:04] Selected Item code: 4800361000239 Item name: NESTLE KOKO KRUCH 300GM Price: 1350 Quantity: 1 item_total_price=1350
+[2024-03-03 16:34:14] bill total so far =1350
+[2024-03-03 16:34:14] Selected Item code: 8961014037135 Item name: KNORR KETCHUP 400GM- Price: 260 Quantity: 2 item_total_price=520
+[2024-03-03 16:34:35] bill total so far =1870
+[2024-03-03 16:34:35] Selected Item code: 8961008220208 Item name: NESTLE LACTOGEN 1 200G- Price: 600 Quantity: 1 item_total_price=600
+[2024-03-03 16:34:35] Maximum bill total reached. Completing transaction.
+[2024-03-03 16:34:35] Total sales for the day so far: 28310 target sale: 59871  target remaining: 31561
+[2024-03-03 16:34:35] Waiting for 1202 seconds before next transaction.
+[2024-03-03 16:54:37] Selected Item code: 8961008214184 Item name: NESTLE DAIRY BUTTER 200G Price: 470 Quantity: 1 item_total_price=470
+[2024-03-03 16:54:37] Maximum bill total reached. Completing transaction.
+[2024-03-03 16:54:37] Total sales for the day so far: 28310 target sale: 59871  target remaining: 31561
+[2024-03-03 16:54:37] Waiting for 996 seconds before next transaction.
+[2024-03-03 17:11:13] Selected Item code: 8961008211923 Item name: NESTLE NIDO 3+ 800GM Price: 1610 Quantity: 1 item_total_price=1610
+[2024-03-03 17:11:23] bill total so far =1610
+[2024-03-03 17:11:24] Total sales for the day so far: 29920 target sale: 59871  target remaining: 29951
+[2024-03-03 17:11:24] Waiting for 946 seconds before next transaction.
+[2024-03-03 17:27:10] Selected Item code: 8961008210834 Item name: NESTLE FORTIGROW 650GM Price: 750 Quantity: 3 item_total_price=2250
+[2024-03-03 17:27:10] Maximum bill total reached. Completing transaction.
+[2024-03-03 17:27:10] Selected Item code: 8961014051285 Item name: WALLS STICK BADAMI 55ML Price: 35 Quantity: 2 item_total_price=70
+[2024-03-03 17:27:10] Maximum bill total reached. Completing transaction.
+[2024-03-03 17:27:10] Selected Item code: 8961014014198 Item name: WALLS CORNETTO FB CONE- Price: 120 Quantity: 1 item_total_price=120
+[2024-03-03 17:27:10] Maximum bill total reached. Completing transaction.
+[2024-03-03 17:27:10] Selected Item code: 8961008216041 Item name: CERELAC NATURES 175GM Price: 520 Quantity: 1 item_total_price=520
+[2024-03-03 17:27:20] bill total so far =520
+[2024-03-03 17:27:20] Total sales for the day so far: 30440 target sale: 59871  target remaining: 29431
+[2024-03-03 17:27:20] Waiting for 907 seconds before next transaction.
+[2024-03-03 17:42:27] Selected Item code: 8961008211183 Item name: NES FV PEACH 1LTR- Price: 350 Quantity: 2 item_total_price=700
+[2024-03-03 17:42:48] bill total so far =700
+[2024-03-03 17:42:48] Total sales for the day so far: 31140 target sale: 59871  target remaining: 28731
+[2024-03-03 17:42:48] Waiting for 1149 seconds before next transaction.
+[2024-03-03 18:01:57] Selected Item code: 4800361002851 Item name: NESTLE KOKO KRUCH 150GM Price: 750 Quantity: 3 item_total_price=2250
+[2024-03-03 18:01:57] Maximum bill total reached. Completing transaction.
+[2024-03-03 18:01:57] Total sales for the day so far: 31140 target sale: 59871  target remaining: 28731
+[2024-03-03 18:01:57] Waiting for 986 seconds before next transaction.
+[2024-03-03 18:18:23] Selected Item code: 8961008214160 Item name: NESTLE BUNYAD CHOCO 260GM- Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-03 18:18:54] bill total so far =1200
+[2024-03-03 18:18:54] Selected Item code: 8961008211497 Item name: NESTLE CERELAC ORANGE APPLE 175GM Price: 240 Quantity: 1 item_total_price=240
+[2024-03-03 18:19:04] bill total so far =1440
+[2024-03-03 18:19:04] Total sales for the day so far: 32580 target sale: 59871  target remaining: 27291
+[2024-03-03 18:19:04] Waiting for 1129 seconds before next transaction.
+[2024-03-03 18:37:53] Selected Item code: 8961014051605 Item name: WALLS CARAMEL CRUNCH CHOC TUB Price: 600 Quantity: 1 item_total_price=600
+[2024-03-03 18:38:03] bill total so far =600
+[2024-03-03 18:38:03] Selected Item code: 8961014051582 Item name: WALLS KING KULFA TUB Price: 800 Quantity: 2 item_total_price=1600
+[2024-03-03 18:38:03] Maximum bill total reached. Completing transaction.
+[2024-03-03 18:38:04] Total sales for the day so far: 33180 target sale: 59871  target remaining: 26691
+[2024-03-03 18:38:04] Waiting for 760 seconds before next transaction.
+[2024-03-03 18:50:44] Selected Item code: 8961008218779 Item name: CERELAC WHEAT 175G Price: 260 Quantity: 1 item_total_price=260
+[2024-03-03 18:50:44] Maximum bill total reached. Completing transaction.
+[2024-03-03 18:50:44] Total sales for the day so far: 33180 target sale: 59871  target remaining: 26691
+[2024-03-03 18:50:44] Waiting for 646 seconds before next transaction.
+[2024-03-03 19:01:30] Selected Item code: 8961008210834 Item name: NESTLE FORTIGROW 650GM Price: 750 Quantity: 3 item_total_price=2250
+[2024-03-03 19:01:30] Maximum bill total reached. Completing transaction.
+[2024-03-03 19:01:30] Total sales for the day so far: 33180 target sale: 59871  target remaining: 26691
+[2024-03-03 19:01:30] Waiting for 935 seconds before next transaction.
+[2024-03-03 19:17:05] Selected Item code: 8961008212173 Item name: NESTLE WHIPPING CREAM 200ML Price: 240 Quantity: 1 item_total_price=240
+[2024-03-03 19:17:05] Maximum bill total reached. Completing transaction.
+[2024-03-03 19:17:05] Selected Item code: 8961008210285 Item name: NESTLE LACTOGROW 3 800GM Price: 1970 Quantity: 1 item_total_price=1970
+[2024-03-03 19:17:15] bill total so far =1970
+[2024-03-03 19:17:16] Total sales for the day so far: 35150 target sale: 59871  target remaining: 24721
+[2024-03-03 19:17:16] Waiting for 1177 seconds before next transaction.
+[2024-03-03 19:36:53] Selected Item code: 8961014051285 Item name: WALLS STICK BADAMI 55ML Price: 35 Quantity: 2 item_total_price=70
+[2024-03-03 19:36:53] Maximum bill total reached. Completing transaction.
+[2024-03-03 19:36:53] Selected Item code: 8961008214047 Item name: NESTLE LACTOGROW 3 200G- Price: 600 Quantity: 1 item_total_price=600
+[2024-03-03 19:37:03] bill total so far =600
+[2024-03-03 19:37:03] Total sales for the day so far: 35750 target sale: 59871  target remaining: 24121
+[2024-03-03 19:37:03] Waiting for 732 seconds before next transaction.
+[2024-03-03 19:49:15] Selected Item code: 4800361292382 Item name: NESTLE KOKO KRUCH 500GM Price: 1200 Quantity: 1 item_total_price=1200
+[2024-03-03 19:49:25] bill total so far =1200
+[2024-03-03 19:49:25] Selected Item code: 8961014015522 Item name: WALLS KING KULFA 0.5L- Price: 290 Quantity: 2 item_total_price=580
+[2024-03-03 19:49:46] bill total so far =1780
+[2024-03-03 19:49:46] Selected Item code: 8961008211909 Item name: NESTLE NIDO 1+ 375GM- Price: 850 Quantity: 1 item_total_price=850
+[2024-03-03 19:49:46] Maximum bill total reached. Completing transaction.
+[2024-03-03 19:49:46] Total sales for the day so far: 37530 target sale: 59871  target remaining: 22341
+[2024-03-03 19:49:46] Waiting for 1046 seconds before next transaction.
+[2024-03-03 20:07:12] Selected Item code: 8961008217260 Item name: NESTLE KASHMIRI CHAI 18g Price: 75 Quantity: 2 item_total_price=150
+[2024-03-03 20:07:12] Maximum bill total reached. Completing transaction.
+[2024-03-03 20:07:12] Selected Item code: 8961014065565 Item name: WALLS VANILLA 1L Price: 340 Quantity: 1 item_total_price=340
+[2024-03-03 20:07:12] Maximum bill total reached. Completing transaction.
+[2024-03-03 20:07:12] Selected Item code: 8961008220499 Item name: NESTLE CERELAC YF 175GM- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-03 20:07:12] Maximum bill total reached. Completing transaction.
+[2024-03-03 20:07:12] Total sales for the day so far: 37530 target sale: 59871  target remaining: 22341
+[2024-03-03 20:07:12] Waiting for 841 seconds before next transaction.
+[2024-03-03 20:21:13] Selected Item code: 8961008220215 Item name: NESTLE LACTOGEN 1 400G- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-03 20:21:24] bill total so far =1180
+[2024-03-03 20:21:24] Selected Item code: 8961008222769 Item name: NESTLE NIDO GROWTH 200GM Price: 460 Quantity: 2 item_total_price=920
+[2024-03-03 20:21:24] Maximum bill total reached. Completing transaction.
+[2024-03-03 20:21:24] Selected Item code: 7613035509726 Item name: NESTLE KIT KAT 24X4F Price: 250 Quantity: 2 item_total_price=500
+[2024-03-03 20:21:44] bill total so far =1680
+[2024-03-03 20:21:44] Total sales for the day so far: 39210 target sale: 59871  target remaining: 20661
+[2024-03-03 20:21:44] Waiting for 845 seconds before next transaction.
+[2024-03-03 20:35:49] Selected Item code: 8961008221151 Item name: NES NIDO 1+ 375GM Price: 840 Quantity: 1 item_total_price=840
+[2024-03-03 20:36:00] bill total so far =840
+[2024-03-03 20:36:00] Selected Item code: 8961008215846 Item name: NES EVERYDAY TEA W 180ML Price: 50 Quantity: 1 item_total_price=50
+[2024-03-03 20:36:10] bill total so far =890
+[2024-03-03 20:36:10] Selected Item code: 8961008017129 Item name: NESTLE CREAM TOPING 180ML Price: 70 Quantity: 1 item_total_price=70
+[2024-03-03 20:36:20] bill total so far =960
+[2024-03-03 20:36:20] Total sales for the day so far: 40170 target sale: 59871  target remaining: 19701
+[2024-03-03 20:36:20] Waiting for 663 seconds before next transaction.
+[2024-03-03 20:47:23] Selected Item code: 8961008206752 Item name: NESCAFE CHILLED LATTE COFEE 200ML Price: 100 Quantity: 3 item_total_price=300
+[2024-03-03 20:47:23] Maximum bill total reached. Completing transaction.
+[2024-03-03 20:47:23] Selected Item code: 8961008221021 Item name: NESTLE LACTOGEN 2 400G- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-03 20:47:34] bill total so far =1180
+[2024-03-03 20:47:34] Selected Item code: 8961014032178 Item name: WALLS FEAST CARAMEL- Price: 100 Quantity: 2 item_total_price=200
+[2024-03-03 20:47:54] bill total so far =1380
+[2024-03-03 20:47:54] Total sales for the day so far: 41550 target sale: 59871  target remaining: 18321
+[2024-03-03 20:47:54] Waiting for 979 seconds before next transaction.
+[2024-03-03 21:04:13] Selected Item code: 8961014065565 Item name: WALLS VANILLA 1L Price: 340 Quantity: 1 item_total_price=340
+[2024-03-03 21:04:13] Maximum bill total reached. Completing transaction.
+[2024-03-03 21:04:13] Selected Item code: 9556001249142 Item name: NESCAFE CLASSIC 100GM Price: 1400 Quantity: 1 item_total_price=1400
+[2024-03-03 21:04:24] bill total so far =1400
+[2024-03-03 21:04:24] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 3 item_total_price=480
+[2024-03-03 21:04:54] bill total so far =1880
+[2024-03-03 21:04:54] Total sales for the day so far: 43430 target sale: 59871  target remaining: 16441
+[2024-03-03 21:04:54] Waiting for 903 seconds before next transaction.
+[2024-03-03 21:19:57] Selected Item code: 8961008211244 Item name: NES FV KINNOW 1LTR- Price: 350 Quantity: 1 item_total_price=350
+[2024-03-03 21:19:57] Maximum bill total reached. Completing transaction.
+[2024-03-03 21:19:58] Total sales for the day so far: 43430 target sale: 59871  target remaining: 16441
+[2024-03-03 21:19:58] Waiting for 990 seconds before next transaction.
+[2024-03-03 21:36:28] Selected Item code: 8961008216263 Item name: NES FV PINEAPPLE 1LTR- Price: 450 Quantity: 2 item_total_price=900
+[2024-03-03 21:36:48] bill total so far =900
+[2024-03-03 21:36:48] Selected Item code: 8961014008562 Item name: RAHAN BANANA CUSTARD 300G Price: 80 Quantity: 3 item_total_price=240
+[2024-03-03 21:37:19] bill total so far =1140
+[2024-03-03 21:37:19] Selected Item code: 8961008212272 Item name: NESTLE WATER 500ML Price: 50 Quantity: 3 item_total_price=150
+[2024-03-03 21:37:49] bill total so far =1290
+[2024-03-03 21:37:50] Total sales for the day so far: 44720 target sale: 59871  target remaining: 15151
+[2024-03-03 21:37:50] Waiting for 1146 seconds before next transaction.
+[2024-03-03 21:56:56] Selected Item code: 8961014017618 Item name: KNORR KETCHUP 800GM- Price: 450 Quantity: 1 item_total_price=450
+[2024-03-03 21:56:56] Maximum bill total reached. Completing transaction.
+[2024-03-03 21:56:56] Total sales for the day so far: 44720 target sale: 59871  target remaining: 15151
+[2024-03-03 21:56:56] Waiting for 918 seconds before next transaction.
+[2024-03-03 22:12:14] Selected Item code: 8961008209432 Item name: NESTLE NESVITA MOVE 200ML Price: 80 Quantity: 1 item_total_price=80
+[2024-03-03 22:12:14] Maximum bill total reached. Completing transaction.
+[2024-03-03 22:12:14] Total sales for the day so far: 44720 target sale: 59871  target remaining: 15151
+[2024-03-03 22:12:14] Waiting for 617 seconds before next transaction.
+[2024-03-03 22:22:31] Selected Item code: 4800361339360 Item name: NESTLE KOKO KRUCH 80GM Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-03 22:23:02] bill total so far =1050
+[2024-03-03 22:23:02] Total sales for the day so far: 45770 target sale: 59871  target remaining: 14101
+[2024-03-03 22:23:02] Waiting for 725 seconds before next transaction.
+[2024-03-03 22:35:07] Selected Item code: 8961008210223 Item name: NESTLE LACTOGEN 2 800GM Price: 1970 Quantity: 1 item_total_price=1970
+[2024-03-03 22:35:17] bill total so far =1970
+[2024-03-03 22:35:17] Selected Item code: 8961008211916 Item name: NESTLE NIDO 3+ 400GM Price: 850 Quantity: 2 item_total_price=1700
+[2024-03-03 22:35:17] Maximum bill total reached. Completing transaction.
+[2024-03-03 22:35:17] Selected Item code: 8961014017564 Item name: WALLS STICK DONUT- Price: 90 Quantity: 3 item_total_price=270
+[2024-03-03 22:35:17] Maximum bill total reached. Completing transaction.
+[2024-03-03 22:35:18] Total sales for the day so far: 47740 target sale: 59871  target remaining: 12131
+[2024-03-03 22:35:18] Waiting for 947 seconds before next transaction.
+[2024-03-03 22:51:05] Selected Item code: 8961008216256 Item name: NES FRUITA VITALS 200ML ALL- Price: 70 Quantity: 2 item_total_price=140
+[2024-03-03 22:51:05] Maximum bill total reached. Completing transaction.
+[2024-03-03 22:51:05] Selected Item code: 8961008221014 Item name: NESTLE LACTOGEN 2 200G- Price: 600 Quantity: 3 item_total_price=1800
+[2024-03-03 22:51:35] bill total so far =1800
+[2024-03-03 22:51:35] Total sales for the day so far: 49540 target sale: 59871  target remaining: 10331
+[2024-03-03 22:51:35] Waiting for 803 seconds before next transaction.
+[2024-03-03 23:04:58] Selected Item code: 8961008211244 Item name: NES FV KINNOW 1LTR- Price: 350 Quantity: 1 item_total_price=350
+[2024-03-03 23:04:58] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:04:59] Total sales for the day so far: 49540 target sale: 59871  target remaining: 10331
+[2024-03-03 23:04:59] Waiting for 993 seconds before next transaction.
+[2024-03-03 23:21:32] Selected Item code: 8961014050523 Item name: WALLS KING KULFA CUP 100ML Price: 60 Quantity: 1 item_total_price=60
+[2024-03-03 23:21:32] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:21:32] Selected Item code: 8961014032192 Item name: WALLS CORENETTO COOKIES- Price: 120 Quantity: 1 item_total_price=120
+[2024-03-03 23:21:32] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:21:32] Total sales for the day so far: 49540 target sale: 59871  target remaining: 10331
+[2024-03-03 23:21:32] Waiting for 684 seconds before next transaction.
+[2024-03-03 23:32:56] Selected Item code: 8961008219080 Item name: NESCAFE HAZELNUT 220ML- Price: 170 Quantity: 1 item_total_price=170
+[2024-03-03 23:32:56] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:32:56] Selected Item code: 8961008213491 Item name: NESTLE LACTOGEN RECOVER 200G Price: 800 Quantity: 3 item_total_price=2400
+[2024-03-03 23:32:56] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:32:56] Selected Item code: 8961008211909 Item name: NESTLE NIDO 1+ 375GM- Price: 850 Quantity: 1 item_total_price=850
+[2024-03-03 23:33:06] bill total so far =850
+[2024-03-03 23:33:06] Total sales for the day so far: 50390 target sale: 59871  target remaining: 9481
+[2024-03-03 23:33:06] Waiting for 664 seconds before next transaction.
+[2024-03-03 23:44:11] Selected Item code: 50189205 Item name: NESTLE KIT KAT 36X 2F Price: 120 Quantity: 3 item_total_price=360
+[2024-03-03 23:44:11] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:44:11] Selected Item code: 8961014009804 Item name: KNORR CHICKEN CUBE 18GM- Price: 70 Quantity: 3 item_total_price=210
+[2024-03-03 23:44:11] Maximum bill total reached. Completing transaction.
+[2024-03-03 23:44:11] Total sales for the day so far: 50390 target sale: 59871  target remaining: 9481
+[2024-03-03 23:44:11] Waiting for 992 seconds before next transaction.
+[2024-03-04 00:00:43] Selected Item code: 8961008213187 Item name: NES MILO ACTIVE GO 180ML- Price: 90 Quantity: 3 item_total_price=270
+[2024-03-04 00:00:43] Maximum bill total reached. Completing transaction.
+[2024-03-04 00:00:43] Selected Item code: 8961014246827 Item name: LIFEBOY HERBAL STRONG 375ML Price: 500 Quantity: 1 item_total_price=500
+[2024-03-04 00:00:53] bill total so far =500
+[2024-03-04 00:00:53] Total sales for the day so far: 50890 target sale: 59871  target remaining: 8981
+[2024-03-04 00:00:53] Selected sale limit for the day: 32356
+[2024-03-04 00:00:53] Remaining time until business hours: in hours:5.985063451944444  in minutes: 359.10380711666664 in seconds: 21546.228427 
+[2024-03-04 00:00:53] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 05:59:06
+[2024-03-04 00:11:33] Starting generate reports
+[2024-03-04 00:13:51] Starting pos software.
+[2024-03-04 00:13:51] Starting login details.
+[2024-03-04 00:14:21] Starting cashier login details.
+[2024-03-04 00:15:02] Bot started.
+[2024-03-04 00:15:02] Selected sale limit for the day: 36293
+[2024-03-04 00:15:02] Total sales limit for the day: 36293
+[2024-03-04 00:15:03] Item codes loaded successfully.
+[2024-03-04 00:15:03] Selected Item code: 8961008212296 Item name: NESTLE WATER 5LTR Price: 260 Quantity: 1 item_total_price=260
+[2024-03-04 00:15:03] Maximum bill total reached. Completing transaction.
+[2024-03-04 00:15:03] Selected Item code: 8961008209432 Item name: NESTLE NESVITA MOVE 200ML Price: 80 Quantity: 2 item_total_price=160
+[2024-03-04 00:15:03] Maximum bill total reached. Completing transaction.
+[2024-03-04 00:15:04] Selected Item code: 8961008210162 Item name: NESTLE LACTOGEN 1 800GM Price: 1970 Quantity: 1 item_total_price=1970
+[2024-03-04 00:15:14] bill total so far =1970
+[2024-03-04 00:15:14] Selected Item code: 8961008216041 Item name: CERELAC NATURES 175GM Price: 520 Quantity: 3 item_total_price=1560
+[2024-03-04 00:15:14] Maximum bill total reached. Completing transaction.
+[2024-03-04 00:15:14] Total sales for the day so far: 1970 target sale: 36293  target remaining: 34323
+[2024-03-04 00:15:14] Selected sale limit for the day: 31225
+[2024-03-04 00:15:14] Remaining time until business hours: in hours:5.745984109444445  in minutes: 344.75904656666665 in seconds: 20685.542794 
+[2024-03-04 00:15:14] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 05:44:45
+[2024-03-04 00:26:48] Bot started.
+[2024-03-04 00:26:48] Selected sale limit for the day: 35185
+[2024-03-04 00:26:48] Total sales limit for the day: 35185
+[2024-03-04 00:26:49] Item codes loaded successfully.
+[2024-03-04 00:26:49] Selected Item code: 8961008221021 Item name: NESTLE LACTOGEN 2 400G- Price: 1180 Quantity: 1 item_total_price=1180
+[2024-03-04 00:26:59] bill total so far =1180
+[2024-03-04 00:26:59] Total sales for the day so far: 1180 target sale: 35185  target remaining: 34005
+[2024-03-04 00:26:59] Selected sale limit for the day: 35157
+[2024-03-04 00:26:59] Remaining time until business hours: in hours:5.550133274166667  in minutes: 333.00799645 in seconds: 19980.479787 
+[2024-03-04 00:26:59] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 05:33:00
+[2024-03-04 06:00:00] Total sales limit for the day: 35157
+[2024-03-04 06:00:00] Selected Item code: 8961014008494 Item name: RAFHAN ICE CREAM CUSTARD 285GM Price: 190 Quantity: 2 item_total_price=380
+[2024-03-04 06:00:20] bill total so far =380
+[2024-03-04 06:00:20] Selected Item code: 8961008220352 Item name: NESTLE CERELACE 175GM- Price: 390 Quantity: 1 item_total_price=390
+[2024-03-04 06:00:30] bill total so far =770
+[2024-03-04 06:00:30] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1 item_total_price=1380
+[2024-03-04 06:00:30] Maximum bill total reached. Completing transaction.
+[2024-03-04 06:00:30] Selected Item code: 8961014003642 Item name: WALLS PISTA 1L Price: 400 Quantity: 3 item_total_price=1200
+[2024-03-04 06:01:01] bill total so far =1970
+[2024-03-04 06:01:01] Total sales for the day so far: 1970 target sale: 35157  target remaining: 33187
+[2024-03-04 06:01:01] Waiting for 1410 seconds before next transaction.
+[2024-03-04 06:08:34] Bot started.
+[2024-03-04 06:08:34] Selected sale limit for the day: 39150
+[2024-03-04 06:08:34] Total sales limit for the day: 39150
+[2024-03-04 06:08:35] Item codes loaded successfully.
+[2024-03-04 06:08:35] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1 item_total_price=1380
+[2024-03-04 06:08:46] bill total so far =1380
+[2024-03-04 06:08:46] Selected Item code: 8961014020496 Item name: CUSTARD VANILA RAFHAN Price: 100 Quantity: 1 item_total_price=100
+[2024-03-04 06:08:56] bill total so far =1480
+[2024-03-04 06:08:56] Selected Item code: 4800361002851 Item name: NESTLE KOKO KRUCH 150GM Price: 750 Quantity: 3 item_total_price=2250
+[2024-03-04 06:08:56] Maximum bill total reached. Completing transaction.
+[2024-03-04 06:08:56] Total sales for the day so far: 1480 target sale: 39150  target remaining: 37670
+[2024-03-04 06:08:56] Waiting for 1409 seconds before next transaction.
+[2024-03-04 06:32:25] Selected Item code: 8961008209852 Item name: NES NESFRUTA MANGO 200ML- Price: 60 Quantity: 3 item_total_price=180
+[2024-03-04 06:32:25] Maximum bill total reached. Completing transaction.
+[2024-03-04 06:32:25] Selected Item code: 8961008211244 Item name: NES FV KINNOW 1LTR- Price: 350 Quantity: 3 item_total_price=1050
+[2024-03-04 06:32:56] bill total so far =1050
+[2024-03-04 06:32:56] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1 item_total_price=1380
+[2024-03-04 06:32:56] Maximum bill total reached. Completing transaction.
+[2024-03-04 06:32:56] Selected Item code: 8961008217673 Item name: NESCAFE LATTE 220ML- Price: 170 Quantity: 3 item_total_price=510
+[2024-03-04 06:33:26] bill total so far =1560
+[2024-03-04 06:33:27] Total sales for the day so far: 3040 target sale: 39150  target remaining: 36110
+[2024-03-04 06:33:27] Waiting for 1279 seconds before next transaction.
