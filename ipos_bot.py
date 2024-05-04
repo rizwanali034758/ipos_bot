@@ -1,5 +1,6 @@
 import csv
 import datetime
+import socket
 import subprocess
 import pandas as pd
 import pyautogui
@@ -8,8 +9,15 @@ import random
 import threading
 import tkinter as tk
 import pygetwindow as gw
-from tkinter import ttk
+from tkinter import Tk, ttk
 import schedule
+import pystray
+from PIL import Image, ImageTk
+from tkinter import messagebox
+import keyboard
+from tkinter import Toplevel, Label, Entry, Button
+#cd /d "E:\programing codes\ipos_bot"
+#pyinstaller --onefile --noconsole ipos_bot.py
 
 # Constants
 ITEM_DATA_FILE = 'bot_data.xlsx'
@@ -22,6 +30,7 @@ SALES_REPORT_FILE = 'sales_report.csv'
 POS_WINDOW_NAME = "IPOS.NET http://www.ipos.net.pk"
 LOGIN_WINDOW_NAME = "iPOS VER: 22.112 G Pro"
 SOFTWARE_WINDOW = "iPOS.NET Ver. 22.112 G Pro. Store #1001"
+tray_icon = None
 
 # Global variables
 sales_records = []
@@ -88,13 +97,26 @@ def select_items_for_sale(item_data):
 
 # Function to restart POS software
 def restart_pos():
-    subprocess.Popen([r"C:\Program Files\iPOS.NET\BACKOFFICE.NET.exe"], creationflags=subprocess.DETACHED_PROCESS)
-    time.sleep(60)  # Wait for POS software to start
+    #subprocess.Popen([r"C:\Program Files\iPOS.NET\BACKOFFICE.NET.exe"], creationflags=subprocess.DETACHED_PROCESS)
+    #time.sleep(60)  # Wait for POS software to start
     #login_to_pos()  # Log in to POS
     threading.Thread(target=login_to_pos).start()  # Restart sale simulation
 def generate_window_title():
+    ip_address = get_ipv4_address()
     current_date = datetime.datetime.now().strftime("%d %b %Y")
-    return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- 192.168.1.32 -TS- POS02-PC Date.  {current_date}  "
+    return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- {ip_address} -TS- POS02-PC Date.  {current_date}  "
+#   return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- 192.168.1.12 -TS- POS02-PC Date.  {current_date}  "
+
+def get_ipv4_address():
+    try:
+        # Get the hostname of the local machine
+        hostname = socket.gethostname()
+        # Get the IPv4 address corresponding to the hostname
+        ip_address = socket.gethostbyname(hostname)
+        return ip_address
+    except Exception as e:
+        print("Error:", e)
+        return None
 
 def cancel_bill():
 
@@ -117,7 +139,7 @@ def handle_pos_errors():
                 # Check if SQL Connection error window is present
                 if window_title == "SQL Connection":
                     log_message("SQL Connection error detected. Restarting POS software.")
-                    restart_pos()
+                    handle_db_error()
                 # Check if BACKOFFICE.NET error window is present
                 elif window_title == "BACKOFFICE.NET":
                     log_message("BACKOFFICE.NET error detected.")
@@ -150,7 +172,7 @@ def handle_pos_errors():
             elif windows.__contains__(generate_window_title()):
                 if window_title == "SQL Connection":
                     log_message("SQL Connection error detected. Restarting POS software.")
-                    restart_pos()
+                    handle_db_error()
                 elif not window_title == generate_window_title():    
                                     # Check if POS screen or item code input field has focus
                     log_message("SOFTWARE_WINDOW not in focus. Bringing to front.")
@@ -160,7 +182,7 @@ def handle_pos_errors():
             elif windows.__contains__(LOGIN_WINDOW_NAME):
                 if window_title == "SQL Connection":
                     log_message("SQL Connection error detected. Restarting POS software.")
-                    restart_pos()
+                    handle_db_error()
                 elif not window_title == LOGIN_WINDOW_NAME:    
                                     # Check if POS screen or item code input field has focus
                     log_message("SOFTWARE_WINDOW not in focus. Bringing to front.")
@@ -168,6 +190,12 @@ def handle_pos_errors():
                     if target_window:
                         focus_to_window(LOGIN_WINDOW_NAME)    
         time.sleep(5) 
+
+def handle_db_error():
+    pyautogui.moveTo(x=787, y=495, duration=0.25)
+    pyautogui.click()
+    stop_clicked = True
+    restart_pos()
 
 def focus_to_window(window_title):
     windows = gw.getAllTitles()
@@ -209,15 +237,16 @@ def shift_closing():
         pyautogui.press('enter')
     pyautogui.moveTo(x=49, y=35, duration=0.25)
     pyautogui.click()
-    pyautogui.press('enter')
-    # Simulate pressing Alt+F4 2 times to close the Shift Closing window
-    for _ in range(2):
+    for _ in range(3):
+        time.sleep(2)  # Wait for 2 seconds for the POS software to load
+        pyautogui.press('enter')    # Simulate pressing Alt+F4 2 times to close the Shift Closing window
+    for _ in range(3):
         time.sleep(2)  # Wait for 2 seconds for the POS software to load
         pyautogui.hotkey('alt', 'f4')
     # Wait for the software to close
     time.sleep(10)
     # Restart POS
-    login_to_pos()
+    threading.Thread(target=login_to_pos).start()  # Restart sale simulation
 def schedule_shift_closing():
     schedule.every().day.at("00:00").do(shift_closing)
 
@@ -226,14 +255,14 @@ schedule_shift_closing()
 
 # Function to simulate sale transaction
 def simulate_sale():
-    global total_transactions, stop_clicked
+    global total_transactions
     pyautogui.FAILSAFE = False
     time.sleep(15)  # Wait for 2 seconds for the POS software to load
     focus_to_window(POS_WINDOW_NAME)
     #x, y = 200, 100
     
     #pyautogui.click(x, y)
-    global total_transactions
+    global total_transactions,sale_stop_clicked
     log_message("Bot started.")
     total_sales_today = 0
     total_sales_limit = get_total_sales_limit()
@@ -243,7 +272,7 @@ def simulate_sale():
         log_message("No item codes loaded. Exiting.")
         return
 
-    while not stop_clicked:
+    while not sale_stop_clicked:
         if total_sales_today >= total_sales_limit:
             log_message("Total sales limit for the day reached. Waiting for tomorrow.")
             total_sales_today = 0
@@ -430,6 +459,7 @@ def run_pos():
 # Function to login to POS and cashier screens
 def login_to_pos():
     run_pos()
+    sale_stop_clicked()
     time.sleep(60)  
     Main_Login()
 
@@ -455,8 +485,7 @@ def Cashier_Login():
 
 def Main_Login():
     focus_to_window(LOGIN_WINDOW_NAME)
-
-    
+    pyautogui.FAILSAFE = False
     log_message("Starting pos software.")    # Wait for the POS application to start (adjust the delay as needed)
     #time.sleep(60)  
     log_message("Starting login details.")
@@ -466,17 +495,21 @@ def Main_Login():
     pyautogui.press('enter')
     pyautogui.press('enter')
 # Function to handle start button click
-def login_bot():
-    global stop_clicked
-    stop_clicked = False
+def start_login_bot():
+    global sale_stop_clicked,login_stop_clicked,error_stop_clicked
+    sale_stop_clicked = False
+    login_stop_clicked= False
+    error_stop_clicked=False
     threading.Thread(target=handle_pos_errors).start()
     threading.Thread(target=login_to_pos).start()
 
 
 # Function to handle start button click
-def start_bot():
-    global stop_clicked
-    stop_clicked = False
+def start_sale_bot():
+    global sale_stop_clicked,login_stop_clicked,error_stop_clicked
+    sale_stop_clicked = False
+    login_stop_clicked= False
+    error_stop_clicked=False
     threading.Thread(target=handle_pos_errors).start()
     threading.Thread(target=simulate_sale).start()
 
@@ -564,11 +597,19 @@ def generate_report():
     root.mainloop()
 def run_pos_thread():
     threading.Thread(target=run_pos).start()
-# Function to handle stop button click
-def stop_bot():
-    global stop_clicked
-    stop_clicked = True
+def stop_sale_bot():
+    global sale_stop_clicked
+    sale_stop_clicked = True
     log_message(f"Stoping sale bot")
+def stop_error_bot():
+    global error_stop_clicked
+    error_stop_clicked = True
+    log_message(f"Stoping stop_error_bot")    
+    # Function to handle stop button click
+def stop_login_bot():
+    global login_stop_clicked
+    login_stop_clicked = True
+    log_message(f"Stoping stop_login_bot ")
 # Function to get total sales limit based on the day of the week
 def get_total_sales_limit():
     today = datetime.datetime.today()
@@ -582,8 +623,26 @@ def get_total_sales_limit():
 def is_business_hours():
     now = datetime.datetime.now().time()
     return BUSINESS_HOURS[0] <= now <= BUSINESS_HOURS[1]
-
 def get_remaining_time_until_business_hours():
+    now = datetime.datetime.now()
+    opening_time, closing_time = BUSINESS_HOURS
+
+    # If current time is before opening time, calculate remaining time until opening
+    if now.time() < opening_time:
+        target_time = datetime.datetime.combine(now.date(), opening_time)
+    # If current time is after opening time but before closing time, calculate remaining time until closing
+    elif now.time() < closing_time:
+        target_time = datetime.datetime.combine(now.date(), closing_time)
+    # If current time is after closing time, calculate remaining time until next day's opening
+    else:
+        next_day = now + datetime.timedelta(days=1)
+        target_time = datetime.datetime.combine(next_day.date(), opening_time)
+
+    remaining_time = (target_time - now).total_seconds()
+    log_message(f"Remaining time until business hours: in hours:{remaining_time/3600}  in minutes: {remaining_time/60} in seconds: {remaining_time} ")
+    return remaining_time
+
+def get_remaining_time_until_business_hours_old():
     now = datetime.datetime.now()
     opening_time, closing_time = BUSINESS_HOURS
 
@@ -592,7 +651,7 @@ def get_remaining_time_until_business_hours():
         target_time = datetime.datetime(now.year, now.month, now.day, 2, 0)
     else:
         next_day = now + datetime.timedelta(days=1)
-        target_time = datetime.datetime(next_day.year, next_day.month, next_day.day, 6, 0)
+        target_time = datetime.datetime(next_day.year, next_day.month, next_day.day, 2, 0)
 
     remaining_time = (target_time - now).total_seconds()
     log_message(f"Remaining time until business hours: in hours:{remaining_time/3600}  in minutes: {remaining_time/60} in seconds: {remaining_time} ")
@@ -607,7 +666,149 @@ def get_transaction_frequency():
         return random.randint(*TRANSACTION_TIMES['afternoon'])
     else:
         return random.randint(*TRANSACTION_TIMES['evening'])
+# Function to handle the global hotkey event and show the window
+def show_window_hotkey():
+    root.after(0, root.deiconify)
 
+# Register the hotkey to show the window when it's hidden
+
+def hide_window():
+    root.withdraw()  # Hide the window
+
+def show_window():
+    root.deiconify()  # Show the window
+
+def toggle_window_visibility():
+    global window_hidden
+    if window_hidden:
+        show_window()
+        window_hidden = False
+    else:
+        hide_window()
+        window_hidden = True
+# Set initial window state
+window_hidden = False
+keyboard.add_hotkey('ctrl+shift+1', toggle_window_visibility)
+keyboard.add_hotkey('ctrl+shift+2', start_login_bot)
+keyboard.add_hotkey('ctrl+shift+3', start_sale_bot)
+keyboard.add_hotkey('ctrl+shift+4', generate_report)
+keyboard.add_hotkey('ctrl+shift+5', shift_closing)
+
+# Function to hide the window and show a system tray icon
+def hide_window1():
+    root.withdraw()
+    icon_image = Image.open("icon.ico")  # Use your own icon image here
+    icon = pystray.Icon("POS Bot", icon_image, "POS Bot", menu)
+    icon.run()
+
+# Function to show the window and stop the system tray icon
+def show_window1(icon, item):
+    icon.stop()
+    root.after(0, root.deiconify)
+
+# Function to quit the application
+def quit_app(icon, item):
+    icon.stop()
+    root.after(0, root.destroy)
+#Function to open the settings window
+def open_settings_window():
+    # Create a new window for settings
+    settings_window = Toplevel(root)
+    settings_window.title("Settings")
+
+    # Function to save the settings
+    def save_settings():
+        # Retrieve the values entered by the user and update the constants
+        SALES_LIMITS['weekday'] = (int(weekday_lower_limit_entry.get()), int(weekday_upper_limit_entry.get()))
+        SALES_LIMITS['weekend'] = (int(weekend_lower_limit_entry.get()), int(weekend_upper_limit_entry.get()))
+        BUSINESS_HOURS = (datetime.time(int(business_hours_start_entry.get()), 0),
+                          datetime.time(int(business_hours_end_entry.get()), 0))
+        TRANSACTION_TIMES['morning'] = (int(morning_start_entry.get()), int(morning_end_entry.get()))
+        TRANSACTION_TIMES['afternoon'] = (int(afternoon_start_entry.get()), int(afternoon_end_entry.get()))
+        TRANSACTION_TIMES['evening'] = (int(evening_start_entry.get()), int(evening_end_entry.get()))
+        MAX_BILL_TOTAL = (int(max_bill_total_min_entry.get()), int(max_bill_total_max_entry.get()))
+        settings_window.destroy()
+# Add input fields for all constant values
+    Label(settings_window, text="Sales Limits:").grid(row=0, column=0, columnspan=2)
+    Label(settings_window, text="Weekday Lower Limit:").grid(row=1, column=0)
+    weekday_lower_limit_entry = Entry(settings_window)
+    weekday_lower_limit_entry.insert(0, str(SALES_LIMITS['weekday'][0]))  # Display current value
+    weekday_lower_limit_entry.grid(row=1, column=1)
+
+    Label(settings_window, text="Weekday Upper Limit:").grid(row=2, column=0)
+    weekday_upper_limit_entry = Entry(settings_window)
+    weekday_upper_limit_entry.insert(0, str(SALES_LIMITS['weekday'][1]))  # Display current value
+    weekday_upper_limit_entry.grid(row=2, column=1)
+
+    Label(settings_window, text="Weekend Lower Limit:").grid(row=3, column=0)
+    weekend_lower_limit_entry = Entry(settings_window)
+    weekend_lower_limit_entry.insert(0, str(SALES_LIMITS['weekend'][0]))  # Display current value
+    weekend_lower_limit_entry.grid(row=3, column=1)
+
+    Label(settings_window, text="Weekend Upper Limit:").grid(row=4, column=0)
+    weekend_upper_limit_entry = Entry(settings_window)
+    weekend_upper_limit_entry.insert(0, str(SALES_LIMITS['weekend'][1]))  # Display current value
+    weekend_upper_limit_entry.grid(row=4, column=1)
+
+    Label(settings_window, text="Business Hours:").grid(row=5, column=0, columnspan=2)
+    Label(settings_window, text="Start Time (hour):").grid(row=6, column=0)
+    business_hours_start_entry = Entry(settings_window)
+    business_hours_start_entry.insert(0, str(BUSINESS_HOURS[0].hour))  # Display current value
+    business_hours_start_entry.grid(row=6, column=1)
+
+    Label(settings_window, text="End Time (hour):").grid(row=7, column=0)
+    business_hours_end_entry = Entry(settings_window)
+    business_hours_end_entry.insert(0, str(BUSINESS_HOURS[1].hour))  # Display current value
+    business_hours_end_entry.grid(row=7, column=1)
+
+    Label(settings_window, text="Transaction Times:").grid(row=8, column=0, columnspan=2)
+    Label(settings_window, text="Morning Start Time:").grid(row=9, column=0)
+    morning_start_entry = Entry(settings_window)
+    morning_start_entry.insert(0, str(TRANSACTION_TIMES['morning'][0]))  # Display current value
+    morning_start_entry.grid(row=9, column=1)
+
+    Label(settings_window, text="Morning End Time:").grid(row=10, column=0)
+    morning_end_entry = Entry(settings_window)
+    morning_end_entry.insert(0, str(TRANSACTION_TIMES['morning'][1]))  # Display current value
+    morning_end_entry.grid(row=10, column=1)
+
+    Label(settings_window, text="Afternoon Start Time:").grid(row=11, column=0)
+    afternoon_start_entry = Entry(settings_window)
+    afternoon_start_entry.insert(0, str(TRANSACTION_TIMES['afternoon'][0]))  # Display current value
+    afternoon_start_entry.grid(row=11, column=1)
+
+    Label(settings_window, text="Afternoon End Time:").grid(row=12, column=0)
+    afternoon_end_entry = Entry(settings_window)
+    afternoon_end_entry.insert(0, str(TRANSACTION_TIMES['afternoon'][1]))  # Display current value
+    afternoon_end_entry.grid(row=12, column=1)
+
+    Label(settings_window, text="Evening Start Time:").grid(row=13, column=0)
+    evening_start_entry = Entry(settings_window)
+    evening_start_entry.insert(0, str(TRANSACTION_TIMES['evening'][0]))  # Display current value
+    evening_start_entry.grid(row=13, column=1)
+
+    Label(settings_window, text="Evening End Time:").grid(row=14, column=0)
+    evening_end_entry = Entry(settings_window)
+    evening_end_entry.insert(0, str(TRANSACTION_TIMES['evening'][1]))  # Display current value
+    evening_end_entry.grid(row=14, column=1)
+
+    Label(settings_window, text="Max Bill Total:").grid(row=15, column=0, columnspan=2)
+    Label(settings_window, text="Min Value:").grid(row=16, column=0)
+    max_bill_total_min_entry = Entry(settings_window)
+    max_bill_total_min_entry.insert(0, str(MAX_BILL_TOTAL[0]))  # Display current value
+    max_bill_total_min_entry.grid(row=16, column=1)
+
+    Label(settings_window, text="Max Value:").grid(row=17, column=0)
+    max_bill_total_max_entry = Entry(settings_window)
+    max_bill_total_max_entry.insert(0, str(MAX_BILL_TOTAL[1]))  # Display current value
+    max_bill_total_max_entry.grid(row=17, column=1)
+
+    # Add a button to save settings
+    save_button = Button(settings_window, text="Save", command=save_settings)
+    save_button.grid(row=18, column=0, columnspan=2)
+
+# Menu for the system tray icon
+menu = (pystray.MenuItem('Show', toggle_window_visibility), pystray.MenuItem('Quit', quit_app))
 # Create Tkinter window
 root = tk.Tk()
 root.title("POS Bot")
@@ -622,13 +823,13 @@ button_frame = ttk.Frame(root)
 button_frame.pack(pady=20)
 
 # Buttons
-login_button = ttk.Button(button_frame, text="Bot Login & Sale", command=login_bot)
+login_button = ttk.Button(button_frame, text="Bot Login & Sale", command=start_login_bot)
 login_button.grid(row=0, column=0, padx=10, pady=5)
 
-start_button = ttk.Button(button_frame, text="Bot Sale", command=start_bot)
+start_button = ttk.Button(button_frame, text="Bot Sale", command=start_sale_bot)
 start_button.grid(row=1, column=0, padx=10, pady=5)
 
-stop_button = ttk.Button(button_frame, text="Stop Sale", command=stop_bot)
+stop_button = ttk.Button(button_frame, text="Stop Sale", command=stop_sale_bot)
 stop_button.grid(row=2, column=0, padx=10, pady=5)
 
 generate_report_button = ttk.Button(button_frame, text="Generate Report", command=generate_report)
@@ -642,12 +843,18 @@ hide_button.grid(row=2, column=1, padx=10, pady=5)
 
 show_button = ttk.Button(button_frame, text="Cashier Login", command=Cashier_Login)
 show_button.grid(row=3, column=1, padx=10, pady=5)
-
-
+# Add a button named "Hide" to the GUI to trigger the hide_gui function
+hide_button = tk.Button(root, text="Hide", command=toggle_window_visibility)
+hide_button.pack()
+# Add a button named "Settings" to the GUI to trigger the open_settings_window function
+settings_button = Button(root, text="Settings", command=open_settings_window)
+settings_button.pack()
 
 # Create a Text widget to display log messages
 log_text = tk.Text(root, height=20, width=70)
 log_text.pack(pady=20, padx=10)
 
+
+ 
 # Start the Tkinter event loop
 root.mainloop()
