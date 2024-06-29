@@ -21,7 +21,7 @@ from tkinter import Toplevel, Label, Entry, Button
 
 # Constants
 ITEM_DATA_FILE = 'bot_data.xlsx'
-SALES_LIMITS = {'weekday': (40000, 50000), 'weekend': (60000, 70000)}
+SALES_LIMITS = {'weekday': (50000, 60000), 'weekend': (60000, 75000)}
 BUSINESS_HOURS = (datetime.time(2, 0), datetime.time(23, 50))
 TRANSACTION_TIMES = {'morning': (1200, 1500), 'afternoon': (900, 1380), 'evening': (600, 1200)}
 MAX_BILL_TOTAL = (200, 2000)
@@ -60,13 +60,7 @@ def log_message(message):
     with open(LOG_FILE, 'a') as file:
         file.write(f"[{timestamp}] {message}\n")
         # Function to select items for sale based on company and selection probability
-""" def select_items_for_sale(item_data):
-    selected_items = []
-    for index, row in item_data.iterrows():
-        selection_probability = row['SelectionProbability']
-        if random.random() < selection_probability:
-            selected_items.append({'ItemCode': row['ItemCode'], 'Quantity': row['EstimatedSale']})
-    return selected_items """
+
 # Function to select items for sale
 def select_items_for_sale(item_data):
     selected_items = []
@@ -76,35 +70,44 @@ def select_items_for_sale(item_data):
     random.shuffle(item_data)
     for item in item_data:
         company = item['catcode']
+        sale_type = item['sale_type']
+
         # Adjust the selection probability based on the company
         if company == 90:  # 90 for walls company
-            selection_probability = 0.46
+            selection_probability = 0.4
         elif company == 92:  # 92 for nestle
-            selection_probability = 0.47
+            if sale_type == 1:
+                selection_probability = 0.2  # Adjusted probability for Nestle 3rd Schedule Goods
+            elif sale_type == 2:
+                selection_probability = 0.03  # Adjusted probability for Nestle general sale goods
+            elif sale_type == 3:
+                selection_probability = 0.2  # Adjusted probability for Nestle zero rated goods
+            
         elif company == 91:  # 91 for unilever
-            selection_probability = 0.06
+            if sale_type == 1:
+                selection_probability = 0.05  # Adjusted probability for unilever 3rd Schedule Goods
+            elif sale_type == 2:
+                selection_probability = 0.03  # Adjusted probability for unilever general sale goods
+            
         else:
             selection_probability = 0.0
 
         # Generate a random number to determine if the item is selected
         if random.random() < selection_probability:
+
             selected_items.append(item)  # Append the complete item dictionary
             num_items_selected += 1
             if num_items_selected == num_selected_items:
                 break  # Exit loop if maximum number of items reached
 
     return selected_items
-
 # Function to restart POS software
 def restart_pos():
-    #subprocess.Popen([r"C:\Program Files\iPOS.NET\BACKOFFICE.NET.exe"], creationflags=subprocess.DETACHED_PROCESS)
-    #time.sleep(60)  # Wait for POS software to start
-    #login_to_pos()  # Log in to POS
     threading.Thread(target=login_to_pos).start()  # Restart sale simulation
 def generate_window_title():
     ip_address = get_ipv4_address()
     current_date = datetime.datetime.now().strftime("%d %b %Y")
-    return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- {ip_address} -TS- POS02-PC Date.  {current_date}  "
+    return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- {ip_address} -TS- POS02-PC Date.  {current_date}   "
 #   return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- 192.168.1.12 -TS- POS02-PC Date.  {current_date}  "
 
 def get_ipv4_address():
@@ -144,22 +147,6 @@ def handle_pos_errors():
                 elif window_title == "BACKOFFICE.NET":
                     log_message("BACKOFFICE.NET error detected.")
                     manage_quantity_error()
-                    """ error_text = active_window.text.lower()
-                    if "itemcode does not exist" in error_text:
-                        log_message("Item code not found. Handling the error.")
-                        pyautogui.press('enter')
-                        # Call function to handle item not found error
-                    elif "please enter quantity" in error_text:
-                        log_message("Quantity error. Handling the error.")
-                        manage_quantity_error()
-                        # Call function to handle quantity error
-                    elif "msgbox please enter correct payment," in error_text:
-                        log_message("Payment error. Handling the error.")
-                        pyautogui.press('enter')
-                        cancel_bill()
-                        # Call function to handle payment error
-                    else:
-                        log_message("Unknown error detected.") """
                     time.sleep(10)  # Wait for the error window to close
                 elif not window_title == POS_WINDOW_NAME:    
                                     # Check if POS screen or item code input field has focus
@@ -205,8 +192,8 @@ def focus_to_window(window_title):
         target_window = gw.getWindowsWithTitle(window_title)
                 # If the window is found, activate it
         if target_window:
-            target_window[0].activate()
-            print(f"Switched to window: {window_title}")
+           target_window[0].activate()
+           print(f"Switched to window: {window_title}")
         else:
             print(f"Unable to find window: {window_title}")
 
@@ -339,112 +326,6 @@ def simulate_sale():
             #log_message(f"Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: {remaining_time}")
             time.sleep(remaining_time)
             log_message(f"Total sales limit for the day: {total_sales_limit}")
-# Function to analyze sales without performing transactions
-def analyze_sales():
-    log_message("Starting sales analysis.")
-# Get current time in seconds
-    current_time = datetime.datetime.now()
-    current_time_seconds = current_time.hour * 3600 + current_time.minute * 60 + current_time.second
-
-# Calculate remaining time until end of day in seconds
-    end_of_day = datetime.datetime.combine(current_time.date(), datetime.time(23, 50))
-    end_of_day_seconds = (end_of_day - current_time).total_seconds()
-
-# Initialize timer
-    timer = current_time_seconds
-
-# In each iteration of the loop
-    while timer < end_of_day_seconds:
-    # Generate random transaction frequency in seconds
-        transaction_frequency = random.randint(1, 600)  # Example range, adjust as needed
-
-    # Add transaction frequency to timer
-        timer += transaction_frequency
-
-    # Check if timer exceeds end of day
-        if timer >= end_of_day_seconds:
-            break
-
-    item_data = load_item_codes(ITEM_DATA_FILE)
-    if not item_data:
-        log_message("No item codes loaded. Exiting.")
-
-    total_sales_today = 0
-    total_sales_limit = get_total_sales_limit()
-    log_message(f"Total sales limit for the day: {total_sales_limit}")
-
-    # Initialize timer variables
-    current_time = datetime.datetime.now()
-    end_time = datetime.datetime(current_time.year, current_time.month, current_time.day, 23, 50)
-    timer = 0
-
-    while not stop_clicked:
-        if total_sales_today >= total_sales_limit:
-            log_message("Total sales limit for the day reached. Waiting for tomorrow.")
-            total_sales_today = 0
-            total_sales_limit = get_total_sales_limit()
-            remaining_time = get_remaining_time_until_business_hours()
-            log_message(
-                f"Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: {remaining_time}")
-            time.sleep(remaining_time)
-            continue
-
-        selected_items = select_items_for_sale(item_data)
-
-        total_price = 0
-
-        for item in selected_items:
-            item_code, item_name, item_price = item['ItemCode'], item['Description'], item['Slprice']
-            if item['Slprice'] > 1000:
-                quantity = 1
-            else:
-                quantity = random.randint(1, 3)
-            item_total_price = quantity * item_price
-            log_message(
-                f"Selected Item code: {item_code} Item name: {item_name} Price: {item_price} Quantity: {quantity} item_total_price={item_total_price}")
-            if not MAX_BILL_TOTAL[0] <= total_price + item_total_price <= MAX_BILL_TOTAL[1]:
-                log_message("Maximum bill total reached. Completing transaction.")
-                continue
-
-            total_price += item_total_price
-            log_message(f"bill total so far ={total_price}")
-
-        total_sales_today += total_price
-        log_message(
-            f"Total sales for the day so far: {total_sales_today} target sale: {total_sales_limit}  target remaining: {total_sales_limit - total_sales_today}")
-
-        # Increment the timer by the time elapsed since the last iteration
-        current_time = datetime.datetime.now()
-        time_difference = current_time - end_time
-        timer += time_difference.total_seconds()
-
-        if current_time >= end_time:
-            log_message("End time reached. Analyzing completed.")
-            break
-
-        if is_business_hours():
-            transaction_frequency = get_transaction_frequency()
-            log_message(f"Waiting for {transaction_frequency} seconds before next transaction.")
-            # No sleep here, just keep track of time
-            current_time = datetime.datetime.now()
-            time_difference = current_time - end_time
-            timer += time_difference.total_seconds()
-        else:
-            total_sales_today = 0
-            total_sales_limit = get_total_sales_limit()
-            remaining_time = get_remaining_time_until_business_hours()
-            hours = remaining_time // 3600
-            minutes = (remaining_time % 3600) // 60
-            seconds = remaining_time % 60
-            log_message(
-                f"Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: {int(hours):02d}:{int(minutes):02d}:{int(seconds):02d}")
-            # No sleep here, just keep track of time
-            current_time = datetime.datetime.now()
-            time_difference = current_time - end_time
-            timer += time_difference.total_seconds()
-            log_message(f"Total sales limit for the day: {total_sales_limit}")
-
-    return timer
 
 def run_pos():
     log_message("Starting run_pos function.")
@@ -452,14 +333,10 @@ def run_pos():
     subprocess.Popen([pos_path], creationflags=subprocess.DETACHED_PROCESS)
     time.sleep(60)  
     log_message("Starting pos software.")
-
-    # Wait for the POS application to start (adjust the delay as needed)
-  
-
 # Function to login to POS and cashier screens
 def login_to_pos():
     run_pos()
-    sale_stop_clicked()
+    stop_sale_bot()
     time.sleep(60)  
     Main_Login()
 
@@ -474,7 +351,6 @@ def Cashier_Login():
     focus_to_window(generate_window_title())
     pyautogui.press('enter')
     log_message("Starting cashier login details.")
-
     pyautogui.typewrite("POS2")
     pyautogui.press('enter')
     pyautogui.typewrite("POS2")
@@ -482,7 +358,6 @@ def Cashier_Login():
     pyautogui.press('enter')
     pyautogui.press('enter')
     
-
 def Main_Login():
     focus_to_window(LOGIN_WINDOW_NAME)
     pyautogui.FAILSAFE = False
@@ -513,46 +388,7 @@ def start_sale_bot():
     threading.Thread(target=handle_pos_errors).start()
     threading.Thread(target=simulate_sale).start()
 
-# Function to generate report and display in GUI
-def generate_report_old():
-    log_message("Starting generate reports")
 
-    item_report = {}
-    total_sale = 0
-    for record in sales_records:
-        item_code, item_name, quantity, total_price = record['ItemCode'], record['ItemName'], record['Quantity'], record['TotalPrice']
-        if item_code in item_report:
-            item_report[item_code]['Quantity'] += quantity
-            item_report[item_code]['Total'] += total_price
-        else:
-            item_report[item_code] = {'ItemName': item_name, 'Quantity': quantity, 'Total': total_price}
-        total_sale += total_price
-
-    with open(SALES_REPORT_FILE, 'w', newline='') as file:
-        writer = csv.DictWriter(file, fieldnames=['ItemCode', 'ItemName', 'Quantity', 'Total'])
-        writer.writeheader()
-        for item_code, data in item_report.items():
-            writer.writerow({'ItemCode': item_code, 'ItemName': data['ItemName'], 'Quantity': data['Quantity'], 'Total': data['Total']})
-        writer.writerow({'Total Sale Value:': total_sale, 'Total Transactions': total_transactions})
-    root = tk.Tk()
-    root.title("Sales Report")
-    tree = ttk.Treeview(root, columns=('Item Code', 'Item Name', 'Quantity Sold', 'Total'))
-    tree.heading('#0', text='Item Code')
-    tree.heading('#1', text='Item Name')
-    tree.heading('#2', text='Quantity Sold')
-    tree.heading('#3', text='Total')
-
-    for item_code, data in item_report.items():
-        tree.insert('', 'end', text=item_code, values=(data['ItemName'], data['Quantity'], data['Total']))
-
-    tree.pack(expand=True, fill='both')
-
-    total_label = tk.Label(root, text=f'Total Sale Value: {total_sale}')
-    total_label.pack()
-
-    transactions_label = tk.Label(root, text=f'Total Transactions: {total_transactions}')
-    transactions_label.pack()
-    root.mainloop()
 def generate_report():
     log_message("Starting generate reports")
 
@@ -852,9 +688,6 @@ settings_button.pack()
 
 # Create a Text widget to display log messages
 log_text = tk.Text(root, height=20, width=70)
-log_text.pack(pady=20, padx=10)
-
-
- 
+log_text.pack(pady=20, padx=10) 
 # Start the Tkinter event loop
 root.mainloop()
