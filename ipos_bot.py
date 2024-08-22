@@ -69,8 +69,6 @@ def enable_keyboard():
     for i in range(150):
         keyboard.unblock_key(i)
     messagebox.showinfo("Keyboard Enabled", "Keyboard input has been enabled.")
-485414
-
 # Function to log messages
 def log_message(message):
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -126,7 +124,6 @@ def select_items_for_sale(item_data):
 # Function to restart POS software
 def restart_pos():
     log_message("restart_pos() function called.")
-
     threading.Thread(target=login_to_pos).start()  # Restart sale simulation
     #'iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- 192.168.1.19 -TS- POS02-PC Date.  29 Jul 2024  '
 def generate_window_title():
@@ -300,6 +297,7 @@ def manage_quantity_error():
     pyautogui.press('enter')
     cancel_bill() # Check every 5 seconds
 def shift_closing():
+    stop_sale_bot()
     # Activate the POS window
     focus_to_window(POS_WINDOW_NAME)
     # Simulate pressing Ctrl+Alt+S to initiate shift closing
@@ -478,8 +476,8 @@ def run_pos():
 
 def login_to_pos():
     pyautogui.FAILSAFE = False
-    run_pos()
     stop_sale_bot()
+    run_pos()
     time.sleep(60)  
     Main_Login()
     time.sleep(30)  # Adjust as needed
