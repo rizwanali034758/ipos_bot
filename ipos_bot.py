@@ -17,6 +17,7 @@ from tkinter import messagebox
 import keyboard
 import psutil
 from pywinauto import Application
+from pynput.mouse import Listener as MouseListener
 
 from tkinter import Toplevel, Label, Entry, Button
 #cd /d "E:\programing codes\ipos_bot"
@@ -80,7 +81,6 @@ def log_message(message):
     with open(LOG_FILE, 'a') as file:
         file.write(f"[{timestamp}] {message}\n")
         # Function to select items for sale based on company and selection probability
-
 # Function to select items for sale
 def select_items_for_sale(item_data):
     log_message("select_items_for_sale() function called.")
@@ -152,27 +152,6 @@ def cancel_bill():
     # Simulate pressing Enter to confirm the password
     pyautogui.press('enter')
 # Function to handle POS errors
-def handle_pos_errors_NEW():
-    while not error_stop_clicked:
-        active_window = gw.getActiveWindow()
-        window_title = active_window.title if active_window else ""
-
-        if POS_WINDOW_NAME in gw.getAllTitles():
-            if window_title == "SQL Connection":
-                log_message("SQL Connection error detected. Restarting POS software.")
-                handle_db_error()
-            
-            elif window_title == "BACKOFFICE.NET":
-                log_message("BACKOFFICE.NET error detected.")
-                manage_quantity_error()
-                time.sleep(10)
-            elif window_title != POS_WINDOW_NAME:
-                log_message("POS window or item code input field not in focus. Bringing to front.")
-                focus_to_window(POS_WINDOW_NAME)
-        elif LOGIN_WINDOW_NAME in gw.getAllTitles() and window_title != LOGIN_WINDOW_NAME:
-            log_message("Login window not in focus. Bringing to front.")
-            focus_to_window(LOGIN_WINDOW_NAME)
-        time.sleep(5)
 def handle_pos_errors():
     while not error_stop_clicked:
         # Get the active window
@@ -239,14 +218,11 @@ def handle_pos_errors():
                  restart_pos()               
         time.sleep(10) 
 def handle_db_error():
+    stop_sale_bot()
     log_message("handle_db_error() function called.")
-    global sale_stop_clicked,error_stop_clicked,login_stop_clicked
     pyautogui.moveTo(x=787, y=495, duration=0.25)
     pyautogui.click()
     
-    sale_stop_clicked = True
-    error_stop_clicked = True
-    login_stop_clicked = True
     close_windows_by_title(DB_ERROR_WINDOW)
     close_windows_by_title(POS_WINDOW_NAME)
     close_windows_by_title(generate_window_title())
@@ -257,11 +233,9 @@ def close_windows_by_title(target_title):
     # Retrieve all window titles
     window_titles = gw.getAllTitles()
     target_windows = [win for win in gw.getWindowsWithTitle(target_title) if win.title == target_title]
-
     if not target_windows:
         log_message(f"No windows found with title '{target_title}'")
         return
-
     for window in target_windows:
         hwnd = window._hWnd
         try:
@@ -419,7 +393,6 @@ def is_business_hours():
 def get_remaining_time_until_business_hours():
     now = datetime.datetime.now()
     opening_time, closing_time = BUSINESS_HOURS
-
     # If current time is before opening time, calculate remaining time until opening
     if now.time() < opening_time:
         target_time = datetime.datetime.combine(now.date(), opening_time)
@@ -430,26 +403,9 @@ def get_remaining_time_until_business_hours():
     else:
         next_day = now + datetime.timedelta(days=1)
         target_time = datetime.datetime.combine(next_day.date(), opening_time)
-
     remaining_time = (target_time - now).total_seconds()
     log_message(f"Remaining time until business hours: in hours:{remaining_time/3600}  in minutes: {remaining_time/60} in seconds: {remaining_time} ")
     return remaining_time
-
-def get_remaining_time_until_business_hours_old():
-    now = datetime.datetime.now()
-    opening_time, closing_time = BUSINESS_HOURS
-
-    # Calculate target time based on the current day if current time is after 12 AM
-    if now.hour < 2:
-        target_time = datetime.datetime(now.year, now.month, now.day, 2, 0)
-    else:
-        next_day = now + datetime.timedelta(days=1)
-        target_time = datetime.datetime(next_day.year, next_day.month, next_day.day, 2, 0)
-
-    remaining_time = (target_time - now).total_seconds()
-    log_message(f"Remaining time until business hours: in hours:{remaining_time/3600}  in minutes: {remaining_time/60} in seconds: {remaining_time} ")
-    return remaining_time 
-
 # Function to get transaction frequency based on the current time of day
 def get_transaction_frequency():
     now = datetime.datetime.now().hour
@@ -470,6 +426,7 @@ def run_pos():
 # Function to login to POS
 
 def login_to_pos():
+    log_message("Starting login_to_pos function.")
     pyautogui.FAILSAFE = False
     stop_sale_bot()
     run_pos()
@@ -607,7 +564,25 @@ def toggle_window_visibility():
 # Set initial window state
 window_hidden = False
 keyboard.add_hotkey('ctrl+0', toggle_window_visibility)
+# Variables to track left and right mouse button states
+left_pressed = False
+right_pressed = False
+# Mouse listener to detect both buttons pressed
+def on_click(x, y, button, pressed):
+    global left_pressed, right_pressed
+    # Check if left or right buttons are pressed/released
+    if button == button.left:
+        left_pressed = pressed
+    if button == button.right:
+        right_pressed = pressed
+    
+    # Toggle window visibility when both buttons are pressed
+    if left_pressed and right_pressed:
+        toggle_window_visibility()
 
+# Start mouse listener to detect both button clicks
+mouse_listener = MouseListener(on_click=on_click)
+mouse_listener.start()
 # Function to hide the window and show a system tray icon
 def hide_window1():
     root.withdraw()
@@ -775,11 +750,11 @@ log_text.pack(pady=20, padx=10)
 # Start the Tkinter event loop
 
 # Start the scheduler thread
-threading.Thread(target=run_scheduler, daemon=True).start()
+#threading.Thread(target=run_scheduler, daemon=True).start()
 
 # Schedule the shift closing
 #schedule_shift_closing()
 
 # Start the login bot by default
-#start_login_bot()
+start_login_bot()
 root.mainloop()
