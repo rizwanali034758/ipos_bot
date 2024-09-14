@@ -3052,3 +3052,442 @@
 [2024-06-29 17:06:07] bill total so far =940
 [2024-06-29 17:06:07] Total sales for the day so far: 44659 target sale: 73367  target remaining: 28708
 [2024-06-29 17:06:07] Waiting for 1191 seconds before next transaction.
+[2024-07-01 06:41:42] Starting run_pos function.
+[2024-07-01 06:41:45] Starting run_pos function.
+[2024-07-01 06:41:48] Starting run_pos function.
+[2024-07-01 06:41:55] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-07-01 06:41:55] Starting run_pos function.
+[2024-07-01 06:41:55] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-07-01 06:41:58] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-07-01 06:41:58] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-07-01 06:42:28] Starting run_pos function.
+[2024-07-01 06:42:38] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-07-01 06:42:43] Starting pos software.
+[2024-07-01 06:42:43] Stoping sale bot
+[2024-07-01 06:42:45] Starting pos software.
+[2024-07-01 06:42:45] Stoping sale bot
+[2024-07-01 06:42:48] Starting pos software.
+[2024-07-01 06:42:48] Stoping sale bot
+[2024-07-01 06:42:55] Starting pos software.
+[2024-07-01 06:42:55] Stoping sale bot
+[2024-07-01 06:43:28] Starting pos software.
+[2024-07-01 06:43:28] Stoping sale bot
+[2024-07-01 06:43:43] Starting pos software.
+[2024-07-01 06:43:43] Starting login details.
+[2024-07-01 06:43:45] Starting pos software.
+[2024-07-01 06:43:45] Starting login details.
+[2024-07-01 06:43:48] Starting pos software.
+[2024-07-01 06:43:48] Starting login details.
+[2024-07-01 06:43:55] Starting pos software.
+[2024-07-01 06:43:55] Starting login details.
+[2024-07-01 06:44:14] Starting cashier login details.
+[2024-07-01 06:44:16] Starting cashier login details.
+[2024-07-01 06:44:19] Starting cashier login details.
+[2024-07-01 06:44:26] Starting cashier login details.
+[2024-07-01 06:44:28] Starting pos software.
+[2024-07-01 06:44:28] Starting login details.
+[2024-07-01 06:44:58] Starting cashier login details.
+[2024-07-01 06:45:00] Bot started.
+[2024-07-01 06:45:00] Selected sale limit for the day: 56881
+[2024-07-01 06:45:00] Total sales limit for the day: 56881
+[2024-07-01 06:45:00] Item codes loaded successfully.
+[2024-07-01 06:45:02] Bot started.
+[2024-07-01 06:45:02] Selected sale limit for the day: 51105
+[2024-07-01 06:45:02] Total sales limit for the day: 51105
+[2024-07-01 06:45:02] Item codes loaded successfully.
+[2024-07-01 06:45:05] Bot started.
+[2024-07-01 06:45:05] Selected sale limit for the day: 59174
+[2024-07-01 06:45:05] Total sales limit for the day: 59174
+[2024-07-01 06:45:05] Item codes loaded successfully.
+[2024-07-01 06:45:11] Bot started.
+[2024-07-01 06:45:11] Selected sale limit for the day: 55919
+[2024-07-01 06:45:11] Total sales limit for the day: 55919
+[2024-07-01 06:45:11] Item codes loaded successfully.
+[2024-07-01 06:45:44] Bot started.
+[2024-07-01 06:45:44] Selected sale limit for the day: 58472
+[2024-07-01 06:45:44] Total sales limit for the day: 58472
+[2024-07-01 06:45:44] Item codes loaded successfully.
+[2024-07-01 07:08:56] Stoping sale bot
+[2024-07-07 02:55:23] Starting run_pos function.
+[2024-07-07 02:56:23] Starting pos software.
+[2024-07-07 02:56:23] Stoping sale bot
+[2024-07-07 02:57:23] Starting pos software.
+[2024-07-07 02:57:23] Starting login details.
+[2024-07-07 02:57:54] Starting cashier login details.
+[2024-07-07 02:57:59] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-07-07 02:58:40] Bot started.
+[2024-07-07 02:58:40] Selected sale limit for the day: 64118
+[2024-07-07 02:58:40] Total sales limit for the day: 64118
+[2024-07-07 02:58:40] Item codes loaded successfully.
+[2024-07-07 03:12:16] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:12:21] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:12:26] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:12:32] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:12:37] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:12:51] Stoping sale bot
+[2024-07-07 03:12:52] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:12:54] Stoping sale bot
+[2024-07-07 03:12:57] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:02] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:07] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:12] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:16] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:21] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:23] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:13:31] Bot started.
+[2024-07-07 03:13:31] Selected sale limit for the day: 70790
+[2024-07-07 03:13:31] Total sales limit for the day: 70790
+[2024-07-07 03:13:31] Item codes loaded successfully.
+[2024-07-07 03:13:31] Selected Item code: 8961008221014 Item name: NESTLE LACTOGEN 2 200G- Price: 600 Quantity: 2 item_total_price=1200
+[2024-07-07 03:13:36] Bot started.
+[2024-07-07 03:13:36] Selected sale limit for the day: 74412
+[2024-07-07 03:13:36] Total sales limit for the day: 74412
+[2024-07-07 03:13:36] Item codes loaded successfully.
+[2024-07-07 03:13:36] Selected Item code: 8961008213491 Item name: NESTLE LACTOGEN RECOVER 200G Price: 800 Quantity: 1 item_total_price=800
+[2024-07-07 03:13:38] Bot started.
+[2024-07-07 03:13:38] Selected sale limit for the day: 67033
+[2024-07-07 03:13:38] Total sales limit for the day: 67033
+[2024-07-07 03:13:38] Item codes loaded successfully.
+[2024-07-07 03:13:38] Selected Item code: 8961014248647 Item name: LUX HAND WASH 220ML ALL Price: 199 Quantity: 2 item_total_price=398
+[2024-07-07 03:13:48] bill total so far =800
+[2024-07-07 03:13:48] Total sales for the day so far: 800 target sale: 74412  target remaining: 73612
+[2024-07-07 03:13:48] Waiting for 1207 seconds before next transaction.
+[2024-07-07 03:13:56] bill total so far =1200
+[2024-07-07 03:13:56] Selected Item code: 8961014003109 Item name: SUNSILK SHAMPOO 185ML- Price: 420 Quantity: 1 item_total_price=420
+[2024-07-07 03:14:02] bill total so far =398
+[2024-07-07 03:14:02] Total sales for the day so far: 398 target sale: 67033  target remaining: 66635
+[2024-07-07 03:14:02] Waiting for 1454 seconds before next transaction.
+[2024-07-07 03:14:08] bill total so far =1620
+[2024-07-07 03:14:08] Selected Item code: 8961014248029 Item name: SUNSILK SHAMPOO 360ML- Price: 720 Quantity: 2 item_total_price=1440
+[2024-07-07 03:14:08] Maximum bill total reached. Completing transaction.
+[2024-07-07 03:14:08] Total sales for the day so far: 1620 target sale: 70790  target remaining: 69170
+[2024-07-07 03:14:08] Waiting for 1462 seconds before next transaction.
+[2024-07-07 03:16:06] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:16:08] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:16:11] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:16:13] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:16:15] Stoping sale bot
+[2024-07-07 03:16:16] POS window or item code input field not in focus. Bringing to front.
+[2024-07-07 03:16:18] POS window or item code input field not in focus. Bringing to front.
+[2024-07-17 03:04:38] Starting pos software.
+[2024-07-17 03:04:38] Starting login details.
+[2024-07-17 03:04:47] Starting cashier login details.
+[2024-07-17 03:05:05] POS window or item code input field not in focus. Bringing to front.
+[2024-07-17 03:05:20] Bot started.
+[2024-07-17 03:05:20] Selected sale limit for the day: 50744
+[2024-07-17 03:05:20] Total sales limit for the day: 50744
+[2024-07-17 03:05:20] Item codes loaded successfully.
+[2024-07-17 03:05:20] Selected Item code: 8961014023206 Item name: WALLS COOKIES CREME 1L- Price: 450 Quantity: 2 item_total_price=900
+[2024-07-17 03:05:45] bill total so far =900
+[2024-07-17 03:05:45] Total sales for the day so far: 900 target sale: 50744  target remaining: 49844
+[2024-07-17 03:05:45] Waiting for 1296 seconds before next transaction.
+[2024-07-17 03:06:20] POS window or item code input field not in focus. Bringing to front.
+[2024-07-17 03:06:25] POS window or item code input field not in focus. Bringing to front.
+[2024-07-17 03:06:30] POS window or item code input field not in focus. Bringing to front.
+[2024-07-17 03:27:21] Selected Item code: 8961014255096 Item name: LUX SOAP 98GM Price: 99 Quantity: 1 item_total_price=99
+[2024-07-17 03:27:21] Maximum bill total reached. Completing transaction.
+[2024-07-17 03:27:21] Selected Item code: 8961014255652 Item name: DOVE COND 180ML- Price: 480 Quantity: 1 item_total_price=480
+[2024-07-17 03:27:33] bill total so far =480
+[2024-07-17 03:27:33] Selected Item code: 8961008213088 Item name: NESTLE EVER+TAPAL 600GM Price: 500 Quantity: 1 item_total_price=500
+[2024-07-17 03:27:45] bill total so far =980
+[2024-07-17 03:27:45] Selected Item code: 8961008211626 Item name: NESTLE BUNYAD 900GM- Price: 1380 Quantity: 1 item_total_price=1380
+[2024-07-17 03:27:45] Maximum bill total reached. Completing transaction.
+[2024-07-17 03:27:46] Total sales for the day so far: 1880 target sale: 50744  target remaining: 48864
+[2024-07-17 03:27:46] Waiting for 1393 seconds before next transaction.
+[2024-07-17 03:50:59] Selected Item code: 8961008212272 Item name: NESTLE WATER 500ML Price: 50 Quantity: 3 item_total_price=150
+[2024-07-17 03:50:59] Maximum bill total reached. Completing transaction.
+[2024-07-17 03:50:59] Selected Item code: 8961014050530 Item name: WALLS MANGO CUP 100ML Price: 60 Quantity: 3 item_total_price=180
+[2024-07-17 03:50:59] Maximum bill total reached. Completing transaction.
+[2024-07-17 03:50:59] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 1 item_total_price=400
+[2024-07-17 03:51:11] bill total so far =400
+[2024-07-17 03:51:11] Total sales for the day so far: 2280 target sale: 50744  target remaining: 48464
+[2024-07-17 03:51:11] Waiting for 1413 seconds before next transaction.
+[2024-07-17 04:14:44] Selected Item code: 8961008221076 Item name: NESTLE FV PINE APPLE 230ML Price: 150 Quantity: 1 item_total_price=150
+[2024-07-17 04:14:44] Maximum bill total reached. Completing transaction.
+[2024-07-17 04:14:44] Selected Item code: 8961014065510 Item name: WALLS TUTTI FRUITI 1L Price: 270 Quantity: 2 item_total_price=540
+[2024-07-17 04:15:09] bill total so far =540
+[2024-07-17 04:15:09] Selected Item code: 8961014037135 Item name: KNORR KETCHUP 400GM- Price: 260 Quantity: 1 item_total_price=260
+[2024-07-17 04:15:21] bill total so far =800
+[2024-07-17 04:15:21] Total sales for the day so far: 3080 target sale: 50744  target remaining: 47664
+[2024-07-17 04:15:21] Waiting for 1408 seconds before next transaction.
+[2024-07-17 04:38:49] Selected Item code: 8961014050035 Item name: WALLS STICK JET SPOT Price: 25 Quantity: 3 item_total_price=75
+[2024-07-17 04:38:49] Maximum bill total reached. Completing transaction.
+[2024-07-17 04:38:49] Selected Item code: 8961008212883 Item name: NES FV ROYAL MANGO 1LTR- Price: 340 Quantity: 3 item_total_price=1020
+[2024-07-17 04:38:52] BACKOFFICE.NET error detected.
+[2024-07-17 04:39:26] bill total so far =1020
+[2024-07-17 04:39:26] Total sales for the day so far: 4100 target sale: 50744  target remaining: 46644
+[2024-07-17 04:39:26] Waiting for 1281 seconds before next transaction.
+[2024-07-17 04:48:59] POS window or item code input field not in focus. Bringing to front.
+[2024-07-17 04:50:08] Starting generate reports
+[2024-07-17 04:50:24] Stoping sale bot
+[2024-07-19 20:41:15] Starting run_pos function.
+[2024-07-19 20:42:15] Starting pos software.
+[2024-07-19 20:42:15] Stoping sale bot
+[2024-07-19 20:43:15] Starting pos software.
+[2024-07-19 20:43:15] Starting login details.
+[2024-07-19 20:43:46] Starting cashier login details.
+[2024-07-19 20:44:32] Bot started.
+[2024-07-19 20:44:32] Selected sale limit for the day: 62497
+[2024-07-19 20:44:32] Total sales limit for the day: 62497
+[2024-07-19 20:44:32] Item codes loaded successfully.
+[2024-08-08 05:49:57] Starting pos software.
+[2024-08-08 05:49:57] Starting login details.
+[2024-08-08 05:50:03] Starting cashier login details.
+[2024-08-27 22:47:24] Starting run_pos function.
+[2024-08-27 22:48:24] Starting pos software.
+[2024-08-27 22:49:16] Starting pos software.
+[2024-08-27 22:49:16] Starting login details.
+[2024-08-27 22:49:30] Starting cashier login details.
+[2024-08-27 22:56:32] Starting run_pos function.
+[2024-08-27 22:56:47] Starting pos software.
+[2024-08-27 22:56:47] Starting login details.
+[2024-08-27 22:57:32] Starting pos software.
+[2024-08-27 23:02:08] POS window or item code input field not in focus. Bringing to front.
+[2024-08-27 23:02:23] Bot started.
+[2024-08-27 23:02:23] Selected sale limit for the day: 57228
+[2024-08-27 23:02:23] Total sales limit for the day: 57228
+[2024-08-27 23:02:23] Item codes loaded successfully.
+[2024-08-27 23:02:23] Selected Item code: 8964000145371 Item name: OMORE KULFA 1L- Price: 480 Quantity: 2 item_total_price=960
+[2024-08-27 23:02:28] POS window or item code input field not in focus. Bringing to front.
+[2024-08-27 23:02:47] bill total so far =960
+[2024-08-27 23:02:47] Selected Item code: 8961014236781 Item name: FAIR LOVELY MV 25G- Price: 199 Quantity: 2 item_total_price=398
+[2024-08-27 23:03:12] bill total so far =1358
+[2024-08-27 23:03:12] Total sales for the day so far: 1358 target sale: 57228  target remaining: 55870
+[2024-08-27 23:03:12] Waiting for 824 seconds before next transaction.
+[2024-08-27 23:07:49] POS window or item code input field not in focus. Bringing to front.
+[2024-08-27 23:08:04] POS window or item code input field not in focus. Bringing to front.
+[2024-08-27 23:08:14] POS window or item code input field not in focus. Bringing to front.
+[2024-08-27 23:08:24] POS window or item code input field not in focus. Bringing to front.
+[2024-08-27 23:16:56] Selected Item code: 8961014184549 Item name: RAFHAN BANANA CUSTARD 300GM Price: 80 Quantity: 1 item_total_price=80
+[2024-08-27 23:16:56] Maximum bill total reached. Completing transaction.
+[2024-08-27 23:16:56] Selected Item code: 8961014051582 Item name: WALLS KING KULFA TUB Price: 800 Quantity: 1 item_total_price=800
+[2024-08-27 23:17:00] BACKOFFICE.NET error detected.
+[2024-08-27 23:17:08] bill total so far =800
+[2024-08-27 23:17:08] Selected Item code: 8961014246391 Item name: SUNSILIK NATRUALL Price: 230 Quantity: 3 item_total_price=690
+[2024-08-27 23:17:45] bill total so far =1490
+[2024-08-27 23:17:45] Total sales for the day so far: 2848 target sale: 57228  target remaining: 54380
+[2024-08-27 23:17:45] Waiting for 978 seconds before next transaction.
+[2024-08-27 23:34:03] Selected Item code: 8964000145975 Item name: OMORE CANDI POP 60ML- Price: 40 Quantity: 3 item_total_price=120
+[2024-08-27 23:34:03] Maximum bill total reached. Completing transaction.
+[2024-08-27 23:34:03] Selected Item code: 8961014032284 Item name: WALLS CORNETTO CD CONE Price: 160 Quantity: 3 item_total_price=480
+[2024-08-27 23:34:40] bill total so far =480
+[2024-08-27 23:34:40] Total sales for the day so far: 3328 target sale: 57228  target remaining: 53900
+[2024-08-27 23:34:40] Waiting for 971 seconds before next transaction.
+[2024-08-27 23:50:51] Selected Item code: 8961014032499 Item name: HELLMANNS REAL MAYO 450GM Price: 490 Quantity: 2 item_total_price=980
+[2024-08-27 23:51:16] bill total so far =980
+[2024-08-27 23:51:16] Selected Item code: 8964000145890 Item name: OMORE DOUBLE CHOC CONE Price: 90 Quantity: 3 item_total_price=270
+[2024-08-27 23:51:53] bill total so far =1250
+[2024-08-27 23:51:53] Selected Item code: 8961008220826 Item name: NESTLE MILO 150G Price: 450 Quantity: 3 item_total_price=1350
+[2024-08-27 23:51:53] Maximum bill total reached. Completing transaction.
+[2024-08-27 23:51:53] Selected Item code: 8961014017229 Item name: RAFHAN STRAWBERY CUSTARD 285G Price: 110 Quantity: 1 item_total_price=110
+[2024-08-27 23:52:05] bill total so far =1360
+[2024-08-27 23:52:05] Total sales for the day so far: 4688 target sale: 57228  target remaining: 52540
+[2024-08-27 23:52:05] Selected sale limit for the day: 59925
+[2024-08-27 23:52:05] Remaining time until business hours: in hours:2.131798416111111  in minutes: 127.90790496666666 in seconds: 7674.474298 
+[2024-08-27 23:52:05] Bussiness is closed now. Bot will resume at 6.00 AM till 23.50 PM. Wait: 02:07:54
+[2024-08-28 02:00:00] Total sales limit for the day: 59925
+[2024-08-28 02:00:00] Selected Item code: 8961014021424 Item name: WALLS CORNETTO BD CONE Price: 160 Quantity: 2 item_total_price=320
+[2024-08-28 02:00:24] bill total so far =320
+[2024-08-28 02:00:24] Selected Item code: 8961014032383 Item name: ENERGILE 280ML Price: 280 Quantity: 2 item_total_price=560
+[2024-08-28 02:00:48] bill total so far =880
+[2024-08-28 02:00:49] Total sales for the day so far: 880 target sale: 59925  target remaining: 59045
+[2024-08-28 02:00:49] Waiting for 1291 seconds before next transaction.
+[2024-08-28 02:22:20] Selected Item code: 8961008215785 Item name: EVERDAY KARAK CHAI Price: 65 Quantity: 2 item_total_price=130
+[2024-08-28 02:22:20] Maximum bill total reached. Completing transaction.
+[2024-08-28 02:22:20] Selected Item code: 8961014012460 Item name: PONDS COLD CREAM 55ML Price: 130 Quantity: 1 item_total_price=130
+[2024-08-28 02:22:20] Maximum bill total reached. Completing transaction.
+[2024-08-28 02:22:20] Selected Item code: 8961014035575 Item name: FAIR - LOVELY MEN 25GM Price: 140 Quantity: 2 item_total_price=280
+[2024-08-28 02:22:44] bill total so far =280
+[2024-08-28 02:22:44] Total sales for the day so far: 1160 target sale: 59925  target remaining: 58765
+[2024-08-28 02:22:44] Waiting for 1289 seconds before next transaction.
+[2024-08-28 02:44:13] Selected Item code: 8961008215976 Item name: NES FV LIME CAN 250ML- Price: 130 Quantity: 2 item_total_price=260
+[2024-08-28 02:44:38] bill total so far =260
+[2024-08-28 02:44:38] Selected Item code: 8961014035575 Item name: FAIR - LOVELY MEN 25GM Price: 140 Quantity: 1 item_total_price=140
+[2024-08-28 02:44:50] bill total so far =400
+[2024-08-28 02:44:50] Selected Item code: 8961014248951 Item name: PONDS BB DAY CREAM 50GM- Price: 450 Quantity: 3 item_total_price=1350
+[2024-08-28 02:45:27] bill total so far =1750
+[2024-08-28 02:45:27] Selected Item code: 8961014249026 Item name: PONDS ACNE CONTROL 100G Price: 490 Quantity: 1 item_total_price=490
+[2024-08-28 02:45:27] Maximum bill total reached. Completing transaction.
+[2024-08-28 02:45:27] Total sales for the day so far: 2910 target sale: 59925  target remaining: 57015
+[2024-08-28 02:45:27] Waiting for 1397 seconds before next transaction.
+[2024-08-28 03:08:44] Selected Item code: 8961014029758 Item name: POUNDS CREAM Price: 300 Quantity: 1 item_total_price=300
+[2024-08-28 03:08:56] bill total so far =300
+[2024-08-28 03:08:56] Selected Item code: 8961014008371 Item name: RAFHAN VANILLA CUSTARD 120GM Price: 50 Quantity: 2 item_total_price=100
+[2024-08-28 03:09:21] bill total so far =400
+[2024-08-28 03:09:21] Total sales for the day so far: 3310 target sale: 59925  target remaining: 56615
+[2024-08-28 03:09:21] Waiting for 1269 seconds before next transaction.
+[2024-08-28 03:09:21] POS window or item code input field not in focus. Bringing to front.
+[2024-08-28 03:30:30] Selected Item code: 8961014015928 Item name: RAFHAN VAN CUSTARD 285GM Price: 95 Quantity: 2 item_total_price=190
+[2024-08-28 03:30:30] Maximum bill total reached. Completing transaction.
+[2024-08-28 03:30:30] Total sales for the day so far: 3310 target sale: 59925  target remaining: 56615
+[2024-08-28 03:30:30] Waiting for 1271 seconds before next transaction.
+[2024-08-28 03:51:41] Selected Item code: 8961014248951 Item name: PONDS BB DAY CREAM 50GM- Price: 450 Quantity: 1 item_total_price=450
+[2024-08-28 03:51:53] bill total so far =450
+[2024-08-28 03:51:53] Selected Item code: 8961014024029 Item name: LIPTON YL TEA 70GM Price: 220 Quantity: 3 item_total_price=660
+[2024-08-28 03:52:30] bill total so far =1110
+[2024-08-28 03:52:30] Selected Item code: 8961008216966 Item name: NES FV FALSA 230ML- Price: 150 Quantity: 3 item_total_price=450
+[2024-08-28 03:53:07] bill total so far =1560
+[2024-08-28 03:53:07] Total sales for the day so far: 4870 target sale: 59925  target remaining: 55055
+[2024-08-28 03:53:07] Waiting for 1402 seconds before next transaction.
+[2024-08-28 04:16:29] Selected Item code: 8961014255782 Item name: LIFEBUOY WITH VITAMINS 200ML Price: 250 Quantity: 1 item_total_price=250
+[2024-08-28 04:16:41] bill total so far =250
+[2024-08-28 04:16:41] Selected Item code: 8961014037135 Item name: KNORR KETCHUP 400GM- Price: 260 Quantity: 3 item_total_price=780
+[2024-08-28 04:17:18] bill total so far =1030
+[2024-08-28 04:17:18] Selected Item code: 8961014018486 Item name: WALLS STICK CHOC BAR- Price: 50 Quantity: 3 item_total_price=150
+[2024-08-28 04:17:55] bill total so far =1180
+[2024-08-28 04:17:55] Selected Item code: 8961014035575 Item name: FAIR - LOVELY MEN 25GM Price: 140 Quantity: 1 item_total_price=140
+[2024-08-28 04:18:07] bill total so far =1320
+[2024-08-28 04:18:07] Total sales for the day so far: 6190 target sale: 59925  target remaining: 53735
+[2024-08-28 04:18:07] Waiting for 1239 seconds before next transaction.
+[2024-08-28 04:38:46] Selected Item code: 8961014032178 Item name: WALLS FEAST CARAMEL- Price: 99 Quantity: 3 item_total_price=297
+[2024-08-28 04:39:23] bill total so far =297
+[2024-08-28 04:39:23] Total sales for the day so far: 6487 target sale: 59925  target remaining: 53438
+[2024-08-28 04:39:23] Waiting for 1319 seconds before next transaction.
+[2024-08-28 05:01:22] Selected Item code: 8961014023008 Item name: KNORR BLAZIN NOODLES 2X Price: 190 Quantity: 2 item_total_price=380
+[2024-08-28 05:01:47] bill total so far =380
+[2024-08-28 05:01:47] Selected Item code: 8961014051766 Item name: MANGO KULFI Price: 10 Quantity: 1 item_total_price=10
+[2024-08-28 05:01:59] bill total so far =390
+[2024-08-28 05:01:59] Selected Item code: 8961014235463 Item name: LIFEBUOY HERBAL 90ML Price: 100 Quantity: 3 item_total_price=300
+[2024-08-28 05:02:36] bill total so far =690
+[2024-08-28 05:02:36] Total sales for the day so far: 7177 target sale: 59925  target remaining: 52748
+[2024-08-28 05:02:36] Waiting for 1494 seconds before next transaction.
+[2024-08-28 05:27:30] Selected Item code: 8961014008357 Item name: WALLS MANGO 1L Price: 400 Quantity: 3 item_total_price=1200
+[2024-08-28 05:28:07] bill total so far =1200
+[2024-08-28 05:28:07] Selected Item code: 8961014186352 Item name: GLAXOSE-D 100GM Price: 80 Quantity: 1 item_total_price=80
+[2024-08-28 05:28:19] bill total so far =1280
+[2024-08-28 05:28:19] Selected Item code: 8964000144015 Item name: OMORE STICK KULFI Price: 60 Quantity: 3 item_total_price=180
+[2024-08-28 05:28:56] bill total so far =1460
+[2024-08-28 05:28:56] Total sales for the day so far: 8637 target sale: 59925  target remaining: 51288
+[2024-08-28 05:28:56] Waiting for 1294 seconds before next transaction.
+[2024-08-28 05:50:30] Selected Item code: 8961008213095 Item name: NESTLE EVER+TAPAL 250GM Price: 225 Quantity: 2 item_total_price=450
+[2024-08-28 05:50:54] bill total so far =450
+[2024-08-28 05:50:54] Selected Item code: 8961008218960 Item name: NES FV CHUNSA MANGO 230ML Price: 120 Quantity: 1 item_total_price=120
+[2024-08-28 05:51:07] bill total so far =570
+[2024-08-28 05:51:07] Selected Item code: 8961014245387 Item name: LIFE BOY N- LONG90ML Price: 90 Quantity: 1 item_total_price=90
+[2024-08-28 05:51:19] bill total so far =660
+[2024-08-28 05:51:19] Selected Item code: 8964000145982 Item name: PISTACHIO CHOCOLATE 100ML Price: 70 Quantity: 2 item_total_price=140
+[2024-08-28 05:51:43] bill total so far =800
+[2024-08-28 05:51:43] Total sales for the day so far: 9437 target sale: 59925  target remaining: 50488
+[2024-08-28 05:51:43] Waiting for 1214 seconds before next transaction.
+[2024-08-28 06:11:57] Selected Item code: 8961014236613 Item name: S S NATURAL RECHARGE 380ML Price: 520 Quantity: 1 item_total_price=520
+[2024-08-28 06:12:10] bill total so far =520
+[2024-08-28 06:12:10] Total sales for the day so far: 9957 target sale: 59925  target remaining: 49968
+[2024-08-28 06:12:10] Waiting for 1264 seconds before next transaction.
+[2024-08-28 06:33:14] Selected Item code: 8961008209852 Item name: NES NESFRUTA MANGO 200ML- Price: 60 Quantity: 1 item_total_price=60
+[2024-08-28 06:33:14] Maximum bill total reached. Completing transaction.
+[2024-08-28 06:33:14] Selected Item code: 8961008220543 Item name: NESTLE CERELACE NS 350G Price: 1050 Quantity: 1 item_total_price=1050
+[2024-08-28 06:33:26] bill total so far =1050
+[2024-08-28 06:33:26] Selected Item code: 8961014236859 Item name: FAIR LOVELY LOTION 200ML- Price: 300 Quantity: 2 item_total_price=600
+[2024-08-28 06:33:51] bill total so far =1650
+[2024-08-28 06:33:51] Total sales for the day so far: 11607 target sale: 59925  target remaining: 48318
+[2024-08-28 06:33:51] Waiting for 1442 seconds before next transaction.
+[2024-08-28 06:57:53] Selected Item code: 8961014004595 Item name: WALLS KING KULFA BIG SLICE Price: 70 Quantity: 3 item_total_price=210
+[2024-08-28 06:58:30] bill total so far =210
+[2024-08-28 06:58:30] Selected Item code: 8961014003222 Item name: LIFEBOUY AD 200ML Price: 165 Quantity: 1 item_total_price=165
+[2024-08-28 06:58:42] bill total so far =375
+[2024-08-28 06:58:42] Selected Item code: 8961008217673 Item name: NESTLE CAFE LATTE 220ML- Price: 170 Quantity: 1 item_total_price=170
+[2024-08-28 06:58:54] bill total so far =545
+[2024-08-28 06:58:54] Total sales for the day so far: 12152 target sale: 59925  target remaining: 47773
+[2024-08-28 06:58:54] Waiting for 1452 seconds before next transaction.
+[2024-08-28 07:23:06] Selected Item code: 8961014050530 Item name: WALLS MANGO CUP 100ML Price: 80 Quantity: 3 item_total_price=240
+[2024-08-28 07:23:43] bill total so far =240
+[2024-08-28 07:23:43] Selected Item code: 8961008216249 Item name: NES FV RED GRAPES 1L Price: 400 Quantity: 3 item_total_price=1200
+[2024-08-28 07:24:20] bill total so far =1440
+[2024-08-28 07:24:20] Total sales for the day so far: 13592 target sale: 59925  target remaining: 46333
+[2024-08-28 07:24:20] Waiting for 1252 seconds before next transaction.
+[2024-08-28 07:45:12] Selected Item code: 8961014009149 Item name: WALLS MANGO 0.5L Price: 180 Quantity: 1 item_total_price=180
+[2024-08-28 07:45:12] Maximum bill total reached. Completing transaction.
+[2024-08-28 07:45:12] Selected Item code: 8961014016994 Item name: CH0C DIP Price: 15 Quantity: 2 item_total_price=30
+[2024-08-28 07:45:12] Maximum bill total reached. Completing transaction.
+[2024-08-28 07:45:12] Selected Item code: 8961014241976 Item name: CLEAR SHAMPOO 80ML- Price: 130 Quantity: 1 item_total_price=130
+[2024-08-28 07:45:12] Maximum bill total reached. Completing transaction.
+[2024-08-28 07:45:12] Total sales for the day so far: 13592 target sale: 59925  target remaining: 46333
+[2024-08-28 07:45:12] Waiting for 1228 seconds before next transaction.
+[2024-08-28 08:05:40] Selected Item code: 8961008220758 Item name: MILK PAK ACTIVE 1L Price: 280 Quantity: 1 item_total_price=280
+[2024-08-28 08:05:52] bill total so far =280
+[2024-08-28 08:05:53] Total sales for the day so far: 13872 target sale: 59925  target remaining: 46053
+[2024-08-28 08:05:53] Waiting for 1482 seconds before next transaction.
+[2024-08-28 08:30:35] Selected Item code: 8961008209432 Item name: NESTLE NESVITA MOVE 200ML Price: 80 Quantity: 2 item_total_price=160
+[2024-08-28 08:30:35] Maximum bill total reached. Completing transaction.
+[2024-08-28 08:30:35] Total sales for the day so far: 13872 target sale: 59925  target remaining: 46053
+[2024-08-28 08:30:35] Waiting for 1383 seconds before next transaction.
+[2024-08-28 08:53:38] Selected Item code: 8961014017618 Item name: KNORR KETCHUP 800GM- Price: 450 Quantity: 2 item_total_price=900
+[2024-08-28 08:54:02] bill total so far =900
+[2024-08-28 08:54:03] Total sales for the day so far: 14772 target sale: 59925  target remaining: 45153
+[2024-08-28 08:54:03] Waiting for 1309 seconds before next transaction.
+[2024-08-28 09:15:52] Selected Item code: 8961014017892 Item name: KNOOR CHILLI GARLIC SAUCE 800ML Price: 255 Quantity: 2 item_total_price=510
+[2024-08-28 09:15:56] BACKOFFICE.NET error detected.
+[2024-08-28 09:16:16] bill total so far =510
+[2024-08-28 09:16:16] Selected Item code: 8961014002843 Item name: VASELINE HEALTY WHITE 100ML Price: 270 Quantity: 2 item_total_price=540
+[2024-08-28 09:16:41] bill total so far =1050
+[2024-08-28 09:16:41] Total sales for the day so far: 15822 target sale: 59925  target remaining: 44103
+[2024-08-28 09:16:41] Waiting for 1302 seconds before next transaction.
+[2024-08-28 09:38:23] Selected Item code: 8961014241976 Item name: CLEAR SHAMPOO 80ML- Price: 130 Quantity: 2 item_total_price=260
+[2024-08-28 09:38:47] bill total so far =260
+[2024-08-28 09:38:47] Selected Item code: 8961014186444 Item name: ENERGILE 400G Price: 280 Quantity: 2 item_total_price=560
+[2024-08-28 09:39:12] bill total so far =820
+[2024-08-28 09:39:12] Selected Item code: 8961014247954 Item name: LIFEBOY HAND SANITIZER 65ML Price: 150 Quantity: 3 item_total_price=450
+[2024-08-28 09:39:48] bill total so far =1270
+[2024-08-28 09:39:49] Total sales for the day so far: 17092 target sale: 59925  target remaining: 42833
+[2024-08-28 09:39:49] Waiting for 1444 seconds before next transaction.
+[2024-08-28 10:03:53] Selected Item code: 8961008212418 Item name: NESTLE RAITA 250GM ALL Price: 200 Quantity: 3 item_total_price=600
+[2024-08-28 10:04:29] bill total so far =600
+[2024-08-28 10:04:29] Selected Item code: 8964000144695 Item name: CHOCO VANILA CHIPPY Price: 40 Quantity: 1 item_total_price=40
+[2024-08-28 10:04:42] bill total so far =640
+[2024-08-28 10:04:42] Total sales for the day so far: 17732 target sale: 59925  target remaining: 42193
+[2024-08-28 10:04:42] Waiting for 1388 seconds before next transaction.
+[2024-08-28 10:27:50] Selected Item code: 8961014245363 Item name: LIFEBOY S-S 650ML Price: 499 Quantity: 3 item_total_price=1497
+[2024-08-28 10:28:27] bill total so far =1497
+[2024-08-28 10:28:27] Total sales for the day so far: 19229 target sale: 59925  target remaining: 40696
+[2024-08-28 10:28:27] Waiting for 1361 seconds before next transaction.
+[2024-08-28 10:51:08] Selected Item code: 8964000144480 Item name: OMORE TUTTI FRUTTI 1L- Price: 480 Quantity: 2 item_total_price=960
+[2024-08-28 10:51:32] bill total so far =960
+[2024-08-28 10:51:33] Total sales for the day so far: 20189 target sale: 59925  target remaining: 39736
+[2024-08-28 10:51:33] Waiting for 1495 seconds before next transaction.
+[2024-08-28 10:55:21] BACKOFFICE.NET error detected.
+[2024-08-28 11:16:28] Selected Item code: 8961014065565 Item name: WALLS VANILLA 1L Price: 340 Quantity: 2 item_total_price=680
+[2024-08-28 11:16:52] bill total so far =680
+[2024-08-28 11:16:52] Selected Item code: 8961014003703 Item name: WALLS ALMOND CRUNCH TUB 1L Price: 335 Quantity: 1 item_total_price=335
+[2024-08-28 11:17:04] bill total so far =1015
+[2024-08-28 11:17:04] Selected Item code: 8961014032499 Item name: HELLMANNS REAL MAYO 450GM Price: 490 Quantity: 1 item_total_price=490
+[2024-08-28 11:17:17] bill total so far =1505
+[2024-08-28 11:17:17] Selected Item code: 8961014262933 Item name: LIFEBUOY SOAP 128G Price: 105 Quantity: 3 item_total_price=315
+[2024-08-28 11:17:53] bill total so far =1820
+[2024-08-28 11:17:53] Total sales for the day so far: 22009 target sale: 59925  target remaining: 37916
+[2024-08-28 11:17:53] Waiting for 1439 seconds before next transaction.
+[2024-08-28 11:41:52] Selected Item code: 8961014244830 Item name: FAIR LOVELY CB 25G Price: 250 Quantity: 1 item_total_price=250
+[2024-08-28 11:42:05] bill total so far =250
+[2024-08-28 11:42:05] Total sales for the day so far: 22259 target sale: 59925  target remaining: 37666
+[2024-08-28 11:42:05] Waiting for 1422 seconds before next transaction.
+[2024-08-28 12:05:47] Selected Item code: 8964000144114 Item name: OMORE VANILA STRA CONE- Price: 50 Quantity: 1 item_total_price=50
+[2024-08-28 12:05:47] Maximum bill total reached. Completing transaction.
+[2024-08-28 12:05:47] Selected Item code: 8961014017991 Item name: RAFHAN CUST VANILA 285 Price: 120 Quantity: 3 item_total_price=360
+[2024-08-28 12:05:51] SQL Connection error detected. Restarting POS software.
+[2024-08-28 12:05:52] Starting run_pos function.
+[2024-08-28 12:06:24] bill total so far =360
+[2024-08-28 12:06:24] Selected Item code: 8961014184549 Item name: RAFHAN BANANA CUSTARD 300GM Price: 80 Quantity: 3 item_total_price=240
+[2024-08-28 12:06:52] Starting pos software.
+[2024-08-28 12:06:52] Stoping sale bot
+[2024-08-28 12:07:00] bill total so far =600
+[2024-08-28 12:07:01] Total sales for the day so far: 22859 target sale: 59925  target remaining: 37066
+[2024-08-28 12:07:01] Waiting for 1146 seconds before next transaction.
+[2024-08-28 12:07:52] Starting pos software.
+[2024-08-28 12:07:52] Starting login details.
+[2024-08-28 12:08:23] Starting cashier login details.
+[2024-08-28 12:09:09] Bot started.
+[2024-08-28 12:09:09] Selected sale limit for the day: 56493
+[2024-08-28 12:09:09] Total sales limit for the day: 56493
+[2024-08-28 12:09:09] Item codes loaded successfully.
+[2024-08-30 16:46:45] Starting run_pos function.
+[2024-08-30 16:47:45] Starting pos software.
+[2024-08-30 16:47:45] Stoping sale bot
+[2024-08-30 16:48:45] Starting pos software.
+[2024-08-30 16:48:45] Starting login details.
+[2024-08-30 16:49:16] Starting cashier login details.
+[2024-08-30 16:49:20] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-08-30 16:50:02] Bot started.
+[2024-08-30 16:50:02] Selected sale limit for the day: 63368
+[2024-08-30 16:50:02] Total sales limit for the day: 63368
+[2024-08-30 16:50:02] Item codes loaded successfully.
+[2024-08-30 23:16:00] POS window or item code input field not in focus. Bringing to front.
+[2024-08-31 06:46:28] Starting cashier login details.

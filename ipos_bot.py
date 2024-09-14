@@ -206,8 +206,7 @@ def handle_pos_errors():
                     target_window = gw.getWindowsWithTitle(POS_WINDOW_NAME)
                     if target_window:
                         focus_to_window(POS_WINDOW_NAME)    
-
-               
+ 
             elif windows.__contains__(generate_window_title()):
                 if window_title == DB_ERROR_WINDOW:
                     log_message("SQL Connection error detected. Restarting POS software.")
@@ -235,7 +234,9 @@ def handle_pos_errors():
                     log_message("SOFTWARE_WINDOW not in focus. Bringing to front.")
                     target_window = gw.getWindowsWithTitle(LOGIN_WINDOW_NAME)
                     if target_window:
-                        focus_to_window(LOGIN_WINDOW_NAME)    
+                        focus_to_window(LOGIN_WINDOW_NAME)
+            else:
+                 restart_pos()               
         time.sleep(10) 
 def handle_db_error():
     log_message("handle_db_error() function called.")
@@ -339,18 +340,14 @@ def run_scheduler():
         time.sleep(1)
 # Function to simulate sale transaction
 def simulate_sale():
-    global total_transactions
     pyautogui.FAILSAFE = False
     time.sleep(15)  # Wait for 2 seconds for the POS software to load
     focus_to_window(POS_WINDOW_NAME)
-    #x, y = 200, 100
-    
-    #pyautogui.click(x, y)
     global total_transactions,sale_stop_clicked
     log_message("Bot started.")
     total_sales_today = 0
     total_sales_limit = get_total_sales_limit()
-    log_message(f"Total sales limit for the day: {total_sales_limit}")
+    log_message(f"Total sales limit for the day AT START: {total_sales_limit}")
     item_data = load_item_codes(ITEM_DATA_FILE)
     if not item_data:
         log_message("No item codes loaded. Exiting.")
@@ -365,8 +362,6 @@ def simulate_sale():
             log_message(f"Bussiness is closed now. Bot will resume at 2.00 AM till 23.50 PM. Wait: {remaining_time}")
             time.sleep(remaining_time)
             continue
-
-       
         selected_items = select_items_for_sale(item_data)
         total_price = 0
         for item in selected_items:
@@ -568,7 +563,7 @@ def start_sale_bot():
     threading.Thread(target=simulate_sale).start()
 
 def run_pos_thread():
-    threading.Thread(target=run_pos).start()
+    threading.Thread(target=run_pos).start()                                                                                                 
 def stop_sale_bot():
     global sale_stop_clicked,login_stop_clicked,error_stop_clicked
     sale_stop_clicked = True
@@ -611,7 +606,7 @@ def toggle_window_visibility():
         window_hidden = True
 # Set initial window state
 window_hidden = False
-keyboard.add_hotkey('ctrl+shift+0', toggle_window_visibility)
+keyboard.add_hotkey('ctrl+0', toggle_window_visibility)
 
 # Function to hide the window and show a system tray icon
 def hide_window1():
@@ -783,7 +778,7 @@ log_text.pack(pady=20, padx=10)
 threading.Thread(target=run_scheduler, daemon=True).start()
 
 # Schedule the shift closing
-schedule_shift_closing()
+#schedule_shift_closing()
 
 # Start the login bot by default
 #start_login_bot()
