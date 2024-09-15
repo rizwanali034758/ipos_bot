@@ -3491,3 +3491,15 @@
 [2024-08-30 16:50:02] Item codes loaded successfully.
 [2024-08-30 23:16:00] POS window or item code input field not in focus. Bringing to front.
 [2024-08-31 06:46:28] Starting cashier login details.
+[2024-09-15 03:20:48] Starting run_pos function.
+[2024-09-15 03:21:48] Starting pos software.
+[2024-09-15 03:21:48] Stoping sale bot
+[2024-09-15 03:22:48] Starting pos software.
+[2024-09-15 03:22:48] Starting login details.
+[2024-09-15 03:23:18] Starting cashier login details.
+[2024-09-15 03:23:23] SOFTWARE_WINDOW not in focus. Bringing to front.
+[2024-09-15 03:24:04] Bot started.
+[2024-09-15 03:24:04] Selected sale limit for the day: 70086
+[2024-09-15 03:24:04] Total sales limit for the day: 70086
+[2024-09-15 03:24:05] Item codes loaded successfully.
+[2024-09-15 13:55:39] POS window or item code input field not in focus. Bringing to front.

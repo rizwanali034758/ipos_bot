@@ -18,7 +18,6 @@ import keyboard
 import psutil
 from pywinauto import Application
 from pynput.mouse import Listener as MouseListener
-
 from tkinter import Toplevel, Label, Entry, Button
 #cd /d "E:\programing codes\ipos_bot"
 #pyinstaller --onefile --noconsole ipos_bot.py
@@ -699,62 +698,96 @@ def open_settings_window():
     save_button = Button(settings_window, text="Save", command=save_settings)
     save_button.grid(row=18, column=0, columnspan=2)
 
-# Menu for the system tray icon
-# Create Tkinter window
+# Create the Tkinter window
 root = tk.Tk()
 root.title("POS Bot")
-root.geometry("600x600")
 
-# Style for buttons
+# Set a professional window size and center it on the screen
+window_width, window_height = 650, 600
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+position_top = int(screen_height / 2 - window_height / 2)
+position_right = int(screen_width / 2 - window_width / 2)
+root.geometry(f"{window_width}x{window_height}+{position_right}+{position_top}")
+
+# Apply a background color or image
+root.config(bg="#f0f4f7")  # Light gray-blue background
+
+# Style for ttk widgets
 style = ttk.Style()
-style.configure('TButton', font=('Arial', 12), padding=5)
+style.theme_use("clam")  # A modern, clean theme
+style.configure("TButton", font=("Arial", 12), padding=10, relief="flat", background="#2b5797", foreground="white")
+style.map("TButton", background=[("active", "#1d3d6e")], foreground=[("active", "white")])
+
+# Create a main frame to contain all widgets
+main_frame = ttk.Frame(root, padding=(20, 10), style="TFrame")
+main_frame.pack(expand=True, fill="both")
+
+# Create a label for the title
+title_label = ttk.Label(main_frame, text="POS Bot Control Panel", font=("Arial", 18, "bold"), background="#f0f4f7")
+title_label.pack(pady=10)
 
 # Frame to contain buttons
-button_frame = ttk.Frame(root)
+button_frame = ttk.Frame(main_frame)
 button_frame.pack(pady=20)
+
+# Define button padding and layout
+button_padding = {'padx': 10, 'pady': 5}
 
 # Buttons
 login_button = ttk.Button(button_frame, text="Bot Login & Sale", command=start_login_bot)
-login_button.grid(row=0, column=0, padx=10, pady=5)
+login_button.grid(row=0, column=0, **button_padding)
 
 start_button = ttk.Button(button_frame, text="Bot Sale", command=start_sale_bot)
-start_button.grid(row=1, column=0, padx=10, pady=5)
+start_button.grid(row=1, column=0, **button_padding)
 
 stop_button = ttk.Button(button_frame, text="Stop Bot", command=stop_sale_bot)
-stop_button.grid(row=2, column=0, padx=10, pady=5)
+stop_button.grid(row=2, column=0, **button_padding)
 
 generate_report_button = ttk.Button(button_frame, text="Generate Report", command=generate_report)
-generate_report_button.grid(row=3, column=0, padx=10, pady=5)
-special_button = ttk.Button(button_frame, text="shift close POS", command=shift_closing)
-special_button.grid(row=0, column=1, padx=10, pady=5)
-special_button = ttk.Button(button_frame, text="Run POS", command=run_pos_thread)
-special_button.grid(row=1, column=1, padx=10, pady=5)
-hide_button = ttk.Button(button_frame, text="Main Login", command=Main_Login)
-hide_button.grid(row=2, column=1, padx=10, pady=5)
+generate_report_button.grid(row=3, column=0, **button_padding)
 
-show_button = ttk.Button(button_frame, text="Cashier Login", command=Cashier_Login)
-show_button.grid(row=3, column=1, padx=10, pady=5)
-# Add a button named "Hide" to the GUI to trigger the hide_gui function
-hide_button = tk.Button(root, text="Hide", command=toggle_window_visibility)
-hide_button.pack()
-# Add a button named "Settings" to the GUI to trigger the open_settings_window function
-settings_button = Button(root, text="Settings", command=open_settings_window)
-settings_button.pack()
-disable = Button(root, text="disable", command=disable_keyboard)
-disable.pack()
-enable = Button(root, text="enable", command=enable_keyboard)
-enable.pack()
-# Create a Text widget to display log messages
-log_text = tk.Text(root, height=20, width=70)
-log_text.pack(pady=20, padx=10) 
+special_button = ttk.Button(button_frame, text="Shift Close POS", command=shift_closing)
+special_button.grid(row=0, column=1, **button_padding)
+
+pos_button = ttk.Button(button_frame, text="Run POS", command=run_pos_thread)
+pos_button.grid(row=1, column=1, **button_padding)
+
+main_login_button = ttk.Button(button_frame, text="Main Login", command=Main_Login)
+main_login_button.grid(row=2, column=1, **button_padding)
+
+cashier_login_button = ttk.Button(button_frame, text="Cashier Login", command=Cashier_Login)
+cashier_login_button.grid(row=3, column=1, **button_padding)
+
+# Add control buttons to the bottom
+control_frame = ttk.Frame(main_frame)
+control_frame.pack(pady=10)
+
+hide_button = ttk.Button(control_frame, text="Hide", command=toggle_window_visibility)
+hide_button.grid(row=0, column=0, **button_padding)
+
+settings_button = ttk.Button(control_frame, text="Settings", command=open_settings_window)
+settings_button.grid(row=0, column=1, **button_padding)
+
+disable_button = ttk.Button(control_frame, text="Disable Keyboard", command=disable_keyboard)
+disable_button.grid(row=1, column=0, **button_padding)
+
+enable_button = ttk.Button(control_frame, text="Enable Keyboard", command=enable_keyboard)
+enable_button.grid(row=1, column=1, **button_padding)
+
+# Add a Text widget to display log messages with a scrollbar
+log_frame = ttk.Frame(main_frame)
+log_frame.pack(pady=10, fill="x")
+
+log_text = tk.Text(log_frame, height=12, width=70, wrap="word", padx=10, pady=10)
+log_text.pack(side="left", fill="both", expand=True)
+
+scrollbar = ttk.Scrollbar(log_frame, command=log_text.yview)
+scrollbar.pack(side="right", fill="y")
+log_text.config(yscrollcommand=scrollbar.set)
+
+# Add bottom padding
+ttk.Label(main_frame, text="© 2024 POS Bot", font=("Arial", 10), background="#f0f4f7").pack(side="bottom", pady=10)
+
 # Start the Tkinter event loop
-
-# Start the scheduler thread
-#threading.Thread(target=run_scheduler, daemon=True).start()
-
-# Schedule the shift closing
-#schedule_shift_closing()
-
-# Start the login bot by default
-start_login_bot()
 root.mainloop()
