@@ -1,7 +1,9 @@
 import csv
 import datetime
+import os
 import socket
 import subprocess
+import sys
 import pandas as pd
 import pyautogui
 import time
@@ -10,6 +12,7 @@ import threading
 import tkinter as tk
 import pygetwindow as gw
 from tkinter import Tk, ttk
+from pynput import mouse
 import schedule
 import pystray
 from PIL import Image, ImageTk
@@ -61,14 +64,14 @@ def disable_keyboard():
         keyboard.block_key(key)
     for i in range(150):  # Typically there are around 150 key codes
         keyboard.block_key(i)
-    messagebox.showinfo("Keyboard Disabled", "Keyboard input has been disabled.")
+    log_message("Keyboard Disabled Keyboard input has been disabled.")
 
 def enable_keyboard():
     for key in keyboard.all_modifiers:
         keyboard.unblock_key(key)
     for i in range(150):
         keyboard.unblock_key(i)
-    messagebox.showinfo("Keyboard Enabled", "Keyboard input has been enabled.")
+    log_message("Keyboard Enabled Keyboard input has been enabled.")
 # Function to log messages
 def log_message(message):
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -152,10 +155,13 @@ def cancel_bill():
     pyautogui.press('enter')
 # Function to handle POS errors
 def handle_pos_errors():
+    log_message("handle_pos_errors() function called.")
+    global error_stop_clicked
     while not error_stop_clicked:
         # Get the active window
         active_window = gw.getActiveWindow()
         windows = gw.getAllTitles()
+
         window_title = active_window.title
        # print(f"list of window: {windows}")
 
@@ -214,8 +220,9 @@ def handle_pos_errors():
                     if target_window:
                         focus_to_window(LOGIN_WINDOW_NAME)
             else:
+                 stop_sale_bot()
                  restart_pos()               
-        time.sleep(10) 
+        time.sleep(15) 
 def handle_db_error():
     stop_sale_bot()
     log_message("handle_db_error() function called.")
@@ -316,6 +323,8 @@ def simulate_sale():
     pyautogui.FAILSAFE = False
     time.sleep(15)  # Wait for 2 seconds for the POS software to load
     focus_to_window(POS_WINDOW_NAME)
+    pyautogui.moveTo(x=222, y=99, duration=0.25)
+    pyautogui.click()
     global total_transactions,sale_stop_clicked
     log_message("Bot started.")
     total_sales_today = 0
@@ -507,8 +516,9 @@ def start_login_bot():
     sale_stop_clicked = False
     login_stop_clicked= False
     error_stop_clicked=False
+    disable_keyboard()
+    #threading.Thread(target=login_to_pos).start()
     threading.Thread(target=handle_pos_errors).start()
-    threading.Thread(target=login_to_pos).start()
 # Function to handle start button click
 def start_sale_bot():
     global sale_stop_clicked,login_stop_clicked,error_stop_clicked
@@ -566,20 +576,31 @@ keyboard.add_hotkey('ctrl+0', toggle_window_visibility)
 # Variables to track left and right mouse button states
 left_pressed = False
 right_pressed = False
+last_right_click_time = 0
+
 # Mouse listener to detect both buttons pressed
 def on_click(x, y, button, pressed):
-    global left_pressed, right_pressed
+    global left_pressed, right_pressed, last_right_click_time
+
     # Check if left or right buttons are pressed/released
     if button == button.left:
         left_pressed = pressed
     if button == button.right:
         right_pressed = pressed
     
-    # Toggle window visibility when both buttons are pressed
+    # Toggle window visibility when both left and right buttons are pressed
     if left_pressed and right_pressed:
         toggle_window_visibility()
-
-# Start mouse listener to detect both button clicks
+    
+    # Detect right double-click
+    if button == button.right and pressed:
+        current_time = time.time()
+        if current_time - last_right_click_time < 0.3:  # 0.3 seconds threshold for double-click
+            print("Right button double-clicked. Exiting the program.")
+            mouse_listener.stop()  # Stop the listener
+            stop_sale_bot()
+            os._exit(0)  # Exit the program on right double-click
+        last_right_click_time = current_time# Start mouse listener to detect both button clicks
 mouse_listener = MouseListener(on_click=on_click)
 mouse_listener.start()
 # Function to hide the window and show a system tray icon
@@ -701,7 +722,7 @@ def open_settings_window():
 # Create the Tkinter window
 root = tk.Tk()
 root.title("POS Bot")
-
+root.withdraw()
 # Set a professional window size and center it on the screen
 window_width, window_height = 650, 600
 screen_width = root.winfo_screenwidth()
@@ -790,4 +811,5 @@ log_text.config(yscrollcommand=scrollbar.set)
 ttk.Label(main_frame, text="© 2024 POS Bot", font=("Arial", 10), background="#f0f4f7").pack(side="bottom", pady=10)
 
 # Start the Tkinter event loop
+start_login_bot()
 root.mainloop()
