@@ -221,8 +221,65 @@ def handle_pos_errors():
                         focus_to_window(LOGIN_WINDOW_NAME)
             else:
                  stop_sale_bot()
-                 restart_pos()               
+                 if window_title == DB_ERROR_WINDOW:
+                     log_message("SQL Connection error detected. Restarting POS software.")
+                     sql_connection_error(DB_ERROR_WINDOW)
+                     Main_Login()
+                     Cashier_Login()
+                     threading.Thread(target=start_sale_bot).start()
+
+                 else:
+                      restart_pos()               
         time.sleep(15) 
+
+def sql_connection_error(window_title):
+    """
+    Function to click a checkbox and then click the Connect button in the SQL connection window.
+    
+    :param window_title: The title (or partial title) of the SQL connection window.
+    """
+    # Relative coordinates of the checkbox and "Connect" button within the window
+    checkbox_relative_coords = (387, 249)   # (Relative X, Relative Y) for the checkbox
+    connect_button_relative_coords = (256, 309)  # (Relative X, Relative Y) for the Connect button
+
+    # Get the SQL connection window by title
+    try:
+        windows = gw.getWindowsWithTitle(window_title)
+        if not windows:
+            raise Exception("SQL connection window not found.")
+        window = windows[0]  # Use the first window matching the title
+    except Exception as e:
+        print(f"Error: {e}")
+        return
+
+    # Bring the window to the foreground and give time to activate
+    window.activate()
+    time.sleep(1)
+
+    # Get the top-left corner of the window
+    window_x, window_y = window.topleft
+
+    # Calculate the absolute position of the checkbox and the Connect button based on the window's position
+    checkbox_x = window_x + checkbox_relative_coords[0]
+    checkbox_y = window_y + checkbox_relative_coords[1]
+    connect_button_x = window_x + connect_button_relative_coords[0]
+    connect_button_y = window_y + connect_button_relative_coords[1]
+
+    # Step 1: Click on the checkbox with slow movement
+    print(f"Clicking on checkbox at absolute position: ({checkbox_x}, {checkbox_y})")
+    pyautogui.moveTo(checkbox_x, checkbox_y, duration=2.0)  # Slow movement with duration of 2 seconds
+    pyautogui.click()
+    print("Checkbox clicked.")
+
+    # Small delay before moving to the Connect button
+    time.sleep(1)
+
+    # Step 2: Click on the Connect button with slow movement
+    print(f"Clicking on Connect button at absolute position: ({connect_button_x}, {connect_button_y})")
+    pyautogui.moveTo(connect_button_x, connect_button_y, duration=2.0)  # Slow movement with duration of 2 seconds
+    pyautogui.click()
+    print("Connect button clicked.")
+
 def handle_db_error():
     stop_sale_bot()
     log_message("handle_db_error() function called.")
