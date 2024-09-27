@@ -8,6 +8,7 @@ import pandas as pd
 import pyautogui
 import time
 import random
+import logging
 import threading
 import tkinter as tk
 import pygetwindow as gw
@@ -47,42 +48,51 @@ sale_stop_clicked = False
 error_stop_clicked = False
 login_stop_clicked = False
 # Function to schedule shift closing at midnight
-
-# Function to load item codes from Excel file
 def load_item_codes(file_path):
     try:
-        df = pd.read_excel(file_path)
-        log_message("Item codes loaded successfully.")
+        # Optimized loading with fewer columns (if known) and data types specified
+        df = pd.read_excel(file_path)  # Assuming all columns are strings, adjust as needed
+        log_message(f"Item codes loaded successfully from {file_path}.")
         return df.to_dict(orient='records')
+    except FileNotFoundError:
+        error_message = f"File not found: {file_path}"
+        log_message(error_message)
+    except pd.errors.EmptyDataError:
+        error_message = f"No data found in the file: {file_path}"
+        log_message(error_message)
     except Exception as e:
         error_message = f"Error loading item codes: {e}"
         log_message(error_message)
-        return []
-
+    
+    return []
 def disable_keyboard():
-    for key in keyboard.all_modifiers:
+    all_keys = keyboard.all_modifiers + list(range(keyboard.KEY_DOWN, keyboard.KEY_MEDIA_SELECT + 1))  # Dynamically determine key range
+    for key in all_keys:
         keyboard.block_key(key)
-    for i in range(150):  # Typically there are around 150 key codes
-        keyboard.block_key(i)
-    log_message("Keyboard Disabled Keyboard input has been disabled.")
-
+    
+    log_message("Keyboard input has been disabled.")
 def enable_keyboard():
-    for key in keyboard.all_modifiers:
+    all_keys = keyboard.all_modifiers + list(range(keyboard.KEY_DOWN, keyboard.KEY_MEDIA_SELECT + 1))
+    for key in all_keys:
         keyboard.unblock_key(key)
-    for i in range(150):
-        keyboard.unblock_key(i)
-    log_message("Keyboard Enabled Keyboard input has been enabled.")
-# Function to log messages
+    
+    log_message("Keyboard input has been enabled.")
+# Configure logging once (outside the function)
+logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='[%(asctime)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+
 def log_message(message):
-    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    log_text.config(state=tk.NORMAL)
-    log_text.insert(tk.END, f"[{timestamp}] {message}\n")
-    log_text.see(tk.END)
-    log_text.config(state=tk.DISABLED)
- # Save message to file
-    with open(LOG_FILE, 'a') as file:
-        file.write(f"[{timestamp}] {message}\n")
-        # Function to select items for sale based on company and selection probability
+    # Update the log file using the logging library
+    logging.info(message)
+    
+    # Update the GUI text widget (ensure it's thread-safe)
+    try:
+        log_text.config(state=tk.NORMAL)
+        log_text.insert(tk.END, f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}\n")
+        log_text.see(tk.END)
+        log_text.config(state=tk.DISABLED)
+    except Exception as e:
+        logging.error(f"Error updating log_text widget: {e}")
+
 # Function to select items for sale
 def select_items_for_sale(item_data):
     log_message("select_items_for_sale() function called.")
@@ -128,21 +138,36 @@ def restart_pos():
     log_message("restart_pos() function called.")
     threading.Thread(target=login_to_pos).start()  # Restart sale simulation
     #'iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- 192.168.1.19 -TS- POS02-PC Date.  29 Jul 2024  '
-def generate_window_title():
-    ip_address = get_ipv4_address()
-    current_date = datetime.datetime.now().strftime("%d %b %Y")
-    return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- {ip_address} -TS- POS02-PC Date.  {current_date}  "
 #   return f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) -- Server -- server-bakers- LS - POS02-PC -- 192.168.1.12 -TS- POS02-PC Date.  {current_date}  "
-
+def generate_window_title():
+    try:
+        ip_address = get_ipv4_address()
+    except Exception as e:
+        log_message(f"Error retrieving IP address: {e}")
+        ip_address = "Unknown IP"
+    
+    current_date = datetime.datetime.now().strftime("%d %b %Y")
+    title = (
+        f"iPOS.NET Ver. 22.112 G Pro. Store #1001 - AL SIDDIQUE BAKERS (OCX) "
+        f"-- Server -- server-bakers- LS - POS02-PC -- {ip_address} -TS- POS02-PC "
+        f"Date.  {current_date}  "
+    )
+    
+    return title
 def get_ipv4_address():
     try:
         # Get the hostname of the local machine
         hostname = socket.gethostname()
         # Get the IPv4 address corresponding to the hostname
         ip_address = socket.gethostbyname(hostname)
+        
+        # If the hostname resolves to localhost, attempt to get the actual IP
+        if ip_address == "127.0.0.1":
+            ip_address = socket.gethostbyname(socket.getfqdn())
+        
         return ip_address
     except Exception as e:
-        print("Error:", e)
+        log_message(f"Error retrieving IP address: {e}")
         return None
 
 def cancel_bill():
@@ -171,7 +196,7 @@ def handle_pos_errors():
                 # Check if SQL Connection error window is present
                 if window_title == DB_ERROR_WINDOW:
                     log_message("SQL Connection error detected. Restarting POS software.")
-                    handle_db_error()
+                    sql_connection_error(DB_ERROR_WINDOW)
                 elif window_title == ERROR_WINDOW:
                     log_message("software error detected. Restarting POS software.")
                     handle_db_error()
@@ -194,7 +219,10 @@ def handle_pos_errors():
             elif windows.__contains__(generate_window_title()):
                 if window_title == DB_ERROR_WINDOW:
                     log_message("SQL Connection error detected. Restarting POS software.")
-                    handle_db_error()
+                    stop_sale_bot()
+                    sql_connection_error(DB_ERROR_WINDOW)
+                    Cashier_Login()
+                    threading.Thread(target=start_sale_bot).start()
                 elif window_title == ERROR_WINDOW:
                     log_message("software error detected. Restarting POS software.")
                     handle_db_error()
@@ -208,7 +236,11 @@ def handle_pos_errors():
             elif windows.__contains__(LOGIN_WINDOW_NAME):
                 if window_title == DB_ERROR_WINDOW:
                     log_message("SQL Connection error detected. Restarting POS software.")
-                    handle_db_error()
+                    sql_connection_error(DB_ERROR_WINDOW)
+                    Main_Login()
+                    Cashier_Login()
+                    threading.Thread(target=start_sale_bot).start()
+
                 elif window_title == ERROR_WINDOW:
                     log_message("software error detected. Restarting POS software.")
                     handle_db_error()
@@ -223,6 +255,7 @@ def handle_pos_errors():
                  stop_sale_bot()
                  if window_title == DB_ERROR_WINDOW:
                      log_message("SQL Connection error detected. Restarting POS software.")
+                     stop_sale_bot()
                      sql_connection_error(DB_ERROR_WINDOW)
                      Main_Login()
                      Cashier_Login()
