@@ -65,20 +65,19 @@ def load_item_codes(file_path):
         log_message(error_message)
     
     return []
+
 def disable_keyboard():
-    all_keys = keyboard.all_modifiers + list(range(keyboard.KEY_DOWN, keyboard.KEY_MEDIA_SELECT + 1))  # Dynamically determine key range
-    for key in all_keys:
+    for key in keyboard.all_modifiers:
         keyboard.block_key(key)
-    
-    log_message("Keyboard input has been disabled.")
+    for i in range(150):  # Typically there are around 150 key codes
+        keyboard.block_key(i)
+    log_message("Keyboard Disabled Keyboard input has been disabled.")
 def enable_keyboard():
-    all_keys = keyboard.all_modifiers + list(range(keyboard.KEY_DOWN, keyboard.KEY_MEDIA_SELECT + 1))
-    for key in all_keys:
+    for key in keyboard.all_modifiers:
         keyboard.unblock_key(key)
-    
-    log_message("Keyboard input has been enabled.")
-# Configure logging once (outside the function)
-logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='[%(asctime)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    for i in range(150):
+        keyboard.unblock_key(i)
+    log_message("Keyboard Enabled Keyboard input has been enabled.")
 
 def log_message(message):
     # Update the log file using the logging library
