@@ -1,0 +1,36 @@
+{
+    "SALES_LIMITS": {
+        "weekday": [
+            55300,
+            65000
+        ],
+        "weekend": [
+            60000,
+            75000
+        ]
+    },
+    "BUSINESS_HOURS": [
+        "02:00:00",
+        "23:50:00"
+    ],
+    "TRANSACTION_TIMES": {
+        "morning": [
+            1200,
+            1500
+        ],
+        "afternoon": [
+            900,
+            1380
+        ],
+        "evening": [
+            600,
+            1200
+        ]
+    },
+    "MAX_BILL_TOTAL": [
+        200,
+        2000
+    ],
+    "LOG_FILE": "log.txt",
+    "SALES_REPORT_FILE": "sales_report.csv"
+}

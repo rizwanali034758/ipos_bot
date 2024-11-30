@@ -3,6 +3,7 @@ import datetime
 import os
 import socket
 import subprocess
+import json
 import sys
 import pandas as pd
 import pyautogui
@@ -40,6 +41,7 @@ SOFTWARE_WINDOW = "iPOS.NET Ver. 22.112 G Pro. Store #1001"
 ERROR_WINDOW = "Microsoft .Net Framework"
 DB_ERROR_WINDOW = "SQL Connection"
 tray_icon = None
+CONFIG_FILE = "config.json"
 
 # Global variables
 sales_records = []
@@ -79,7 +81,39 @@ def enable_keyboard():
         keyboard.unblock_key(i)
     log_message("Keyboard Enabled Keyboard input has been enabled.")
 
-def log_message(message):
+def log_message(message, level="INFO", gui_enabled=True):
+    """
+    Logs a message to the log file and optionally to the GUI.
+
+    Args:
+        message (str): The message to log.
+        level (str): Log level (e.g., "INFO", "ERROR", "DEBUG"). Defaults to "INFO".
+        gui_enabled (bool): Whether to display the log in the GUI. Defaults to True.
+    """
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    formatted_message = f"[{timestamp}] {message}"
+
+    # Log to the file
+    if level == "INFO":
+        logging.info(formatted_message)
+    elif level == "ERROR":
+        logging.error(formatted_message)
+    elif level == "DEBUG":
+        logging.debug(formatted_message)
+    else:
+        logging.warning(f"Unknown log level: {level}. Message: {formatted_message}")
+
+    # Log to the GUI if enabled
+    if gui_enabled and 'log_text' in globals():
+        try:
+            log_text.config(state=tk.NORMAL)
+            log_text.insert(tk.END, f"{formatted_message}\n")
+            log_text.see(tk.END)
+            log_text.config(state=tk.DISABLED)
+        except Exception as e:
+            logging.error(f"Error updating log_text widget: {e}")
+
+def log_messageold(message):
     # Update the log file using the logging library
     logging.info(message)
     
@@ -168,7 +202,6 @@ def get_ipv4_address():
     except Exception as e:
         log_message(f"Error retrieving IP address: {e}")
         return None
-
 def cancel_bill():
     log_message("cancel_bill() function called.")
     # Simulate pressing Ctrl+Z to initiate bill cancellation
@@ -315,14 +348,70 @@ def sql_connection_error(window_title):
 def handle_db_error():
     stop_sale_bot()
     log_message("handle_db_error() function called.")
-    pyautogui.moveTo(x=787, y=495, duration=0.25)
-    pyautogui.click()
+    #pyautogui.moveTo(x=787, y=495, duration=0.25)
+    #pyautogui.click()
+    result = terminate_process(process_name="BACKOFFICE.NET.exe")
+    if result:
+        log_message("Process terminated successfully.")
+    else:
+        log_message("No matching process found or termination failed.")  
     
-    close_windows_by_title(DB_ERROR_WINDOW)
-    close_windows_by_title(POS_WINDOW_NAME)
-    close_windows_by_title(generate_window_title())
-    close_windows_by_title(LOGIN_WINDOW_NAME)
+    log_message("Attempting to restart POS software...")
     restart_pos()
+
+def terminate_process(process_name=None, window_title=None):
+    """
+    Terminate a process either by its name or by the title of its window.
+
+    Args:
+        process_name (str, optional): Name of the process to terminate.
+        window_title (str, optional): Title of the window associated with the process to terminate.
+
+    Returns:
+        bool: True if at least one process was terminated, False otherwise.
+    """
+    terminated = False
+
+    # Stop by process name
+    if process_name:
+        try:
+            for proc in psutil.process_iter(['pid', 'name']):
+                if proc.info['name'].lower() == process_name.lower():
+                    log_message(f"Found process to terminate: {proc.info['name']} (PID: {proc.info['pid']})")
+                    proc.terminate()
+                    proc.wait(timeout=10)
+                    log_message(f"Successfully terminated process: {proc.info['name']} (PID: {proc.info['pid']})")
+                    terminated = True
+        except psutil.NoSuchProcess:
+            log_message(f"Process {process_name} does not exist.", level="WARNING")
+        except psutil.AccessDenied:
+            log_message(f"Access denied while trying to terminate process: {process_name}.", level="ERROR")
+        except Exception as e:
+            log_message(f"Unexpected error while stopping process {process_name}: {e}", level="ERROR")
+
+    # Stop by window title
+    if window_title:
+        try:
+            windows = gw.getWindowsWithTitle(window_title)
+            if not windows:
+                log_message(f"No windows found with title '{window_title}'")
+                return terminated
+            
+            for window in windows:
+                hwnd = window._hWnd
+                app = Application().connect(handle=hwnd)
+                pid = app.process
+                proc = psutil.Process(pid)
+                proc.terminate()
+                proc.wait()
+                log_message(f"Terminated process: {proc.name()} (PID: {pid}) for window '{window_title}'")
+                terminated = True
+        except Exception as e:
+            log_message(f"Failed to terminate process for window '{window_title}': {e}", level="ERROR")
+
+    if not terminated:
+        log_message(f"No processes were terminated for process_name='{process_name}' or window_title='{window_title}'")
+    return terminated
     
 def close_windows_by_title(target_title):
     # Retrieve all window titles
@@ -331,6 +420,7 @@ def close_windows_by_title(target_title):
     if not target_windows:
         log_message(f"No windows found with title '{target_title}'")
         return
+    process_found = False
     for window in target_windows:
         hwnd = window._hWnd
         try:
@@ -344,18 +434,32 @@ def close_windows_by_title(target_title):
             log_message(f"Terminated process: {proc.name()} (PID: {pid})")
         except Exception as e:
             log_message(f"Failed to terminate process for window '{target_title}': {e}")
-def focus_to_window(window_title):
-    windows = gw.getAllTitles()
-    target_window = gw.getWindowsWithTitle(window_title)
 
-    if windows.__contains__(window_title):    
-        target_window = gw.getWindowsWithTitle(window_title)
-                # If the window is found, activate it
-        if target_window:
-           target_window[0].activate()
-           print(f"Switched to window: {window_title}")
-        else:
-            print(f"Unable to find window: {window_title}")
+def focus_to_window(window_title):
+    """
+    Bring a window with the specified title to the foreground.
+
+    Args:
+        window_title (str): The title of the window to focus.
+
+    Returns:
+        bool: True if the window was successfully focused, False otherwise.
+    """
+    try:
+        target_windows = gw.getWindowsWithTitle(window_title)
+        
+        if not target_windows:
+            log_message(f"No windows found with title: {window_title}")
+            return False
+
+        # Activate the first matching window
+        target_windows[0].activate()
+        log_message(f"Switched to window: {window_title}")
+        return True
+
+    except Exception as e:
+        log_message(f"Error focusing on window '{window_title}': {e}", level="ERROR")
+        return False
 def manage_quantity_error():
     log_message("manage_quantity_error() function called.")
   
@@ -711,102 +815,170 @@ def quit_app(icon, item):
 
 # Menu for the system tray icon
 menu = (pystray.MenuItem('Show', toggle_window_visibility), pystray.MenuItem('Quit', quit_app))
+
+
+def load_config():
+    """
+    Load configuration from a JSON file and assign values to global variables.
+    """
+    global SALES_LIMITS, BUSINESS_HOURS, TRANSACTION_TIMES, MAX_BILL_TOTAL, LOG_FILE, SALES_REPORT_FILE
+
+    if not os.path.exists(CONFIG_FILE):
+        log_message(f"{CONFIG_FILE} not found. Using default settings.")
+        #return
+
+    try:
+        with open(CONFIG_FILE, 'r') as file:
+            config = json.load(file)
+
+            SALES_LIMITS = config.get('SALES_LIMITS', SALES_LIMITS)
+            BUSINESS_HOURS = tuple(datetime.time.fromisoformat(t) for t in config.get('BUSINESS_HOURS', BUSINESS_HOURS))
+            TRANSACTION_TIMES = config.get('TRANSACTION_TIMES', TRANSACTION_TIMES)
+            MAX_BILL_TOTAL = config.get('MAX_BILL_TOTAL', MAX_BILL_TOTAL)
+            LOG_FILE = config.get('LOG_FILE', LOG_FILE)
+            SALES_REPORT_FILE = config.get('SALES_REPORT_FILE', SALES_REPORT_FILE)
+
+        log_message(f"Configuration loaded successfully from {CONFIG_FILE}.")
+    except Exception as e:
+        log_message(f"Error loading configuration: {e}. Using default settings.")
+
+def save_config():
+    """
+    Save current global variable values to the JSON config file.
+    """
+    config = {
+        "SALES_LIMITS": SALES_LIMITS,
+        "BUSINESS_HOURS": [t.strftime("%H:%M:%S") for t in BUSINESS_HOURS],
+        "TRANSACTION_TIMES": TRANSACTION_TIMES,
+        "MAX_BILL_TOTAL": MAX_BILL_TOTAL,
+        "LOG_FILE": LOG_FILE,
+        "SALES_REPORT_FILE": SALES_REPORT_FILE
+    }
+
+    try:
+        with open(CONFIG_FILE, 'w') as file:
+            json.dump(config, file, indent=4)
+        print(f"Configuration saved to {CONFIG_FILE}.")
+    except Exception as e:
+        print(f"Error saving configuration: {e}")
 #Function to open the settings window
 def open_settings_window():
-    # Create a new window for settings
+    """
+    Open a settings window for editing global variables.
+    """
     settings_window = Toplevel(root)
     settings_window.title("Settings")
+    settings_window.geometry("600x700")
+    settings_window.resizable(False, False)
 
-    # Function to save the settings
     def save_settings():
-        # Retrieve the values entered by the user and update the constants
-        SALES_LIMITS['weekday'] = (int(weekday_lower_limit_entry.get()), int(weekday_upper_limit_entry.get()))
-        SALES_LIMITS['weekend'] = (int(weekend_lower_limit_entry.get()), int(weekend_upper_limit_entry.get()))
-        BUSINESS_HOURS = (datetime.time(int(business_hours_start_entry.get()), 0),
-                          datetime.time(int(business_hours_end_entry.get()), 0))
-        TRANSACTION_TIMES['morning'] = (int(morning_start_entry.get()), int(morning_end_entry.get()))
-        TRANSACTION_TIMES['afternoon'] = (int(afternoon_start_entry.get()), int(afternoon_end_entry.get()))
-        TRANSACTION_TIMES['evening'] = (int(evening_start_entry.get()), int(evening_end_entry.get()))
-        MAX_BILL_TOTAL = (int(max_bill_total_min_entry.get()), int(max_bill_total_max_entry.get()))
-        settings_window.destroy()
-# Add input fields for all constant values
-    Label(settings_window, text="Sales Limits:").grid(row=0, column=0, columnspan=2)
-    Label(settings_window, text="Weekday Lower Limit:").grid(row=1, column=0)
-    weekday_lower_limit_entry = Entry(settings_window)
-    weekday_lower_limit_entry.insert(0, str(SALES_LIMITS['weekday'][0]))  # Display current value
-    weekday_lower_limit_entry.grid(row=1, column=1)
+        """
+        Save the user-modified values back to the global variables and config file.
+        """
+        global SALES_LIMITS, BUSINESS_HOURS, TRANSACTION_TIMES, MAX_BILL_TOTAL
 
-    Label(settings_window, text="Weekday Upper Limit:").grid(row=2, column=0)
-    weekday_upper_limit_entry = Entry(settings_window)
-    weekday_upper_limit_entry.insert(0, str(SALES_LIMITS['weekday'][1]))  # Display current value
-    weekday_upper_limit_entry.grid(row=2, column=1)
+        try:
+            SALES_LIMITS['weekday'] = [int(weekday_lower_limit.get()), int(weekday_upper_limit.get())]
+            SALES_LIMITS['weekend'] = [int(weekend_lower_limit.get()), int(weekend_upper_limit.get())]
+            BUSINESS_HOURS = (
+                datetime.time.fromisoformat(business_start.get()),
+                datetime.time.fromisoformat(business_end.get())
+            )
+            TRANSACTION_TIMES['morning'] = [int(morning_start.get()), int(morning_end.get())]
+            TRANSACTION_TIMES['afternoon'] = [int(afternoon_start.get()), int(afternoon_end.get())]
+            TRANSACTION_TIMES['evening'] = [int(evening_start.get()), int(evening_end.get())]
+            MAX_BILL_TOTAL = [int(max_bill_min.get()), int(max_bill_max.get())]
 
-    Label(settings_window, text="Weekend Lower Limit:").grid(row=3, column=0)
-    weekend_lower_limit_entry = Entry(settings_window)
-    weekend_lower_limit_entry.insert(0, str(SALES_LIMITS['weekend'][0]))  # Display current value
-    weekend_lower_limit_entry.grid(row=3, column=1)
+            save_config()  # Save to config file
+            load_config()
+            settings_window.destroy()
+        except ValueError:
+            messagebox.showerror("Invalid Input", "Please enter valid numeric values.")
 
-    Label(settings_window, text="Weekend Upper Limit:").grid(row=4, column=0)
-    weekend_upper_limit_entry = Entry(settings_window)
-    weekend_upper_limit_entry.insert(0, str(SALES_LIMITS['weekend'][1]))  # Display current value
-    weekend_upper_limit_entry.grid(row=4, column=1)
+    # Create a styled frame for better UI
+    frame = ttk.Frame(settings_window, padding=20)
+    frame.pack(fill="both", expand=True)
 
-    Label(settings_window, text="Business Hours:").grid(row=5, column=0, columnspan=2)
-    Label(settings_window, text="Start Time (hour):").grid(row=6, column=0)
-    business_hours_start_entry = Entry(settings_window)
-    business_hours_start_entry.insert(0, str(BUSINESS_HOURS[0].hour))  # Display current value
-    business_hours_start_entry.grid(row=6, column=1)
+    # Sales Limits
+    Label(frame, text="Sales Limits", font=("Arial", 14, "bold")).grid(row=0, column=0, columnspan=2, pady=10)
+    Label(frame, text="Weekday Lower:").grid(row=1, column=0, sticky="w")
+    weekday_lower_limit = Entry(frame)
+    weekday_lower_limit.insert(0, SALES_LIMITS['weekday'][0])
+    weekday_lower_limit.grid(row=1, column=1, pady=5)
 
-    Label(settings_window, text="End Time (hour):").grid(row=7, column=0)
-    business_hours_end_entry = Entry(settings_window)
-    business_hours_end_entry.insert(0, str(BUSINESS_HOURS[1].hour))  # Display current value
-    business_hours_end_entry.grid(row=7, column=1)
+    Label(frame, text="Weekday Upper:").grid(row=2, column=0, sticky="w")
+    weekday_upper_limit = Entry(frame)
+    weekday_upper_limit.insert(0, SALES_LIMITS['weekday'][1])
+    weekday_upper_limit.grid(row=2, column=1, pady=5)
 
-    Label(settings_window, text="Transaction Times:").grid(row=8, column=0, columnspan=2)
-    Label(settings_window, text="Morning Start Time:").grid(row=9, column=0)
-    morning_start_entry = Entry(settings_window)
-    morning_start_entry.insert(0, str(TRANSACTION_TIMES['morning'][0]))  # Display current value
-    morning_start_entry.grid(row=9, column=1)
+    Label(frame, text="Weekend Lower:").grid(row=3, column=0, sticky="w")
+    weekend_lower_limit = Entry(frame)
+    weekend_lower_limit.insert(0, SALES_LIMITS['weekend'][0])
+    weekend_lower_limit.grid(row=3, column=1, pady=5)
 
-    Label(settings_window, text="Morning End Time:").grid(row=10, column=0)
-    morning_end_entry = Entry(settings_window)
-    morning_end_entry.insert(0, str(TRANSACTION_TIMES['morning'][1]))  # Display current value
-    morning_end_entry.grid(row=10, column=1)
+    Label(frame, text="Weekend Upper:").grid(row=4, column=0, sticky="w")
+    weekend_upper_limit = Entry(frame)
+    weekend_upper_limit.insert(0, SALES_LIMITS['weekend'][1])
+    weekend_upper_limit.grid(row=4, column=1, pady=5)
 
-    Label(settings_window, text="Afternoon Start Time:").grid(row=11, column=0)
-    afternoon_start_entry = Entry(settings_window)
-    afternoon_start_entry.insert(0, str(TRANSACTION_TIMES['afternoon'][0]))  # Display current value
-    afternoon_start_entry.grid(row=11, column=1)
+    # Business Hours
+    Label(frame, text="Business Hours", font=("Arial", 14, "bold")).grid(row=5, column=0, columnspan=2, pady=10)
+    Label(frame, text="Start Time (HH:MM:SS):").grid(row=6, column=0, sticky="w")
+    business_start = Entry(frame)
+    business_start.insert(0, BUSINESS_HOURS[0].strftime("%H:%M:%S"))
+    business_start.grid(row=6, column=1, pady=5)
 
-    Label(settings_window, text="Afternoon End Time:").grid(row=12, column=0)
-    afternoon_end_entry = Entry(settings_window)
-    afternoon_end_entry.insert(0, str(TRANSACTION_TIMES['afternoon'][1]))  # Display current value
-    afternoon_end_entry.grid(row=12, column=1)
+    Label(frame, text="End Time (HH:MM:SS):").grid(row=7, column=0, sticky="w")
+    business_end = Entry(frame)
+    business_end.insert(0, BUSINESS_HOURS[1].strftime("%H:%M:%S"))
+    business_end.grid(row=7, column=1, pady=5)
 
-    Label(settings_window, text="Evening Start Time:").grid(row=13, column=0)
-    evening_start_entry = Entry(settings_window)
-    evening_start_entry.insert(0, str(TRANSACTION_TIMES['evening'][0]))  # Display current value
-    evening_start_entry.grid(row=13, column=1)
+    # Transaction Times
+    Label(frame, text="Transaction Times", font=("Arial", 14, "bold")).grid(row=8, column=0, columnspan=2, pady=10)
+    Label(frame, text="Morning Start:").grid(row=9, column=0, sticky="w")
+    morning_start = Entry(frame)
+    morning_start.insert(0, TRANSACTION_TIMES['morning'][0])
+    morning_start.grid(row=9, column=1, pady=5)
 
-    Label(settings_window, text="Evening End Time:").grid(row=14, column=0)
-    evening_end_entry = Entry(settings_window)
-    evening_end_entry.insert(0, str(TRANSACTION_TIMES['evening'][1]))  # Display current value
-    evening_end_entry.grid(row=14, column=1)
+    Label(frame, text="Morning End:").grid(row=10, column=0, sticky="w")
+    morning_end = Entry(frame)
+    morning_end.insert(0, TRANSACTION_TIMES['morning'][1])
+    morning_end.grid(row=10, column=1, pady=5)
 
-    Label(settings_window, text="Max Bill Total:").grid(row=15, column=0, columnspan=2)
-    Label(settings_window, text="Min Value:").grid(row=16, column=0)
-    max_bill_total_min_entry = Entry(settings_window)
-    max_bill_total_min_entry.insert(0, str(MAX_BILL_TOTAL[0]))  # Display current value
-    max_bill_total_min_entry.grid(row=16, column=1)
+    Label(frame, text="Afternoon Start:").grid(row=11, column=0, sticky="w")
+    afternoon_start = Entry(frame)
+    afternoon_start.insert(0, TRANSACTION_TIMES['afternoon'][0])
+    afternoon_start.grid(row=11, column=1, pady=5)
 
-    Label(settings_window, text="Max Value:").grid(row=17, column=0)
-    max_bill_total_max_entry = Entry(settings_window)
-    max_bill_total_max_entry.insert(0, str(MAX_BILL_TOTAL[1]))  # Display current value
-    max_bill_total_max_entry.grid(row=17, column=1)
+    Label(frame, text="Afternoon End:").grid(row=12, column=0, sticky="w")
+    afternoon_end = Entry(frame)
+    afternoon_end.insert(0, TRANSACTION_TIMES['afternoon'][1])
+    afternoon_end.grid(row=12, column=1, pady=5)
 
-    # Add a button to save settings
-    save_button = Button(settings_window, text="Save", command=save_settings)
-    save_button.grid(row=18, column=0, columnspan=2)
+    Label(frame, text="Evening Start:").grid(row=13, column=0, sticky="w")
+    evening_start = Entry(frame)
+    evening_start.insert(0, TRANSACTION_TIMES['evening'][0])
+    evening_start.grid(row=13, column=1, pady=5)
+
+    Label(frame, text="Evening End:").grid(row=14, column=0, sticky="w")
+    evening_end = Entry(frame)
+    evening_end.insert(0, TRANSACTION_TIMES['evening'][1])
+    evening_end.grid(row=14, column=1, pady=5)
+
+    # Max Bill Total
+    Label(frame, text="Max Bill Total", font=("Arial", 14, "bold")).grid(row=15, column=0, columnspan=2, pady=10)
+    Label(frame, text="Min:").grid(row=16, column=0, sticky="w")
+    max_bill_min = Entry(frame)
+    max_bill_min.insert(0, MAX_BILL_TOTAL[0])
+    max_bill_min.grid(row=16, column=1, pady=5)
+
+    Label(frame, text="Max:").grid(row=17, column=0, sticky="w")
+    max_bill_max = Entry(frame)
+    max_bill_max.insert(0, MAX_BILL_TOTAL[1])
+    max_bill_max.grid(row=17, column=1, pady=5)
+
+    # Save Button
+    Button(frame, text="Save Settings", command=save_settings).grid(row=18, column=0, columnspan=2, pady=20)
 
 # Create the Tkinter window
 root = tk.Tk()
@@ -900,5 +1072,6 @@ log_text.config(yscrollcommand=scrollbar.set)
 ttk.Label(main_frame, text="© 2024 POS Bot", font=("Arial", 10), background="#f0f4f7").pack(side="bottom", pady=10)
 
 # Start the Tkinter event loop
-start_login_bot()
+#start_login_bot()
+load_config()
 root.mainloop()
