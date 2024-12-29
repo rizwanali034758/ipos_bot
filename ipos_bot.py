@@ -49,7 +49,6 @@ total_transactions = 0
 sale_stop_clicked = False
 error_stop_clicked = False
 login_stop_clicked = False
-# Function to schedule shift closing at midnight
 def load_item_codes(file_path):
     try:
         # Optimized loading with fewer columns (if known) and data types specified
@@ -236,17 +235,14 @@ def handle_pos_errors():
                 elif window_title == "BACKOFFICE.NET":
                     log_message("BACKOFFICE.NET error detected.")
                     manage_quantity_error()
-                    time.sleep(10)
+                    #time.sleep(10)
                 elif window_title == "Duplicate Bill":
                     log_message("BACKOFFICE.NET error detected.")
                     pyautogui.hotkey('alt', 'f4')
-                    time.sleep(10)        
                 elif not window_title == POS_WINDOW_NAME:    
                                     # Check if POS screen or item code input field has focus
                     log_message("POS window or item code input field not in focus. Bringing to front.")
-                    target_window = gw.getWindowsWithTitle(POS_WINDOW_NAME)
-                    if target_window:
-                        focus_to_window(POS_WINDOW_NAME)    
+                    focus_to_window(POS_WINDOW_NAME)    
  
             elif windows.__contains__(generate_window_title()):
                 if window_title == DB_ERROR_WINDOW:
@@ -262,12 +258,12 @@ def handle_pos_errors():
                 elif not window_title == generate_window_title():    
                                     # Check if POS screen or item code input field has focus
                     log_message("SOFTWARE_WINDOW not in focus. Bringing to front.")
-                    target_window = gw.getWindowsWithTitle(generate_window_title())
-                    if target_window:
-                        focus_to_window(generate_window_title())    
+                    focus_to_window(generate_window_title())    
+
             elif windows.__contains__(LOGIN_WINDOW_NAME):
                 if window_title == DB_ERROR_WINDOW:
                     log_message("SQL Connection error detected. Restarting POS software.")
+                    stop_sale_bot()
                     sql_connection_error(DB_ERROR_WINDOW)
                     Main_Login()
                     Cashier_Login()
@@ -280,9 +276,7 @@ def handle_pos_errors():
                 elif not window_title == LOGIN_WINDOW_NAME:    
                                     # Check if POS screen or item code input field has focus
                     log_message("SOFTWARE_WINDOW not in focus. Bringing to front.")
-                    target_window = gw.getWindowsWithTitle(LOGIN_WINDOW_NAME)
-                    if target_window:
-                        focus_to_window(LOGIN_WINDOW_NAME)
+                    focus_to_window(LOGIN_WINDOW_NAME)
             else:
                  stop_sale_bot()
                  if window_title == DB_ERROR_WINDOW:
